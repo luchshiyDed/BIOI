@@ -1,0 +1,3274 @@
+########################################
+# Program: stretcher
+# Rundate: Thu 30 Mar 2023 13:09:55
+# Commandline: stretcher
+#    -auto
+#    -stdout
+#    -asequence emboss_stretcher-I20230330-124638-0236-93195629-p1m.aupfile
+#    -bsequence emboss_stretcher-I20230330-124638-0236-93195629-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 1
+#    -gapextend 1
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: c27733986-27238821
+# 2: c28099315-27719008
+# Matrix: EBLOSUM62
+# Gap_penalty: 1
+# Extend_penalty: 1
+#
+# Length: 549911
+# Identity:   272148/549911 (49.5%)
+# Similarity: 272148/549911 (49.5%)
+# Gaps:       224348/549911 (40.8%)
+# Score: 1371878
+# 
+#
+#=======================================
+
+c27733986-272      1 -T-CTTCCATAGCTCTTGG-GGCGAGGGAGC-CC-TCTCATCC-TCTC--     42
+                      | |||.| |   ||  |. ||| .  |.|| ||  |||| || || |  
+c28099315-277      1 GTTCTTAC-T---TC--GAAGGC-T--GTGCTCCG-CTCA-CCATC-CAG     38
+
+c27733986-272     43 --CGG-GG--CAGG-C-T-G--C-C-CTGGGTCTGGGGGA-G-TCT-TCC     77
+                       ||| ||  | || | | .  | | ||   .||||.|.| | |||  | 
+c28099315-277     39 AGCGGAGGTGC-GGACCTTAAACTCACT---CCTGGAGAAAGATCTG-C-     82
+
+c27733986-272     78 AGAGGTGCGGTCTGTG-GGAGTGGC-CA-GA-CCGGGAGGTGCGG-AGGA    122
+                     | || ||||  |.| | ..|||| | |. |. |||  .||| ||| ||||
+c28099315-277     83 A-AG-TGCG--CAG-GTAAAGTG-CACGTGCTCCG--CGGT-CGGGAGGA    123
+
+c27733986-272    123 GGGCTCGCCCCGCCCCCGCGGTGCCC-AC--GCCCG--CATCCAG-TCCC    166
+                     .||  .|    ||    |.||.|||. ||  |||.|  .| | ||    |
+c28099315-277    124 AGG--AG----GC----GAGGAGCCAGACTAGCCTGGGAA-C-AGG---C    158
+
+c27733986-272    167 AGCAGAG--TTTTC-CTTAGCTCTCCA-CT-CACCGTTCG-GGAGCTATC    210
+                     || .|||  |||.| |  ||| | ||. ||  |  || || |  ||| | 
+c28099315-277    159 AG-GGAGGGTTTACAC--AGC-C-CCGGCTG-A--GT-CGCG--GCT-T-    195
+
+c27733986-272    211 AGTTTGTAT-CTTA--CAA-CTTCACTTTTGGAGAAAGATCAAGTCGTCA    256
+                     ||   | |. |. |  |||  |||.|.  |  | ||.|.| | || ||  
+c28099315-277    196 AG---G-AAGCA-AGGCAAG-TTCCCC--T--A-AAGGTT-A-GT-GT--    229
+
+c27733986-272    257 GGC-CAGT-GGGGAGAGAGGACGTGAGGAGCTAACCT-GTCTGTTCTGGG    303
+                     | | |||. ||| .|.|   ||| ||| . | .|||| | | |  | |  
+c28099315-277    230 G-CACAGACGGG-TGCG---ACG-GAG-C-C-GACCTAG-C-G--C-G--    263
+
+c27733986-272    304 AAGCAGGTAGGGTTTTAAAAAGCCTGTGTTGAGTCGTTGCTTTATGGAGG    353
+                       ||   | |.||     . .||||| |  |   |    |    |     
+c28099315-277    264 --GC---T-GAGT-----C-CGCCTG-G--G---C----C----T-----    282
+
+c27733986-272    354 GGAAAATGAGTAGCTGGTGTGAGCACAGGGCGCTCAT-TA-C-CACACCA    400
+                      |.  | |.  |||||       | |    | | | |  | | | | || 
+c28099315-277    283 -GC--A-GC--AGCTG-------C-C----C-C-C-TG-AGCAC-C-CC-    307
+
+c27733986-272    401 GGCATTTTCTAGATTTAACGGAAGC-C-GCT-CACTGAGAGGCAAGTTCC    447
+                       |    ||         ||   || |  || | |  |  |||  |. ||
+c28099315-277    308 --C----TC---------CG---GCTCT-CTGC-C--A--GGC--GA-CC    330
+
+c27733986-272    448 CAGGACAAA-CCGGGCCCCTCACCCCGG-GGTGGCCCATGGGGATAC-TG    494
+                     |||||.||| .||  |||| |.    || |  |||| |||.|| | | ||
+c28099315-277    331 CAGGAAAAAGTCG--CCCC-CT----GGTG--GGCC-ATGAGG-T-CATG    368
+
+c27733986-272    495 AG-GGG---CGTTTGGAC-GTGTTCAGACAGCGAATGTTCTGCTTGAACT    539
+                     .| |||   .|||||||. | |||||||||||.|||||||..||||||||
+c28099315-277    369 GGTGGGGGGAGTTTGGAAAG-GTTCAGACAGCAAATGTTCCACTTGAACT    417
+
+c27733986-272    540 -GCAGGGCGGCATCTG-CTCCCACTGCTGG--CTTCAC-A-CACGTGAGC    583
+                       ||||||.|||||||     |||||| ||  |.|| | | | |.|||||
+c28099315-277    418 C-CAGGGCAGCATCTGG----CACTGC-GGGGCCTC-CTAGC-CATGAGC    459
+
+c27733986-272    584 GC-TAGTCAGGCGTTTC-T--G--TGGAATGCGCCGGCGGGGGGGTGGGG    627
+                      | |.|||||||||||| |  |  ||||||||.|           |||.|
+c28099315-277    460 -CGTGGTCAGGCGTTTCCTTAGAATGGAATGCAC-----------TGGAG    497
+
+c27733986-272    628 GTGGGGGAAAGCATTAAATCCCCCAGAGCCT-CTTCT-TTTCACT-CTGA    674
+                      ||    |||.||.||||||||.||.||| | ||||| ||| |||  ||.
+c28099315-277    498 -TG----AAAACACTAAATCCCTCAAAGC-TGCTTCTCTTT-ACTG-TGG    539
+
+c27733986-272    675 CCACACACAGCGGAATAAATGG--ATTGGATGTC-GCTAGCTCATTCCAA    721
+                     .|||||||||.|.|||.|||||  |||.| || | ||||||||.||.|||
+c28099315-277    540 TCACACACAGTGAAATCAATGGGCATTAG-TG-CAGCTAGCTCTTTTCAA    587
+
+c27733986-272    722 GGATATGGATAGT-AAGCACA--A-GCTTCCCTG-T--GTGGATATTCTT    764
+                     |||.|.. || || |||||||  | ||  |  || |  |||||...||| 
+c28099315-277    588 GGACACA-AT-GTTAAGCACAGGAAGC--C--TGGTATGTGGACGCTCT-    630
+
+c27733986-272    765 GGGGTTA-CAGA-CC---CAGG--CCTG---CCTC-GGCCAGGTGCC---    800
+                     ||| ||. |||| ||   ||||  ||.|   | || ||.||.|||||   
+c28099315-277    631 GGG-TTTGCAGAACCAGGCAGGGGCCAGGGGC-TCAGGACAAGTGCCCGG    678
+
+c27733986-272    801 TAGC-CTTCCA-CCACA-----CAGAA-CTG-GC-TG---CTC--C--TG    833
+                     | || |  ||. || ||     | ||| |.| || ||   |.|  |  ||
+c28099315-277    679 T-GCTC--CCTTCC-CATTGGGC-GAATCAGAGCCTGGGGCCCGGCGGTG    723
+
+c27733986-272    834 AAGTTCCGC-AGGTGATC-CT--T-TG-AG--CACTTCGGGGATGTGACA    875
+                     |||.||| | |||||| | ||  | || ||  |||||.|.||| |   ||
+c28099315-277    724 AAGCTCC-CCAGGTGA-CTCTAATGTGCAGTGCACTTTGAGGA-G---CA    767
+
+c27733986-272    876 ACT-C-----CACAATATG-CAGTGATTC--TGAGGGAAAGCAAATAGGA    916
+                      || |     | ||||.|| |||| .|.|  ||.  |.| | |..|||| 
+c28099315-277    768 -CTACTTAGAC-CAATGTGACAGT-CTACAATGT--GTA-G-ATTTAGG-    809
+
+c27733986-272    917 G-GC-TGTTGTCAGTTGTGA---GCAATTATCTC----CTGAATA-CAA-    955
+                     | |. ||.| ||.|. | ||   | ||  |.| |    |||. || ||. 
+c28099315-277    810 GTGAGTGAT-TCTGA-G-GAAAAG-AA--ACC-CGAGGCTGT-TAGCAGT    851
+
+c27733986-272    956 -G-G--CAGTCCACTGT-TACCTAAACCA-CCTAGGAAATGCAGTTCCTG    999
+                      | |  ||| |..|||| ||||||||||| | |       ||.|||  ||
+c28099315-277    852 TGTGGGCAG-CTGCTGTCTACCTAAACCAGC-T-------GCGGTT--TG    890
+
+c27733986-272   1000 AATTTGCTTATAGGGGTTG-GCATGGAGTCT-GCTGTCCAGGCACCTGGA   1047
+                     . || ||||   ||  | | ||.|| || ||  | | | .|| .|  || 
+c28099315-277    891 C-TT-GCTT---GG--T-GAGCCTG-AG-CTT-C-G-C-GGG-GC--GG-    922
+
+c27733986-272   1048 GCA-GTGC--CTGCTATCCAGGTCCTTGG-A-GTAGGACTTG--TGGG--   1088
+                     ||| | ||  ||||.|||||||.||.||| | | .||.|| |  .|||  
+c28099315-277    923 GCATG-GCATCTGCCATCCAGGACCCTGGGACG-GGGCCT-GCCAGGGCA    969
+
+c27733986-272   1089 -GG--CTGGGAGC-TT-CACTGC-TAATGATG-ATACCAA-CTCACATA-   1129
+                      ||  ||  |||| || .|| || |. ||. | |||.|.| |||.|||| 
+c28099315-277    970 AGGAGCT--GAGCATTGAAC-GCATC-TGG-GGATAACTATCTCTCATAG   1014
+
+c27733986-272   1130 ATTG--CTAATGAAGATTAAATCTCATTAAAAACAACAGAGGTGAAAGC-   1176
+                     |. |  |||||||.||||.|| | | | .||  || |||||.||||||. 
+c28099315-277   1015 AA-GAACTAATGAGGATTGAA-C-C-T-GAA--CA-CAGAGATGAAAGAG   1056
+
+c27733986-272   1177 TCTAG-GTAAAC--CATGAAGGACTGAACAAAAACTGCTTGTTATTGCAA   1223
+                      || | |||.||  ||  |||.|.||.||||||||||||||||.| ||||
+c28099315-277   1057 -CT-GAGTAGACTGCA--AAGAATTGCACAAAAACTGCTTGTTCT-GCAA   1101
+
+c27733986-272   1224 -TTTAGTTTACAAACA-TTTGAGTGCAGTTGTTCATATCAGATGTAAAGT   1271
+                      |||||||||||| || |||||||||||   ||||   || .||    ||
+c28099315-277   1102 ATTTAGTTTACAA-CAATTTGAGTGCAG---TTCA---CA-TTG----GT   1139
+
+c27733986-272   1272 GCAA-GTGATTTAGGAACATAAGT---T----TT--ATTATACTGATGAA   1311
+                     |.|| |||||||||||.|||||||   |    ||  ||||.|||||||||
+c28099315-277   1140 GTAATGTGATTTAGGATCATAAGTCCCTAAAGTTTCATTACACTGATGAA   1189
+
+c27733986-272   1312 AAGCAAATAC-TGATACTGTT-TT-TATTCT-TGAAAA-AA-GTCA---T   1352
+                     ||||||||.| | |||||||| || | || | |||.|| || | ||   |
+c28099315-277   1190 AAGCAAATGCCT-ATACTGTTCTTGT-TT-TATGAGAAGAACG-CAACCT   1235
+
+c27733986-272   1353 --GGCCCCTTTGAAGTTAGCTGAGGTCTGAGGAACATCAGGAATTACAGA   1400
+                       .||||||  |.||. |||||||.||||||||. ||||||||| ||. |
+c28099315-277   1236 CCAGCCCCT--GGAGC-AGCTGAGATCTGAGGAT-ATCAGGAAT-ACC-A   1279
+
+c27733986-272   1401 GGAAAGAAAAG--CC---CTGTC--TGGAGATTTAGC--AGTAC--CC--   1437
+                     ||||.|...||  ||   |||||  |||| |   | |  ||  |  |.  
+c28099315-277   1280 GGAATGGGGAGGTCCTGGCTGTCCCTGGA-A---A-CCCAG--CGGCATG   1322
+
+c27733986-272   1438 ACACCTG-GGACACCTGGGAAA--GGTTT-TAAGCCAGAG-G--A--CA-   1477
+                     ||||||| | .||||||||...  | ||| ||.||..||| |  |  || 
+c28099315-277   1323 ACACCTGTG-TCACCTGGGTCCCCG-TTTCTATGCTGGAGTGGCAGGCAG   1370
+
+c27733986-272   1478 C--G----TA----G--TCTGA-----TGTGTATTTTGGAAAGATCACTG   1510
+                     |  |    ||    |  |.|||     |.||.||||||||||||||||||
+c28099315-277   1371 CAAGGAAATATTTTGAGTTTGAGGCCATATGCATTTTGGAAAGATCACTG   1420
+
+c27733986-272   1511 TGG-T------T-GGGTG--G-TAGG---T--A-G----C---TG--A-G   1533
+                     ||| |      | |||.|  | |.||   |  | |    |   ||  | |
+c28099315-277   1421 TGGCTGGGGGGTTGGGAGCAGCTGGGGAGTTGAAGAAAGCCACTGCCAAG   1470
+
+c27733986-272   1534 -TCTTGCCCACTGAGAG-G-TAGCTGCA--CAAC----CAGGG---CA--   1569
+                      .||| |||||||||.| | |.||  ||  |  |    |||||   ||  
+c28099315-277   1471 GCCTT-CCCACTGAGTGTGGTTGC--CAGGC--CGGGGCAGGGAAGCACT   1515
+
+c27733986-272   1570 G-TG-G-T--AGGGG--A--CACTTCA-TAGGTAAAGGGT-CTGCAG--G   1606
+                     | || | |  |||||  |  | |  || |.|||.|.|||| .||  |  |
+c28099315-277   1516 GGTGAGCTGCAGGGGGGATTC-C--CAGTTGGTGATGGGTGATG--GATG   1560
+
+c27733986-272   1607 GTGAGGA-CAGT---TCTCAGGCTCTGGGTTTGTG--A--TG-GG-T---   1643
+                     ||| ||| ||||    | |   | |||||...| |  |  || || |   
+c28099315-277   1561 GTG-GGATCAGTGGG-C-C---C-CTGGGAAAG-GCCAGGTGTGGCTTCA   1602
+
+c27733986-272   1644 GCA-TCTAGAAGGATGCT--GG--AC----AT--C-AGGGGA-GACAA-G   1679
+                     ||| ||| |  ||| |.|  ||  ||    ||  | |||| |  |||| |
+c28099315-277   1603 GCACTCT-G--GGA-GTTTTGGGTACCTTTATGTCTAGGG-AC-ACAAAG   1646
+
+c27733986-272   1680 AAGGCAGCTG-CACACAGTGATCTAG-GCTGCAGAGGGGAGCTTGGGAG-   1726
+                     | ||.||.||  ||||||||.| |.| ||||||||.|.||| |||||.| 
+c28099315-277   1647 A-GGTAGATGG-ACACAGTGGT-TTGAGCTGCAGAAGAGAG-TTGGGCGG   1692
+
+c27733986-272   1727 C-ATTGCCTGTCCACTAG-TGAG-ATCTAAG-CCTT-TTGGGAGAG-GGA   1770
+                     | |   ||||||||| || |||| |  |.|| . || ||||||||| .||
+c28099315-277   1693 CCA---CCTGTCCAC-AGGTGAGGA--TGAGGT-TTCTTGGGAGAGTAGA   1735
+
+c27733986-272   1771 GAGGAATAGGG-C--CTTTTAACTCTGGGGTTAGTTGGGGAATGGTGGGG   1817
+                     ||| || |||| .  |||||||||    | |||||     |  | ||  |
+c28099315-277   1736 GAG-AA-AGGGGAGGCTTTTAACT----G-TTAGT-----A--G-TG--G   1768
+
+c27733986-272   1818 ATAGGGTGGGGAGGATTTGGCTTGCAATGGAAACATGAAAGGC--CCGAA   1865
+                     | |        || ||  |||||||||||||.|  | ||||||  || |.
+c28099315-277   1769 A-A--------AG-AT--GGCTTGCAATGGAGA--T-AAAGGCTACC-AC   1802
+
+c27733986-272   1866 AAG-GGGGAGGACAA-CCTAGAGGC-TGGAGGCCCAGAAGAGGC-GGC-C   1910
+                     | | |||||||| || ||.|||| | |||||||| ||  |.||| ||. |
+c28099315-277   1803 A-GAGGGGAGGA-AAGCCCAGAG-CCTGGAGGCC-AG--GGGGCAGGATC   1846
+
+c27733986-272   1911 TGTGTACACAGGAAGGGGA-GAGCCTTTCGG-G-GAGTTTTCAATCTTTC   1957
+                     || |      ||.|||||. || ||   |.| | | |    ||.|||  |
+c28099315-277   1847 TG-G------GGCAGGGGCTGA-CC---CAGTGTG-G----CATTCT--C   1878
+
+c27733986-272   1958 CTATATATTGGAAAATAG-GAGAAGAGACCCCACACA-CCAGGTGTCTCT   2005
+                     | ||||..|||||| | | ||||||||||.||||| | || ||.| |||.
+c28099315-277   1879 C-ATATGCTGGAAA-T-GTGAGAAGAGACTCCACA-AGCC-GGAG-CTCC   1922
+
+c27733986-272   2006 GGTT-AGCTCCT-GGGGGCAGC---C-CTACCACTTCGCAGAAGCACTTT   2049
+                       .| ||||||| |||| |.||   | ||||||    ||.    |||  |
+c28099315-277   1923 --CTCAGCTCCTTGGGG-CCGCTGGCTCTACCA----GCT----CAC--T   1959
+
+c27733986-272   2050 C-CTG-T-GCTTGAAAGCAGTCTCCTCTCGGCCAGTTGCCCACACACGGG   2096
+                     | ||| | | |||   |  || |  || || | |||| .||| . ..|||
+c28099315-277   1960 CGCTGGTTG-TTG---G--GT-T--TC-CG-C-AGTT-TCCA-T-TTGGG   1994
+
+c27733986-272   2097 GCACTATCCTAGTGGCCCAGGCCCT-CGTGAGGTGGGGCCCGACTTAGTG   2145
+                     |   | || | ||  |.|.|.|| | |   |||..  ||| |.||| || 
+c28099315-277   1995 G---T-TC-T-GT--CACTGACC-TGC---AGGCA--GCC-GGCTT-GT-   2027
+
+c27733986-272   2146 GC-CTGTGAGGCCACTCATTCTGTGATGAGGTCGGTGCTCTG-GCCGTGC   2193
+                      | |   | ||     | |   |   |  || |  | || || |||| ||
+c28099315-277   2028 -CGC---G-GG-----C-T---G---T--GG-C--T-CT-TGCGCCG-GC   2052
+
+c27733986-272   2194 CCCAACCTGC-TGTG-CCCTGTGCAGCAGGAGGTGCGCTCTGAGAGAGAA   2241
+                     |.|  || ||  | | ||| |  | |||| .  |    || | |.| || 
+c28099315-277   2053 CAC--CC-GCG-G-GACCC-G--C-GCAG-T--T----TC-G-GCG-GA-   2082
+
+c27733986-272   2242 G-G-GAGCGAGGACTCGCCCCAGCACGGGTCTC-TCTCTCTCTC-TTTTT   2287
+                     | | | |||.||.| ||    .| . ||||| | .| |     |      
+c28099315-277   2083 GCGCG-GCGGGGTC-CG----TG-T-GGGTC-CGAC-C-----CG-----   2112
+
+c27733986-272   2288 TTTTTTTTTGACGGGCAAAGGACAGTTTCAAACTTGTTTGCAGGATGCGC   2337
+                            | |  |||   |||.  |  | .. || |   ||     ||||
+c28099315-277   2113 -------T-G--GGG---AGGT--G--T-GG-CT-G---GC-----GCGC   2134
+
+c27733986-272   2338 GAAAAGTCAACAACACAGCGCCGCAGGAATAAGCGAAACAGC-CTGGAGT   2386
+                      .  .|| . |. |.| | ||| | ||.  .| |    |  | ||| || 
+c28099315-277   2135 -C--TGT-G-CT-CTC-G-GCC-C-GGC--CA-C----C--CACTG-AG-   2163
+
+c27733986-272   2387 GCAGGTAGAAGAGATGGATAC-TCCTTCAC-CTGGG-GGCTGGTGG--CA   2431
+                     || |  . .|| || ||   |  |.||| | |.||| ||| || ||  ||
+c28099315-277   2164 GC-G--C-CAG-GA-GG---CG-CATTC-CGCAGGGCGGC-GG-GGAGCA   2200
+
+c27733986-272   2432 AGG-CCTGGCGTGAGAGGGTGTCCTGCCCAGGCAGGCA-GGCGAGGGCAG   2479
+                      || || ||  ||  .   | ||  |   ||| || || || ||   |  
+c28099315-277   2201 -GGTCC-GG--TG--T---T-TC--G---AGG-AG-CATGG-GA---C--   2227
+
+c27733986-272   2480 GAGGCTGAG---CACG-GC-GGCCCAGTTCCAG-ACTGCAGCGGGGATAG   2523
+                      |  |  ||   | |. || |||| .|  | || | || .||   || ||
+c28099315-277   2228 -A--C--AGTTTC-CAAGCTGGCC-TG--C-AGGA-TG-GGC---GA-AG   2261
+
+c27733986-272   2524 CGCG-CTCCTGGAGGCACT-CAGAAGCGCGCCCACTAGTTAC-CTTCCCT   2570
+                      | | |.|| | |   ||| |   |||| |  ||| ||   | |    | 
+c28099315-277   2262 -G-GACACC-G-A---ACTAC---AGCG-G--CAC-AG---CGC----C-   2289
+
+c27733986-272   2571 GGGCACAGTACGGGGAGAGCATAAAAGCGATTACAAACTATC--CTGTTG   2618
+                     |||| |   |     | | | |    ||     |   | . |  |||  |
+c28099315-277   2290 GGGC-C---A-----A-A-C-T----GC-----C---C-G-CAGCTG--G   2311
+
+c27733986-272   2619 GGTTGAATGTTCTAGAAACTTCTACCCAAATTCACATGTTGCAAACCCCA   2668
+                     |||  |  |  | ||            |.    . | |  |       | 
+c28099315-277   2312 GGT--A--G--C-AG------------AG----G-A-G--G-------C-   2326
+
+c27733986-272   2669 TCTGAAGAGATACAGGGTCAGACTTTTGTGCCCTAGCCTGTTGTGCAGGT   2718
+                     | |   |     | ||  ||| |    | |  |  |||      || || 
+c28099315-277   2327 T-T---G-----C-GG--CAG-C----G-G--C--GCC------GC-GG-   2346
+
+c27733986-272   2719 GGAGGCACAGCCCACTCTGCACTACCCACCACAGACATATCTGCCTTTTC   2768
+                     |||||    |        |   |     |  |.|        |||    |
+c28099315-277   2347 GGAGG----G--------G---T-----C--CTG--------GCC----C   2362
+
+c27733986-272   2769 TCAGAGTGGACTGAGAAGTAGTCTGACCGGG--GAGCTGGCC---TGCAC   2813
+                      | | | |  ||| |  | || | |   |||  |.|| ||||   ||| |
+c28099315-277   2363 -C-G-G-G--CTG-G--G-AG-C-G---GGGCTGGGC-GGCCGCGTGC-C   2395
+
+c27733986-272   2814 CAGCCT-C-C-TC-GCCCTAGG-GGCTGTGCCTC-TTTC-CAGGCTTCAT   2856
+                     |.|| | | | |. ||  | || | |||  | || |||| |   |  |  
+c28099315-277   2396 CGGC-TGCGCGTTTGC--T-GGCG-CTG--C-TCGTTTCTC---C--C--   2430
+
+c27733986-272   2857 CAATTAGAAAGGTGCAC-TGGGCTCAAACTGCCGCAG--CCTCGTCC---   2900
+                     |     ||.||||||.| |||   |   |||||||.|  |  || ||   
+c28099315-277   2431 C-----GAGAGGTGCGCCTGG---C---CTGCCGCGGGGC--CG-CCAGT   2466
+
+c27733986-272   2901 CCACAGACAGCCACGCCCCTGTGGACGCAGATCCTCCTACAGTCACACCT   2950
+                     || |.|  .|  . |||| ||.|.|||| |. || | | |.| |  |   
+c28099315-277   2467 CC-CGG--GG--G-GCCC-TGCGAACGC-GG-CC-C-T-CGG-C--A---   2498
+
+c27733986-272   2951 GGAGGCCTCAGCCAAGCAAATGCAAATACAGCATTTACCCTTCAGAGGCA   3000
+                     | || || || ||   |    ||.   .|  |   | ||   | ||||| 
+c28099315-277   2499 G-AG-CC-CA-CC---C----GCG---GC--C---T-CC---C-GAGGC-   2523
+
+c27733986-272   3001 GCCACACACCCCTGGAGACACAGCCATGTGGACAGCTCCACACTGACTGC   3050
+                      ||.|.| |  | || | | |  ||  |    |  |    |     || |
+c28099315-277   2524 -CCTCTC-C--C-GG-G-C-C--CC--G----C--C----C-----CT-C   2545
+
+c27733986-272   3051 GGAGCTTTGGGCCTCAGTAGTGCTTACCATGGAAAGGAACATTGGAAGAT   3100
+                         ||     || ||   | ||      ||||| |||     |   |  
+c28099315-277   2546 ----CT-----CC-CA---G-GC------TGGAA-GGA-----G---G--   2564
+
+c27733986-272   3101 TCAAGTGTTTTTTTAGGAC-CTT-GCA--CAAGAG-GAGAATATTAGCGG   3145
+                      |  |      |     || |||  ||  |||||.  |||| |  | |||
+c28099315-277   2565 -C--G------T-----ACTCTTT-CAAACAAGAAC-AGAA-A--A-CGG   2594
+
+c27733986-272   3146 CCGAGCGGGTTATTTTCAATAACAAAGTTTTCACAGCAGCCAGTATACTT   3195
+                        | .||   |     ||       |    | || | |  | |.|  | 
+c28099315-277   2595 ---A-TGG---A-----AA-------G----C-CA-C-G--A-TGT--T-   2612
+
+c27733986-272   3196 TTTT--CTTTTTCTTTTTTCATTATTGTATTATGTCAAGTGATTAAAGAA   3243
+                        |  |||           |  |           |  |   ||      
+c28099315-277   2613 ---TGGCTT-----------A--A-----------C--G---TT------   2624
+
+c27733986-272   3244 CTTGAAGAAAAGTGTTCTTAAAATTCACAAAGGTACTATATTCCAAATGA   3293
+                     ||  | ||  ||. || ||||    | ||| | |.| |    |   |||.
+c28099315-277   2625 CT--A-GA--AGC-TT-TTAA----C-CAA-G-TTC-A----C---ATGT   2652
+
+c27733986-272   3294 TGTATATTGCTGCTACTGATTTACTGTAAAACCAACATGAGGATCGTCCT   3343
+                     ||.|.|.| |  | ||       |||       ||   | ||||. |.  
+c28099315-277   2653 TGAAAAAT-C--C-AC-------CTG-------AA---G-GGATA-TA--   2677
+
+c27733986-272   3344 TCAGTAATTTAATTAGTTTAATTGGCATGC-CTGTGCAGGGGAAGGCACC   3392
+                      | |           ||        ||  | || .|| ||  .   |.| 
+c28099315-277   2678 -C-G-----------GT--------CA--CACT-CGC-GG--T---CTC-   2696
+
+c27733986-272   3393 AGATCCTCAGAACGGGAGGTGCATGGGGTGTCAAAAAGATAGTTGTTGGA   3442
+                      |.||  |||. |        |         |     || |       | 
+c28099315-277   2697 -GGTC--CAGG-C--------C---------C-----GA-A-------G-   2711
+
+c27733986-272   3443 CTGGGGTGCACGGAGGGCAGGTTCCTGGAACCCCTGTTCTCCTGTTGCTT   3492
+                      ||||||    || |||||    || |   |.||    |     |. |. 
+c28099315-277   2712 -TGGGGT----GG-GGGCA----CC-G---CACC----C-----TA-CA-   2736
+
+c27733986-272   3493 CCTGCCCCTCATGCTCTGTCAGGCCATTTGCACCAAACTTGAGCTGTGCT   3542
+                     | ||||| ||| ||   |   ||  |    ||||   |     |||| ||
+c28099315-277   2737 C-TGCCC-TCA-GC---G---GG--A----CACC---C-----CTGT-CT   2762
+
+c27733986-272   3543 CCATAAATGCCAACAAACCCTGCCATGCCCACAAAAGCCCGGCCAAGTTC   3592
+                     |     | |||  ||      |    |   ||     |  |     |  |
+c28099315-277   2763 C-----A-GCC--CA------G----G---AC-----C--G-----G--C   2777
+
+c27733986-272   3593 TGTTAAGAGCCATTGGGGG-TGCCCTGGCCTGGTGCTAGCATCTGGGAAC   3641
+                     ||  | | |  |  ||.|| ||.||   |||   |   | | | |||  |
+c28099315-277   2778 TG--A-G-G--A--GGAGGCTGACC---CCT---G---G-A-C-GGG--C   2805
+
+c27733986-272   3642 ACAGCTCCGCAGATCCCCGCCTTTCTTA-CATC-TCAATTG-TCTGATCA   3688
+                     . . ||.  |||      ||||| |||. |  |  ||.  |  ||  || 
+c28099315-277   2806 T-T-CTT--CAG------GCCTT-CTTGGC--CG-CAG--GG-CT--TC-   2835
+
+c27733986-272   3689 TCGTCTCAGGCCCAGCAACCAACAACAACTGCTGGA-CCAAGTTGAGAAA   3737
+                     ||  ||  | |||  |  | . |  |  |||  ||| ||  |  | ||| 
+c28099315-277   2836 TC--CT--G-CCC--C--C-T-C--C--CTG--GGATCC--G--G-GAA-   2862
+
+c27733986-272   3738 GGCCCA-AAGGCAGAATTCTGTTCTCTCCTCAACATTGGCAGGTATTGGA   3786
+                       |. | ||||   ||   ||  |  |  |||| || | ||        |
+c28099315-277   2863 --CT-AGAAGG---AA---TG--C--T--TCAA-AT-G-CA--------A   2886
+
+c27733986-272   3787 ACCTGTGTC-CTATGCC-CTGC-CC--CTGTG-CACTGAGCCTTGGC-CT   3829
+                      |  | ||| | | ||. | || ||  | | | |||  .|||. ||| | 
+c28099315-277   2887 -C--G-GTCAC-A-GCATC-GCTCCTGC-G-GACAC--CGCCA-GGCTC-   2923
+
+c27733986-272   3830 CCAGCCACTCTTGACCCAGAGCTATC-CTC-CCAATGAGC-CCC--TCCA   3874
+                     || |  |     |||.| | |||| | | | ||   | || |.|  || |
+c28099315-277   2924 CC-G--A-----GACAC-G-GCTA-CGC-CTCC---G-GCTCACAGTC-A   2956
+
+c27733986-272   3875 CCGCATCACAGGCACATCTGTGGGAGGAGCAG-CAAGGCCAAATAGCACA   3923
+                     | ||  | | |  ||| |      || | ||| |.|  ||   |  | ||
+c28099315-277   2957 C-GC--C-C-G--ACA-C------AG-A-CAGACCA--CC---T--C-CA   2982
+
+c27733986-272   3924 ACCTGAAGCAGGGTTGGTGAACTTCAGCTATGTCTCCAGGCAAGGCGTGG   3973
+                     ||  |||  |    .|     |  || |   | | ||   |    |  | 
+c28099315-277   2983 AC--GAA--A----AG-----C--CA-C---G-C-CC---C----C--G-   3001
+
+c27733986-272   3974 GCAGAGTGTCAAGTCTGTGTCAGGACACACCAACAGGAGG-AGGGCCTAG   4022
+                     | |||    ||   | |.  |    ||||||. | ||||. ||| || | 
+c28099315-277   3002 G-AGA----CA---C-GA--C----CACACCT-C-GGAGACAGG-CC-A-   3031
+
+c27733986-272   4023 TTGGGCAGGGTCCTTGTAGGACCTGGAGGGATGGGGAAGTACTGCTACAA   4072
+                     | |  |     ||        || ||    |    ||.  |||.|  |||
+c28099315-277   3032 T-G--C-----CC--------CC-GG----A----GAC--ACTAC--CAA   3052
+
+c27733986-272   4073 GGCTGCTGGGGAAGGGAGCAGAGCCAGAGGGCAGACC-CAGGAGCTGCAA   4121
+                     | |  |          . |||||.|  |   | |||| | |   |  |  
+c28099315-277   3053 G-C--C----------C-CAGAGAC--A---C-GACCAC-G---C--C--   3074
+
+c27733986-272   4122 GATCCAGGTGTGAAGATAGGAACATTCCATGGGGTTTGAAATGTCAGC-C   4170
+                        |||     |  ||  | | ||  |           ||    |  | |
+c28099315-277   3075 ---CCA-----G--GA--G-A-CA--C-----------AA----C--CAC   3091
+
+c27733986-272   4171 ACAATATCTACTTTTTTACAGAAGTTGGTGGCAATTTGGTCAATTTGGTA   4220
+                     .|     |  |       | |  |.    |.|||   |  |.||  |  .
+c28099315-277   3092 GC-----C--C-------C-G--GA----GACAA---G--CCAT--G--C   3111
+
+c27733986-272   4221 TGAATCTTGCTTAGAAGGAAAAGC-CTGGGCTCAGCCATGGTGGAGGGCT   4269
+                       .. |   |  ||| |    | | | || | || |         |  | 
+c28099315-277   3112 --CC-C---C--AGA-G----A-CAC-GG-C-CA-C---------G--C-   3131
+
+c27733986-272   4270 GTCT-GGCAGAGGGCCATAGCCCCTCTGTTACCACTCAGACCTCACGTAG   4318
+                       || || |||   | | ||||.  | |   || | |        || ||
+c28099315-277   3132 --CTTGG-AGA---C-A-AGCCA--C-G---CC-C-C--------CG-AG   3156
+
+c27733986-272   4319 TAGCTCT-CCCACC-CCAGCAGGAGCCTGCTGTGTCCTCTACCCCTGCTC   4366
+                      | | |. || ||| ||  | ||||.|. | |.  ||.| .|||| |   
+c28099315-277   3157 -A-C-CAGCC-ACCTCC--C-GGAGACA-C-GA--CCAC-GCCCC-G---   3190
+
+c27733986-272   4367 AG-GACACAGCTGCACCCAGGGGCTCAGGGGTGTAGCTCTTCCCCTATTG   4415
+                      | |||| ||||.|.|||     | | ||.|   | |.      | ||||
+c28099315-277   3191 -GAGACA-AGCTACGCCC-----C-C-GGAG---A-CA------C-ATTG   3220
+
+c27733986-272   4416 ACTGCAGATGTCTATTGTAGTCTGAGGTTAGC-TCAGTGCTCAGGGTGGG   4464
+                     || ||      |  || | | |  ||   | |  ||  || ||    || 
+c28099315-277   3221 AC-GC------C--TT-T-G-C--AG---A-CG-CA--GC-CA----GG-   3243
+
+c27733986-272   4465 CCCTTCTCTGTG-GAGTCTTAAGGGGTGAGTCCCAGACAT-CTCTCTGCA   4512
+                     |||  | | | | |||    ||||     | ||  |   | ||| | | |
+c28099315-277   3244 CCC--C-C-G-GAGAG----AAGG-----G-CC--G---TGCTC-C-G-A   3270
+
+c27733986-272   4513 TGTCAGGCATATGGGGAGAGGCTAGGC-TGAAACTGTGGGTTCAAGAGAA   4561
+                      |  ||.|  |     . | ||    | ||.. ||||||  .|.. |   
+c28099315-277   3271 -G--AGAC--A-----C-A-GC----CATGCC-CTGTGG--ACCC-A---   3297
+
+c27733986-272   4562 GAGCAG-CCACAGGCTAGGGTGCTGGAGAGGGTTTTTCCAGAGGTTAGTC   4610
+                     |. ||| || |   |     |||   | |  |     | |    | || |
+c28099315-277   3298 GC-CAGGCC-C---C-----TGC---A-A--G-----C-A----T-AG-C   3319
+
+c27733986-272   4611 CATGGGCTAGCATGTTGGGAGGGCCC-CCTCAGAGGATGG-GC-TGTGGG   4657
+                     || |||   ||. |||   .   |.| | |||||||  |. || | ||||
+c28099315-277   3320 CA-GGG---GCG-GTT---T---CTCGC-TCAGAGG--GACGCCT-TGGG   3354
+
+c27733986-272   4658 TTGGGATAGTG-GAGGTGGGCATTCCTAGAGGATGGATAGTGGAATTGGG   4706
+                       |  .| |.|  || .  ||||   ||  |   ||| .   || |    
+c28099315-277   3355 --G--CT-GAGC-AG-C--GCAT---TA--G---GGA-C---GA-T----   3378
+
+c27733986-272   4707 GGTTGGGGTCCTCATAGGACAGATTGTGAGCTGGGGAGTTGGAAGGTGTT   4756
+                       |||||| ||  | ||  |||.  |    ||      ||     |||  
+c28099315-277   3379 --TTGGGG-CC--A-AG--CAGC--G----CT------TT-----GTG--   3401
+
+c27733986-272   4757 GGGAAATTGAGAGTGGGC---CATG-GGCTAAGGTGTTGGGGTCCCTCCC   4802
+                     ||||    | | | |.||   || | |.| . ||||||    |   |   
+c28099315-277   3402 GGGA----G-G-G-GAGCGTTCA-GTGAC-G-GGTGTT----T---T---   3431
+
+c27733986-272   4803 AGAGGACAGTCTGTAGGACTGGAATGCTCCAGCCATCTAAATGAAAATTA   4852
+                           |  ||||  | | ||   |  |  ||.|| |    ||    |  
+c28099315-277   3432 ------C--TCTG--G-A-TG---T--T--AGACA-C----TG----T--   3451
+
+c27733986-272   4853 ATGACCAGGTGTAAGCAGGAGGGTTTGGGATGTGTTTAGAAGACCTGGAT   4902
+                         |||     .  ||| |  |   |||| || |   |  | | |    
+c28099315-277   3452 ----CCA-----C--CAG-A--G---GGGA-GT-T---G--G-C-T----   3471
+
+c27733986-272   4903 GAGAAACGTAAGAGAAAGAGA--GGGACCTCTGGGTGAGCAGA-AGCCT-   4948
+                       |   |  | |||   | ||    | ||| |   |   || | ||||. 
+c28099315-277   3472 --G---C--A-GAG---G-GACT--G-CCT-T---T---CA-ACAGCCAA   3498
+
+c27733986-272   4949 -TTGTGATC-CCAGAAGGTATCCAGAAAGTGAGCTGAACAAGAGCAGAG-   4995
+                      || |  || ||        || ||  .|  . ||.|||     |.| | 
+c28099315-277   3499 ATT-T--TCACC--------TC-AG--CG--C-CTAAAC-----CTG-GT   3525
+
+c27733986-272   4996 GCA-CTGGGCAGTTGC-TGAGCCAGGGTACAGAGGAAGTTGTGGGTGGGA   5043
+                     ||. ||   | ||| | | .||| || ||         ||    .|    
+c28099315-277   3526 GCTTCT---C-GTT-CCT-TGCC-GG-TA---------TT----AT----   3550
+
+c27733986-272   5044 GACTCAGCAGAGAGCTAGTTGGGTCAAGAGATAGACCTCTCTAGA-GAAT   5092
+                     |  |||| |      || ||   | || ||| |  | |  |  || ||| 
+c28099315-277   3551 G--TCAG-A------TA-TT---T-AA-AGA-A--C-T--C--GAAGAA-   3576
+
+c27733986-272   5093 GGCCAGTGTTTAAAGCTGAGACTAAGATCTCCTA-GGGAGGGCAGGCCTC   5141
+                       | |.||||     || . ..|.. .|.|..|.   |||. ||| ..||
+c28099315-277   3577 --C-AATGTT-----CT-T-TTTTT-TTTTTTTTT--GAGA-CAG-TTTC   3611
+
+c27733986-272   5142 AGGTGAAGGCTGGGAATAGTGGAAAGAGCCAG-CAAAGGAGAATGAGGAA   5190
+                      | | .   ||     | ||  .  |. |||| |.  ||||  ||.  ||
+c28099315-277   3612 -G-T-T---CT-----T-GT--T--GT-CCAGGCT--GGAG--TGC--AA   3638
+
+c27733986-272   5191 -GAGCAAGAGC--CTCAGTTAAC-CCTGAGAATAAAAGGGAAGGCTGCTG   5236
+                      | ||  |. |  |||.|.|  | ||   |  |  .    |.  || |  
+c28099315-277   3639 TG-GC--GC-CATCTCGGCT--CACC---G--T--C----AC--CT-C--   3666
+
+c27733986-272   5237 AGAATCTGAGAAAGGGCCAGAGCTTGGAAGTT-ATTGGAGGTGAC-CCTG   5284
+                     . |. ||         ||    || |   ||| |. | .||| .| ||||
+c28099315-277   3667 C-AC-CT---------CC----CT-G---GTTCAA-G-CGGT-TCTCCTG   3694
+
+c27733986-272   5285 ACTAGATTGTTTTCCATCAGGTTGGGGGGACATGAGGTTGGTTGAAGTGG   5334
+                     .||. |  |    || ||            |. ||    | |  |    |
+c28099315-277   3695 CCTC-A--G----CC-TC------------CC-GA----G-T--A----G   3712
+
+c27733986-272   5335 GTTCAGGAAAGAAAGGAGAAATGAATACAGTGGTCTTGAGAAGTTTGCTC   5384
+                        |       .  || ||  |   ||||| |  |     |.|.  || |
+c28099315-277   3713 ---C-------T--GG-GA--T---TACAG-G--C-----ACGC--GC-C   3733
+
+c27733986-272   5385 TAAAGGACAGGAGAGAAATTGGGCAGTGGCTAGAAACCTCTGTGAAGACA   5434
+                           ||               ||    |  |   || |   |  | | 
+c28099315-277   3734 ------AC---------------CA----C--G---CC-C---G--G-C-   3745
+
+c27733986-272   5435 GAGAGATTAAGGTTT-T-TATTTTGAGGTAATTATAGATTTACA-TGTAC   5481
+                      . | |||    ||| | | |||| || ||   . ||    ||.  | . 
+c28099315-277   3746 -T-A-ATT----TTTGTAT-TTTT-AG-TA---G-AG----ACGG-G-G-   3774
+
+c27733986-272   5482 CTTTTAC-CCATTTTCATCCAATGGTAACA-TCTTGCAAAATTATGGTAC   5529
+                      |||  | |||  |  .|    ||||  ||  |   |    |   ||| |
+c28099315-277   3775 -TTT--CTCCA--T--GT----TGGT--CAG-C---C----T---GGT-C   3799
+
+c27733986-272   5530 AATATCACAACCATAATATTCACATTGACACAGTCAAGATACAGATATTC   5579
+                        | |. |||        || | | ||| |  ||||| |   |||   |
+c28099315-277   3800 ---A-CG-AAC--------TC-C-T-GAC-C--TCAAG-T---GAT---C   3823
+
+c27733986-272   5580 CATTATTGTGAGGACTC-CTCATGTAGCCCTTTTATAACCACACCCACAT   5628
+                     |      ||     | | | |.||  |.| ||   |     ||   | | 
+c28099315-277   3824 C------GT-----C-CGC-CTTG--GTC-TT---T-----CA---A-A-   3844
+
+c27733986-272   5629 CCCTTTTGCCTGTATCACTTGCTTTACACATGGCAACCACTAATCTGTTC   5678
+                        ||  || || .      |.|| ||  | || .   . |.|   |   
+c28099315-277   3845 ---TT--GC-TG-G------GATT-AC--A-GG-T---G-TGA---G---   3866
+
+c27733986-272   5679 TCCATCTCTATAACTTTGCTATTTCAAGAATGCCAAACATACAGAATCAT   5728
+                      ||| | | .   |   || .   |  |   |||  ||| | .|. ||.|
+c28099315-277   3867 -CCA-C-C-G---C---GC-C---C--G---GCC--ACA-A-TGT-TCTT   3892
+
+c27733986-272   5729 ACA-ATGTATAACCTTTTGG-GATTTGCTTTTGTTTTTTTTTTTTTTAAC   5776
+                     | | || | || |     |. ||.  ||  | |            |    
+c28099315-277   3893 A-AGAT-T-TA-C-----GAAGAA--GC--T-G------------T----   3912
+
+c27733986-272   5777 TCATTACTTTCACTGTAGTTTCATGCTAGTTGTTGTATATATCACTAGTT   5826
+                     |  || |   |||   |    |  ||| |   ||| |    ||.|     
+c28099315-277   3913 T--TT-C---CAC---A----C--GCT-G---TTG-A----TCGC-----   3933
+
+c27733986-272   5827 GTGC-CTTTCTACTGATGAGTAGGATTCCATGGTATAGATGTACCACAAT   5875
+                        | |   | |||| |||  ||  | |   || .  | ||  |      
+c28099315-277   3934 ---CGC---C-ACTG-TGA--AG--T-C---GG-C--G-TG--C------   3955
+
+c27733986-272   5876 TTGGTTAAC-CACT-CAT-CCGTGGACAGACATTTGGGTTGTTTC-CAGT   5921
+                       ||    | | || | | ||  || |     |  |  |.||||| |   
+c28099315-277   3956 --GG----CGC-CTGC-TGCC--GG-C-----T--G--TCGTTTCAC---   3982
+
+c27733986-272   5922 TTTGGATTATTATGGATAGAGCTGCTGTGAGCATTCATGTACAGGTTTTT   5971
+                                | ||   | || |  | | |  |    |    ||.    
+c28099315-277   3983 -----------A-GG---G-GC-G--G-G-G--T----G----GGA----   3997
+
+c27733986-272   5972 GTGTGAATATATAAGTTTCATTTACCTGCTGGGATAAACATCCAGGAG-G   6020
+                     | |           |         || || ||  |  .|  ||.|| | |
+c28099315-277   3998 G-G-----------G---------CC-GC-GG--T--CC--CCCGG-GCG   4017
+
+c27733986-272   6021 GCAATCGCTAGGTTGTATGGTGGTTTTTTAAGAAACTGTCAAACTGCTTT   6070
+                      ||  | | .||  | . || ||      | |    ||     | |    
+c28099315-277   4018 -CA--C-C-CGG--G-C-GG-GG------A-G----TG-----C-G----   4036
+
+c27733986-272   6071 CTAGAGGGTCTGTGCAGTTTTATATTCCCACCAGAAGTGTATGAGGGGTC   6120
+                     | || ||  | | |                ||  . | | .|  |||  |
+c28099315-277   4037 C-AG-GG--C-G-G----------------CC--T-G-G-CT--GGG--C   4055
+
+c27733986-272   6121 CA-GTCTCTGCATCCTCTGCCAGCATTTGCTGTTG-TCTCTATTTTGTTC   6168
+                     ||  || ||||  ||||  || ||     | |  |  |        |  |
+c28099315-277   4056 CAC-TC-CTGC--CCTC--CC-GC-----C-G--GG-C--------G--C   4079
+
+c27733986-272   6169 ATCTTAGCTATTCTCATAGGTGTGTAGTGATATATCATAGTTTTAGTTTG   6218
+                       |  |   |  | |   || | | |        ||              
+c28099315-277   4080 --C--A---A--C-C---GG-G-G-A--------TC--------------   4091
+
+c27733986-272   6219 CATTTCCCTAATGGCTAATGATGTTGGACATTTTCTCATGTGCTCATTTA   6268
+                     |.   ||  |  | ||.  ||    |  |   | ||     ||||     
+c28099315-277   4092 CG---CC--A--G-CTC--GA----G--C---T-CT-----GCTC-----   4111
+
+c27733986-272   6269 CTATCTGTATATCCTC-CTAAGTGAAGTGACTCTTAATATCTGCACTTAC   6317
+                     |     | | .||| | | |   ||     | |          |||   |
+c28099315-277   4112 C-----G-A-GTCC-CGC-A---GA-----C-C----------CAC---C   4130
+
+c27733986-272   6318 TTGATATTTTTTAATTTTTAATTTTCCTTTCTGTTGAGTTTTGAGAATTC   6367
+                     .||                      ||   |      |    |||    |
+c28099315-277   4131 ATG----------------------CC---C------G----GAG----C   4141
+
+c27733986-272   6368 TTTATTATTATTATTATTATTATTATTATTATTATTATTTAGAAATATTT   6417
+                                             |  .| .         ||        
+c28099315-277   4142 ------------------------A--CT-C---------AG--------   4147
+
+c27733986-272   6418 TTTTAAAATACCAGTATAGTTAACATATAGTGTTATATTAGTTTCAGATG   6467
+                               || ||   |    |     | |  . .  |    | |  |
+c28099315-277   4148 ----------CC-GT---G----C-----G-G--C-C--A----C-G--G   4161
+
+c27733986-272   6468 TACGATACAGTGATTCAACAATTCCATAC---ATCACCCAGTGCTCATCG   6514
+                        |   | |||   |  ||.|.||| .|   |  |   || || |.  |
+c28099315-277   4162 ---G---C-GTG---C--CAGTACCA-GCGGGA--A---AG-GC-CG--G   4189
+
+c27733986-272   6515 GGACAAGTGCACT---CCTTAA-TCTCCA--TCA--CCTG-T-TTCACCC   6554
+                     || |   ||| ||   ||| ..    | |    |  |  | |    ||||
+c28099315-277   4190 GG-C---TGC-CTGGACCT-GGG---C-AGG--AGGC--GGTG---ACCC   4222
+
+c27733986-272   6555 A-TCCCTCACGCCTCT-C-C-CTTCTGGTAACCA-TCAGTTTGTTCTCAA   6599
+                     .  || | | || | | . | |  | ||   | |  ||       | |  
+c28099315-277   4223 GG-CC-T-A-GC-T-TGAGCGC--C-GG---C-AG-CA-------C-C--   4248
+
+c27733986-272   6600 TAGTTAAGATTCTGTTTCTTGGTTTGTTTCTGTCCCTCATTTCCC-CCC-   6647
+                       |  .   | |    ||||||.| |   |||   |||||| |.| ||| 
+c28099315-277   4249 --G--C---T-C----TCTTGGCT-G---CTG---CTCATT-CACACCCG   4278
+
+c27733986-272   6648 CTTTG-TTCCCTTG-TTTTGTTTCTTAAATTCTATATATGAGTGAAATCA   6695
+                     |.  |   || | |    .|.  |||   ||||     || | |    | 
+c28099315-277   4279 CA--GG--CC-T-GG---AGC--CTT---TTCT-----TG-G-G----C-   4302
+
+c27733986-272   6696 TAGTATTTGTCTTTCTCTGACTGACTTATTTCACTTAGCATATACTCTCT   6745
+                      .| |   |     |.  |. ||||      | |  ||     .||| ||
+c28099315-277   4303 -CG-A---G-----CA--GG-TGAC------C-C--AG-----GCTC-CT   4324
+
+c27733986-272   6746 AGCTCCATC-CATGTTGTTGCA-AAGGGAAAATTTCATTCTTTTTAATGG   6793
+                      | |  | | || || |  | | |||||       |   |     .| | 
+c28099315-277   4325 -G-T--A-CGCA-GT-G--G-AGAAGGG-------C---C-----CA-G-   4347
+
+c27733986-272   6794 TTGAATAACATTCTGTTGTATATATACTATTTTTTCTTTATCCATTCATC   6843
+                       |     |.   ||  | | | . .|        |   .|||   |  |
+c28099315-277   4348 --G-----CG---TG--G-A-A-C-GC--------C---GTCC---C--C   4365
+
+c27733986-272   6844 TATCCATTCA-TCACTTGGGCTATAATTTGTCTATTTTAAATAATATTGC   6892
+                     | |||   |.  ||   |||| | ..  ||||             |  | 
+c28099315-277   4366 T-TCC---CGG-CA---GGGC-A-GG--TGTC-------------A--G-   4387
+
+c27733986-272   6893 TATAAACATCAGAGTTCATGTATTCCTTTGCATTAGTGTTTTTGTATTTG   6942
+                      . |  |  |  |   |  |    ||    |    |       | .    
+c28099315-277   4388 -G-A--C--C--A---C--G----CC----C----G-------G-C----   4400
+
+c27733986-272   6943 TTTTGTCAAATAACAAGTAATGTGATCCCTGGATCATAGGTTTATTGTAT   6992
+                         | |      |  | .  |    ||||||. | |      .| |   
+c28099315-277   4401 ----G-C------C--G-C--G----CCCTGGC-C-T------CT-G---   4418
+
+c27733986-272   6993 TTTTAACTTTTTGAGGAAACTCCATA-CTGTTTTCCAGAGTGGAGTTTTC   7041
+                       |   |       ||    ||| |. |    . || | ||   |    |
+c28099315-277   4419 --T---C-------GG----TCC-TGGC----A-CC-G-GT---G----C   4437
+
+c27733986-272   7042 GGTTTGCATTC-CCACCAACATGCAAGAGGGTTCTCCTTTGTCCACAGCC   7090
+                           |.| | || ||| | | |   .  |  | ||  ||   .  |  
+c28099315-277   4438 ------CGT-CGCC-CCA-C-T-C---C--G--C-CC--TG---G--G--   4459
+
+c27733986-272   7091 TCACCAACTCTTGCTGTTTCTTATGTTATTGATTTTAACCATTATGACAG   7140
+                      ||| .      ||||   |    |     |              |  ||
+c28099315-277   4460 -CAC-G------GCTG---C----G-----G--------------G--AG   4473
+
+c27733986-272   7141 GTGTGAGGTGACATCTTATTTTAGTTTTGATTTGTGTTTCCCTGATAG-T   7189
+                     |.  | || | | ||             |    | |   |.  |   | |
+c28099315-277   4474 GC--G-GG-G-C-TC-------------G----G-G---CA--G---GCT   4491
+
+c27733986-272   7190 GAGTGATGTTGAGCATCTTTTCATGTGTCTGTTGGCTGTCTGTATGTCTT   7239
+                        ||  || |||        |  ||  |   |||| | |     | || 
+c28099315-277   4492 ---TG--GT-GAG--------C--GT--C---TGGC-G-C-----G-CT-   4511
+
+c27733986-272   7240 CTTGGGAGAAATTTCTGCTCATGTCTTCTG-C-CTATTTTAAATTGGATA   7287
+                     || |. ||        || ||      | | | |           ||   
+c28099315-277   4512 CT-GA-AG--------GC-CA------C-GGCAC-----------GG---   4529
+
+c27733986-272   7288 CTTTGTTTTTGGGTGTTCAGTTTTATAAATTATTAATACACTT-TGAATA   7336
+                     |         ||| |  | ||  |. |..  .      | ||.  ||. |
+c28099315-277   4530 C---------GGG-G--C-GT--TG-AGG--G------C-CTCG-GAG-A   4552
+
+c27733986-272   7337 CTAACCCTTTATCATATATGTCTTTTG-CAAAGCTCCAATTCTGTAGATT   7385
+                       .|      | |. .|  | |   || ||  ||   |     | .|   
+c28099315-277   4553 --GA------A-CG-GT--G-C---TGGCA--GC---A-----G-GG---   4572
+
+c27733986-272   7386 GC--CTTTTGGTTTTGTTGATTGTTTCCTTTGCTGTGCAGAGGCTTTTTA   7433
+                     ||  |   .||.   |  |.  |   ||    | |    |  ||      
+c28099315-277   4573 GCGGC---AGGA---G--GG--G---CC----C-G----G--GC------   4592
+
+c27733986-272   7434 TTTTGATATAGTTTATTTTCACTTTTATTTCCCTTGCCTCTGGAGACATA   7483
+                                        | |    |   |||   ||.|      | | 
+c28099315-277   4593 -------------------C-C----A---CCC---CCAC------C-T-   4604
+
+c27733986-272   7484 TCTAGTAAGAAGTTGCTGTGGCCAAG-GTCAAAGAGGTTGTTGC-C-TGT   7530
+                      |  | .||  |  ||     ||.||  ||   | ||  |  || |  ||
+c28099315-277   4605 -C--G-CAG--G--GC-----CCGAGT-TC---G-GG--G--GCACG-GT   4631
+
+c27733986-272   7531 T-TTCTTCTCTAGGATTTTATCTTATGTTTAG-GTCTTTCATCCATTTTG   7578
+                     |      |   |||       |  | |.. || |        |      |
+c28099315-277   4632 TG-----C---AGG-------C--A-GAA-AGAG--------C------G   4648
+
+c27733986-272   7579 AATTTATTTCTGTGTTTAGTTTTCTTTCCTCTTCTATATTTTGGAATAGT   7628
+                              |.  |   ||           |  |        ||   ||.
+c28099315-277   4649 ---------CA--G---AG-----------C--C--------GG---AGA   4660
+
+c27733986-272   7629 TTGAGAAGAATAAGTATTAACTGTTCTTTTAATGTTTAGTAGAGTTCACC   7678
+                       |||  |     |      |    |    .  |.  ||||  |  | ||
+c28099315-277   4661 --GAG--G-----G------C----C----G--GC--AGTA--G--C-CC   4678
+
+c27733986-272   7679 TGTGAAGCTGTCTGGGTCTGGAATTTGTTGGGAGTTTTTTGA-TTACTGA   7727
+                         |  |  .| |.. | | | ||||  |||      |||| | . || 
+c28099315-277   4679 ----A--C--AC-GAA-C-G-A-TTTG--GGG------TTGAGT-G-TG-   4704
+
+c27733986-272   7728 TTCAGTCTCCTTG-CTGGTAATTGGTCTATTCAAATTTTCTATTTCTTCC   7776
+                        ||       | |||| ||  ||| |   |       | |      ||
+c28099315-277   4705 ---AG-------GACTGG-AA--GGT-T---C-------C-A------CC   4723
+
+c27733986-272   7777 TGTTTCAGGTTTGGTGGGTAATATGTTTGTAGGAATTTATCCATTTTTTC   7826
+                      |.  |            |.       || |       | |||     ||
+c28099315-277   4724 -GA--C------------TC-------TG-A-------A-CCA-----TC   4737
+
+c27733986-272   7827 TAGATTGTCTAATTTTTTGGCATATGGTTTTTAATAACATTCC-CTTACA   7875
+                     |  ||| | |  ||||||  | ||      ..||||| .  || |. || 
+c28099315-277   4738 T--ATT-T-T--TTTTTT--C-TA------AAAATAA-G--CCACA-AC-   4767
+
+c27733986-272   7876 ATTGTATTTCTGTGGTGTTGGTTTTTATTTCTCCTATTTCATTTGTAATT   7925
+                         |||  ||         .|  |  ||| || | || |     |||  
+c28099315-277   4768 ----TAT--CT---------AT--T--TTT-TC-T-TT-C-----TAA--   4787
+
+c27733986-272   7926 TTATTTATTTG-TGTCCTTCTGTTTTTTGATGAGTCTGGCTAGAAGTTTA   7974
+                       |   ||||| ||.| ||| |      |     |  |  |    |   |
+c28099315-277   4788 --A---ATTTGGTGAC-TTC-G------G-----T--G--T----G---A   4808
+
+c27733986-272   7975 TGAATTTTCTTTAGCTTTTGAAGGAACCATCTCCTGGTTTCATTTATTTG   8024
+                      |    | |||  |||  |   |||   |      ||        |   |
+c28099315-277   4809 -G----T-CTT--GCT--T---GGA---A------GG--------A---G   4825
+
+c27733986-272   8025 TTCAAAAAAATTTTTTTTTAGTTTCTGTATCATTTATTTCTGCTCTGATC   8074
+                                         |     ||  |        |||    |. |
+c28099315-277   4826 --------------------G-----GT--C--------CTG----GG-C   4835
+
+c27733986-272   8075 TTTATTATGTCCTTCTTTCTGCTGTTTTTGGGTTTAGCAAACAAGTTCCT   8124
+                             | ||    .|| || |     |||   ||       |     
+c28099315-277   4836 --------G-CC----ATC-GC-G-----GGG---AG-------G-----   4850
+
+c27733986-272   8125 TCTCTAGCTTCTTTAGGTATAAGCTTAGGTTGTTTATTTGAGATTATTCT   8174
+                          | |  |  | || |   |    ||  |     | | |        
+c28099315-277   4851 -----A-C--C--T-GG-A---G----GG--G-----T-G-G--------   4864
+
+c27733986-272   8175 TGCTTCTTGAGGTGCCCTGTATTACTATAAACTTCC-CTTTTTAGAACTG   8223
+                      |    ||| || ||  |||.  .| |||  || || |         |  
+c28099315-277   4865 -G----TTG-GG-GC--TGTG--GC-ATA--CT-CCGC---------C--   4888
+
+c27733986-272   8224 CTTTTGCTGCATC-CCAGAGGTTTTGGGCTGTTGTGTTTTTATTTTTTTC   8272
+                     |  | | |||  | ||         | ||         || |       |
+c28099315-277   4889 C--T-G-TGC--CGCC---------G-GC---------TT-A-------C   4905
+
+c27733986-272   8273 TGTTTACTTTTTGATTTCTTCTTTGATTTCTTAGTTAACCCATGTTATTT   8322
+                     .|    |         ||  |    .   || |   . |||       | 
+c28099315-277   4906 AG----C---------TC--C----C---CT-A---C-CCC-------T-   4920
+
+c27733986-272   8323 AAATTCCATGTATTTGTGGTCTTTTCAGGTTTTTTCTTG-TGGTTGACTT   8371
+                       .| ||    .      | |    |||       || | .||| |  | 
+c28099315-277   4921 --CT-CC----C------G-C----CAG-------CT-GCAGGT-G--T-   4940
+
+c27733986-272   8372 CTACTTTCATAGCACTGTGGTCAGAAAAGGTGCATGGTATGACT-TCAGT   8420
+                     |  |   | |   || | || | |    ||.||    |    ||  |   
+c28099315-277   4941 C--C---C-T---AC-G-GG-C-G----GGAGC----T----CTG-C---   4961
+
+c27733986-272   8421 CTTCTTGTATTTGTTTAGGCCTGTTTTGTGGCCTAATATGTGATCTA-TT   8469
+                     |  |. | .   |  | ||||    .|  | || . || | |  |.| | 
+c28099315-277   4962 C--CA-G-G---G--T-GGCC----CT--G-CC-C-TA-G-G--CAAGT-   4987
+
+c27733986-272   8470 CTGGAGAATGTTTCATGTA--CACT-TGAAAAG-AATGTATATTCCGCTG   8515
+                     |  .||.  |   |||| .  |.|. | ||| | ||.|      ||    
+c28099315-277   4988 C--AAGC--G---CATG-GGGCCCAAT-AAA-GCAAAG------CC----   5017
+
+c27733986-272   8516 TTTTAGGATGGAATGTTCTGAATATATCTGTTAAACCCATCTTCTCCAG-   8564
+                         |||.|| || |  |||  |.     |||   |||.     |   | 
+c28099315-277   5018 ----AGGCTG-AA-G--CTG--TG-----GTT---CCCG-----T---GA   5041
+
+c27733986-272   8565 G-GTGTCATTCAGAGCCATTGTTTCCTTGTTGATTTTATCTTCAGATGAT   8613
+                     | ||| |    ||  |||      |   |  |     . ||   |  |  
+c28099315-277   5042 GAGTG-C----AG--CCA------C---G--G-----G-CT---G--G--   5060
+
+c27733986-272   8614 CTGTTCATTGATGTAAGTGTG-GTGTTAAAGTCTCCTACTATTATTGTAT   8662
+                       |      | || ||| | | | |     |||.|   |           
+c28099315-277   5061 --G------G-TG-AAG-G-GAG-G-----GTCAC---C-----------   5078
+
+c27733986-272   8663 TACTATCAATTAGTTCCTATATGTTTGTTATTAACTGTTTTATGTATTTG   8712
+                       |   |    ||     |   |   |      ||        |     |
+c28099315-277   5079 --C---C----AG-----A---G---G------AC--------G-----G   5089
+
+c27733986-272   8713 TTGTATACATGTG-GTCCTATGTATTTTATGTATTTGGGTGCACAAATAT   8761
+                       |    | |||| | | || |       |||.|| ||  |         
+c28099315-277   5090 --G----C-TGTGTG-C-TA-G-------TGTGTT-GG--G---------   5110
+
+c27733986-272   8762 TTACAATTGTTATATCTTGGTGGATTGTCCCCTTTTATAATGATATGGTG   8811
+                             |     ||            ||||    | .| |.|| ||  
+c28099315-277   5111 --------G-----TC------------CCCC----A-GA-GGTA-GG--   5126
+
+c27733986-272   8812 TCCTTCTTTGTTTTTATAGTCTTTATTTTAAATATTTTGTCTGATGTAAG   8861
+                      | |     |  |  .| | |      | |.. .  | || ||  |   |
+c28099315-277   5127 -C-T-----G--T--GT-G-C------T-AGG-G--T-GT-TG--G---G   5146
+
+c27733986-272   8862 TATTGCTAATCTGGCTTTCTTTTGCTTTTGTTTTTGTTTTTAAATCTGGC   8911
+                         | |   |   |   |     ||.  |     |     |.| |.|| 
+c28099315-277   5147 ----G-T---C---C---C-----CTA--G-----G-----AGA-CAGG-   5163
+
+c27733986-272   8912 TTTCTTTTTACATCTATTTGCATAATGAAAGT-TTCTTCA---TCCCCTC   8957
+                        ||      .|  .|  || ||. |   || |   | .   |||||  
+c28099315-277   5164 ---CT------GT--GT--GC-TAG-G---GTGT---T-GGGGTCCCC--   5189
+
+c27733986-272   8958 ACTTTTAATCTGCAAGTGTCTTTAGGTCTAAAATGATTCTTTTGTAGGCA   9007
+                          |||   |   | |.|   ||| |     ||      | |  || |
+c28099315-277   5190 -----TAA---G---G-GAC---AGG-C-----TG------T-G--GG-A   5208
+
+c27733986-272   9008 GCATATAGATAAGT-CTTGTATTTTTATCCATTCTGTCACTCTATGTCTT   9056
+                        | |.|  | || |           ||||     ||| |||  | |  
+c28099315-277   5209 ---T-TGG--A-GTGC-----------TCCA-----TCA-TCT--G-C--   5229
+
+c27733986-272   9057 TTTTTTAAAGTTTATTTATTTATTTTGAGAGAGAGAGAGGTGGGGGAAGA   9106
+                                          |  | ||||| |.|  |  |       ||
+c28099315-277   5230 ---------------------A--T-GAGAG-GCG--A--T-------GA   5243
+
+c27733986-272   9107 GGGACCGAGAGAGGGAGAATCCCAAGCAGTCTGCACTGTCAGTGCAGAGC   9156
+                         || || |        |     |  |   | |||   || | || | 
+c28099315-277   5244 ----CC-AG-G--------T-----G--G---G-ACT---AG-G-AG-G-   5261
+
+c27733986-272   9157 CCGATGTGGGGCTCAAACCCACGAACCATGAAATCATGATCTGATCTGAA   9206
+                        | ||     |       | |      |     |||   || | |   
+c28099315-277   5262 ---A-GT-----T-------A-G------G-----ATG---TG-T-T---   5275
+
+c27733986-272   9207 ATCAACAGTCAGATGCTTAACCAACTAGCCACCCAGGCACCCCTGTCACC   9256
+                      |     |   ||.|   |||    |         || |    ||     
+c28099315-277   5276 -T-----G---GAAG---AAC----T---------GG-A----TG-----   5290
+
+c27733986-272   9257 TTATGTCTTTTGATTAGAGTGTTTAGTCCACTTACATTTAAAGTGATTAT   9306
+                       | |      ||.| |.|||   ||             ||||     | 
+c28099315-277   5291 --A-G------GAAT-GTGTG---AG-------------AAAG-----A-   5308
+
+c27733986-272   9307 TCCTGGGGGCACCTGGGTGGCTCAGTCGGTTGAGCGTCCGACTTCGGCTC   9356
+                         ||  | |   |.||   ||.|  ||| |||   |.||    ||| |
+c28099315-277   5309 ----GG--G-A---GAGT---TCTG--GGT-GAG---CAGA----GGC-C   5334
+
+c27733986-272   9357 AGGTCATGATCTCATGGTTCATGGGTTCAAGCCCCATGTCGGGCTCTGTG   9406
+                        || || ||||.     || |||   |||    | |  |         
+c28099315-277   5335 ---TC-TG-TCTCC-----CA-GGG---AAG----A-G--G---------   5354
+
+c27733986-272   9407 CCAACAGCTCGGAGCCTGGAGCCTGCTTCGGATTCTGTGTGTCCCTCTCT   9456
+                         |||   |.||  || ||   | |  |||. | |.|.| ||| ||. 
+c28099315-277   5355 ----CAG---GAAG--TG-AG---G-T--GGAA-C-GAGAG-CCC-CTA-   5383
+
+c27733986-272   9457 CTCTGCTCCTCTCCTGCTTATGCTTTGTCTCTCTGTCTCTCAAAAATGAA   9506
+                     |||..| ||       |    |    |.    |.. | |           
+c28099315-277   5384 CTCAAC-CC-------C----G----GA----CAA-C-C-----------   5400
+
+c27733986-272   9507 TAAATGTTAAAAAAGTTTAAAAAAAACTAAAAAAAAATAAAGTGATTATT   9556
+                                              ||               | |  |  
+c28099315-277   5401 -------------------------AC---------------T-A--A--   5405
+
+c27733986-272   9557 CCTGGATATGTATTTATTGCCATTTTCTTACTTGTTTTGTGCTTATTTGT   9606
+                     ||      ||      || |      |   |          |  ||| | 
+c28099315-277   5406 CC------TG------TT-C------C---C----------C--ATT-G-   5419
+
+c27733986-272   9607 GAAGTTTTTTTATGATCCTTTCTTGTTTCTTTTATGGTTTCCTGGTTTTC   9656
+                      |        ||| |            .|||   ||    || | ||| |
+c28099315-277   5420 -A--------TAT-A------------ACTT---TG----CC-G-TTT-C   5437
+
+c27733986-272   9657 ATTAATGATATATTTGAATTTCTTTTTCTTTATTCTTTGCATATCTATTA   9706
+                        || || ||.|| |             | |      |  |  | |   
+c28099315-277   5438 ---AA-GA-ATGTT-G-------------T-A------G--T--C-A---   5453
+
+c27733986-272   9707 GTGTTTTTTGATTTATGATTATATTAGGTTCATATATAAGATATTATGCA   9756
+                            | |      |     |  |  | |    | .|| ||  |   |
+c28099315-277   5454 -------T-G------G-----A--A--T-C----A-GAG-TA--A---A   5468
+
+c27733986-272   9757 TATGGCAGTCTATATTAAGTTGATTTCACTTAAGTTTGAACCCATTTCTT   9806
+                     || |    |||.| |   |  ||    ||||  |      |   ||| | 
+c28099315-277   5469 TA-G----TCTGT-T---G--GA----ACTT--G------C---TTT-T-   5490
+
+c27733986-272   9807 TACTCCTCTCCTTCCCATGTTTTAGGTATATGGTGTCATATTTTACCTCC   9856
+                             |  |||.| ||    ||| || |  | ||       || || 
+c28099315-277   5491 --------T--TTCAC-TG----AGG-AT-T--T-TC-------AC-TC-   5511
+
+c27733986-272   9857 TTTTATTTTGTGAGTTCCTTGACCAGTTTTTTAACAGAAATAT-TCATTT   9905
+                     |        | || |||||   |        || | |   | |  |    
+c28099315-277   5512 T--------G-GA-TTCCT---C--------TA-C-G---T-TG-C----   5529
+
+c27733986-272   9906 TTTGTTTTTTGTTTTTGTGTTTGCTACTTTCATATTGTTACTTTTGGTTT   9955
+                                    |||||.||        | |||||  |  | |    
+c28099315-277   5530 ---------------TGTGTATG--------A-ATTGT--C--T-G----   5546
+
+c27733986-272   9956 TCCCTTTCCACTCAAAGAGTCCCCTTTAATATTTCTTTCAGGGCCAGTTT  10005
+                                |       ||  |       ||| |      |  | || 
+c28099315-277   5547 -----------T-------TC--C-------TTT-T------G--A-TT-   5558
+
+c27733986-272  10006 AGTGGTCATGAACTCCTTTAGTTTTTGTTTGGGAAACTCTTCATCTCTGG  10055
+                      |||| |  |      |   |     |          |||||  | | ||
+c28099315-277   5559 -GTGG-C--G------T---G-----G----------TCTTC--C-C-GG   5576
+
+c27733986-272  10056 TTCGATTGGC-TGCATATTTTTCCCACTCAGCGTTTTGAATATATCATGT  10104
+                       | || | | ||||       || .  |||| .  | | | | |||   
+c28099315-277   5577 --C-AT-G-CATGCA-------CC-G--CAGC-C--T-A-T-T-TCA---   5601
+
+c27733986-272  10105 CATTCCTCCTGGCTTGCAAAGTTTCTGCTGAAAAGTCCACTCATTGCCAT  10154
+                     ||  | ||    |   |       ||.| |    |   |  ||  |.|  
+c28099315-277   5602 CA--C-TC----C---C-------CTAC-G----G---A--CA--GAC--   5620
+
+c27733986-272  10155 ATGGGGTATATAACTGTCTTCTTTTGT--CTTGCTGCTTTTAAATGTTTT  10202
+                       ||         |||    |    ||  ||| |  |    ||   ||||
+c28099315-277   5621 --GG---------CTG----C----GTGGCTT-C--C----AA---TTTT   5641
+
+c27733986-272  10203 TCTTTATCACTACATTTTGCCATTGCAAAATGTTTTTGTGGATCTGCTTT  10252
+                     ||   || | ||      ||  || |    |.|      | | |  |.||
+c28099315-277   5642 TC---AT-A-TA------GC--TT-C----TAT------G-A-C--CATT   5663
+
+c27733986-272  10253 TGTTGATTTTGTTGGGGGTTCTCTGTGCCTTCTGGATGTGGATATCTGTT  10302
+                     ||. |   | ||.|||  || |          ||  |||| | |      
+c28099315-277   5664 TGC-G---T-GTAGGG--TT-T----------TG--TGTG-A-A------   5685
+
+c27733986-272  10303 TCCTTCCCCAGATAAGGGAAATTTTCAGCTATTATTTCTTCAAATAAATT  10352
+                        |      || ||  |   ||| ||  | |   | || |   |..   
+c28099315-277   5686 ---T------GA-AA--G---TTT-CA--T-T---T-CT-C---TGG---   5705
+
+c27733986-272  10353 TCAATAATAAAAAATAATTTTCTGCCCCCTTTCTCTCTCATCTTCTTCTG  10402
+                          .||      |||     ||       || |    |         |
+c28099315-277   5706 -----GAT------TAA-----TG-------TC-C----A---------G   5718
+
+c27733986-272  10403 G-GACT-CTTATAATATGAATGTTATGTTTGATACTGAGTTCAAACGGAG  10450
+                     | |  | |  | | | ||  |    ||   |   ||| ||  |   |   
+c28099315-277   5719 GAG--TGC--A-A-T-TG--T----TG---G---CTG-GT--A---G---   5740
+
+c27733986-272  10451 TCACTGAGTTCCCTAAGTCTATTGCCATTTGTTTTTCATTTGTTCAGCCT  10500
+                     |   ||      | || | | ||   |   ||||||  ||| |..|..||
+c28099315-277   5741 T---TG------C-AA-T-T-TT---A---GTTTTT--TTT-TAAAAACT   5768
+
+c27733986-272  10501 GATTACTTTCTATTACTCTGTCTTCTAG-GT--CAT-TAATTCATTTTTT  10546
+                     | |  |...||.   || | ||  | || ||  | | ||   ||.||||.
+c28099315-277   5769 G-T--CAAACTG---CT-T-TC--C-AGAGTGGC-TGTA---CAATTTTA   5803
+
+c27733986-272  10547 CTGCTTCTTCTGATATGCCCCGATTCGAGAGACTCCCCGAAAACAAACCA  10596
+                              |  || | |||  ||| | |.|| |    |    ||     
+c28099315-277   5804 ---------C--AT-T-CCC--ATT-G-GTGA-T----G----CA-----   5822
+
+c27733986-272  10597 CCAGAGTCCAGAGTCAAAGCCAAGCGGCAAGGGTCGTTTATTGCAGGTTC  10646
+                        | |   ||.|  ||  |||  |  |      |      | |   | |
+c28099315-277   5823 ---G-G---AGTG--AA--CCA--C--C------C------T-C---T-C   5840
+
+c27733986-272  10647 GAACCCGTTCCTCCGCGCA-CTCGTTGCCGGTGACGCTAAGAGGCCCCTA  10695
+                     ||    || |||. | ||| || |  || ||||    |. |.    | | 
+c28099315-277   5841 GA----GT-CCTA-G-GCAGCT-G--GC-GGTG----TT-GT----C-T-   5868
+
+c27733986-272  10696 GCGAGGATCTTACAGCTTCTTTTATAGACAGGCACAAACAAGTTAGGGAT  10745
+                      | .|  | ||     | ||||| |        .|              |
+c28099315-277   5869 -C-TG--T-TT-----T-CTTTT-T--------TC--------------T   5884
+
+c27733986-272  10746 TTTTCACGGTTACAGAGCTGTTATTGGTTGACATTTAAATTTGAACACTC  10795
+                     ||    |  ||    . || || ||  ||    |||   |||||. |  |
+c28099315-277   5885 TT----C--TT----T-CT-TT-TT--TT----TTT---TTTGAG-A--C   5909
+
+c27733986-272  10796 AGCAGAACTTGATTGGTT-CCCACCTTTAGGTCAGACCACAACCGGGCAC  10844
+                      |  |   | | ||  ||   |.| ||  | || | ||         || 
+c28099315-277   5910 -G--G---T-G-TT--TTG--CTC-TT--G-TC-G-CC---------CA-   5931
+
+c27733986-272  10845 GCCCTGGCTGGTTTCTGGAATGGCGGGGGGGGGGGGGGGGGGGGGGGGGG  10894
+                          ||||||     .|  || |                          
+c28099315-277   5932 -----GGCTGG-----AG--TG-C--------------------------   5942
+
+c27733986-272  10895 GGGGGGGGGGGGGGAGACCTTTTCTTTGCAGCTGTGAGTACACCTGGTAA  10944
+                                   ||         | |  ||      | ||| ||    
+c28099315-277   5943 --------------AG---------T-G--GC------T-CAC-TG----   5954
+
+c27733986-272  10945 TTTTTCTCTTAGTCTCTCACTTCCAGCCTGGTGTTCATTCCA-TCAAGCA  10993
+                            |  | .|| || |. ||. |||||| ||||    | |   | |
+c28099315-277   5955 -------C--A-ACT-TC-CA-CCT-CCTGGT-TTCA----AGT---G-A   5981
+
+c27733986-272  10994 TGTCTCTCATTTTGTTTATTGAACTATTCATCTCTACTGTACTATTCCTT  11043
+                     | |||| |          | |       |  ||| |  || ||   ||  
+c28099315-277   5982 T-TCTC-C----------T-G-------C--CTC-A--GT-CT---CC--   6000
+
+c27733986-272  11044 ATC--T--CTGTGTTAAAGGTTTTACTGATGTCTTCCACTTTTTTCTCAA  11089
+                      ||  |  ||| |     |.|  |||.|  |    | .|      | |  
+c28099315-277   6001 -TCGGTAGCTG-G-----GAT--TACAG--G----C-GC------C-C--   6025
+
+c27733986-272  11090 GGTCAACAAGTATCTTTATGATCAGTC-CTTTAATTCTTTATGAGGCATA  11138
+                     |  |  |    | |        ||  | |       |    || | | ||
+c28099315-277   6026 G--C--C----A-C--------CA--CAC-------C----TG-G-C-TA   6042
+
+c27733986-272  11139 TTACTTATATCTGT-TTTGCTTAGATCTCTGACTATGGCCCTGTCA-TGT  11186
+                       | || | | ||| |||  |||| |  . |   | |||   |  |  ||
+c28099315-277   6043 --A-TT-T-T-TGTATTT--TTAG-T--A-G---A-GGC---G--AG-GT   6070
+
+c27733986-272  11187 TCTTTCATTTTTTTCAAATTCCTCTGTTTTCTCATTTTGTTTAAGTCTCT  11236
+                     |     |       ||    ||. ||     |  |   |     |||  .
+c28099315-277   6071 T-----A-------CA----CCA-TG-----T--T---G-----GTC--A   6086
+
+c27733986-272  11237 GTGCCTG-TTTCTCTTAGTTAGGAAAGTCATCTCTGTCTCTGTTCTTGAG  11285
+                     | || || |||  |   |  |  |    | || |||.| |   ||   ||
+c28099315-277   6087 G-GC-TGGTTT--C---G--A--A----C-TC-CTGAC-C---TC---AG   6112
+
+c27733986-272  11286 GGTAATGGCCTTATGAAGAAGAGGTCCTGTAGTGCCCTTGCAGTATAGTG  11335
+                     | |.||  |    |         | ||     |||| |  |      | |
+c28099315-277   6113 G-TGAT--C----T---------G-CC-----TGCC-T--C------G-G   6130
+
+c27733986-272  11336 TCACCTGTTCCCAGGGCCTGTTGCTTCTGGGAGTATCTCCAATATGTGCT  11385
+                        |   |||| |||   |   |    |  |||     ||   |    ||
+c28099315-277   6131 ---C---TTCC-AGG---T---G----T--GAG-----CC---A----CT   6149
+
+c27733986-272  11386 GCATGAACTCTGCTGTTGTTTCCTGGCCACTTTATCCTTTAGGCCAGTCA  11435
+                     ||  |  | |   ||  |   ||||         |  |||   |   | |
+c28099315-277   6150 GC--G--C-C---TG--G---CCTG---------T--TTT---C---T-A   6168
+
+c27733986-272  11436 TCTGCAGAGGCTCATTTTGCCTGTTATGGGCAGTGTTTTGTCCCTGGCCT  11485
+                     ||| |  | || | |||  | ||  ||    || ||   |    || |  
+c28099315-277   6169 TCT-C--A-GC-C-TTT--C-TG--AT----AG-GT---G----TG-C--   6192
+
+c27733986-272  11486 GAATATGCTGAGTTTTAATTAGGCGTGTGCTGGTCTGCTTTTGAAATGAG  11535
+                         | | ||| |       || | |   |.  |. | |||| ||.| .|
+c28099315-277   6193 ----A-G-TGA-T-------AG-C-T---CA--TA-G-TTTT-AATT-TG   6217
+
+c27733986-272  11536 ACCTGTTGAGGGGCACCTGGGTGGCTCAGTCAGTTAAGCATCCGACTTGG  11585
+                      |.| ||      | |||.. |||||||  |      | ||    ||||.
+c28099315-277   6218 -CAT-TT------C-CCTAA-TGGCTCA--C------G-AT----CTTGA   6244
+
+c27733986-272  11586 CTCAGGTCATGATCTCACGGTTTGTGGGTTTGAGCCCCGCATCAGGCTCT  11635
+                     .|  | || |  |||||||     | | .|| ||       | .| | | 
+c28099315-277   6245 AT--G-TC-T--TCTCACG-----T-G-CTT-AG-------T-TG-C-C-   6269
+
+c27733986-272  11636 GTGCTGACAGCTCAGAGCCTGGAGCTTGCTTCAGATTCTGTG-TCTCCCT  11684
+                     ||| || ||  | | . |||    |   ||| || |   |.. |||   |
+c28099315-277   6270 GTG-TG-CA--T-A-T-CCT----C---CTT-AG-T---GAAATCT---T   6297
+
+c27733986-272  11685 CT-CTCTC-TGCCTCTCCCTTGCTTGTGCTCTCTCTCTGTCAAAAATAAA  11732
+                      | | | | |   | |..|||  || |  | | | | |||      |   
+c28099315-277   6298 -TGC-C-CAT---T-TTACTT--TT-T--T-T-T-T-TGT------T---   6322
+
+c27733986-272  11733 TAAACATTAAAAAGAAAGAAAAAGAAAGAAAGAAAAGAAAAGAAAAGAAA  11782
+                     |  || ||..   |  | |....|||| |..|...||    |  | |.  
+c28099315-277   6323 T--AC-TTTT---G--A-ATTTTGAAA-ATTGTTTAG----G--A-GT--   6353
+
+c27733986-272  11783 AGAAAAGAAAAGAAAAGAAAAAGAAAAGAAAAGAAAAGAAAAGAAAAATG  11832
+                      |                    |.   |  | |  | |    |      |
+c28099315-277   6354 -G--------------------GT---G--A-G--A-G----G------G   6363
+
+c27733986-272  11833 AGACCCGTTGCCAGCACTGCTGAAACCAAGGCCCCACAAAACTCCCAGGC  11882
+                     | ||.  ||       ||  |        |      |    ||       
+c28099315-277   6364 A-ACA--TT-------CT--T--------G------C----CT-------   6376
+
+c27733986-272  11883 TGGGAAATGTGGTGTGGGCAGGGGTTTTGGTTGGTCTTCTGGGGGAGGAG  11932
+                     ||     |          |           |   ||  |||    ||.|.
+c28099315-277   6377 TG-----T----------C-----------T---TC--CTG----AGAAA   6391
+
+c27733986-272  11933 GCTACTTCACTGGGACTGGGGTAAGCATGACTGGGAAGGGAGGTTCCACC  11982
+                     |||  | ||  ||   |    |     |  |            | | |||
+c28099315-277   6392 GCT--T-CA--GG---T----T-----T--C------------T-C-ACC   6408
+
+c27733986-272  11983 ATAGCCTGGGGGACAGGTACTGGTGAAGCAACT-TAGATAGCCTAGTGTC  12031
+                     ||    |.||   | | ||.|| | .|||. || | | |  | |  | | 
+c28099315-277   6409 AT----TAGG---C-G-TAATG-T-TAGCT-CTAT-G-T--C-T--T-T-   6437
+
+c27733986-272  12032 AGTGCTGCACTGGTTTCTGCAGGTAGCCCT-GTGTTTATGCTGAGAGATG  12080
+                       |||.| | || || ||  .  ||   .| | |    | ||||| ||  
+c28099315-277   6438 --TGCAG-A-TG-TT-CT--T--TA---ATAG-G----T-CTGAG-GA--   6465
+
+c27733986-272  12081 GGGAGTGGGGGCGGAGAATGGCAC-CTGCTAGTTCCT--TTGTTCCTAGA  12127
+                        |||            |  | | || ||| |||||  || |||.||||
+c28099315-277   6466 ---AGT------------T--C-CTCT-CTA-TTCCTAGTT-TTCTTAGA   6494
+
+c27733986-272  12128 GGAATCTCTGGGTGAATGCTGCCTCTCTGGGATATGCTCTGAGATGAGCA  12177
+                     |   | | |   |   || |     | |    ||   ||  |  ||  ||
+c28099315-277   6495 G---T-T-T---T---TG-T-----T-T----TA---TC--A--TG--CA   6513
+
+c27733986-272  12178 AATTACCTCCCTTCTGTGGGCCCCAGGTGTTTTCAGATCGCTGTTTCCAC  12227
+                                     |       |||||||    |   |.| |||    
+c28099315-277   6514 ----------------T-------AGGTGTT----G---GAT-TTT----   6528
+
+c27733986-272  12228 ACTGTAGGTCCACATGCTATTTCCCCTGCCCTCTCTCCAAGAGCAGCCTC  12277
+                        ||   |  |.||||| |      |    | |||    |  ||   ||
+c28099315-277   6529 ---GT---T--AAATGCT-T------T----T-TCT----G--CA---TC   6549
+
+c27733986-272  12278 AATGCTCTTCAGGCAT-TCCCTGAGCCAAAGCTTCTGACCTTTAAAACTC  12326
+                     |||  |     |  || |  |  | |||. | |   ||  |||..  || 
+c28099315-277   6550 AAT--T-----G--ATAT--C--A-CCAT-G-T---GA--TTTTT--CT-   6575
+
+c27733986-272  12327 AAGGCTTTAAGCCCTGCTGGTTGGAAGAACTCACAAAATTTGGCTCCTCT  12376
+                     .   ||||| ||  |  |  ||  |  |  | |       |||      |
+c28099315-277   6576 T---CTTTA-GC--T--T--TT--A--A--T-A-------TGG------T   6595
+
+c27733986-272  12377 TGCTTTCCAAGCCACTTGCTTTGGCAAT-TTGTCTTC-CTTGTGTGGACT  12424
+                     .|.||   |  | | |||||| |  | | || | ||| |. || |   ||
+c28099315-277   6596 AGATT---A--C-A-TTGCTT-G--A-TATT-T-TTCACA-GT-T---CT   6627
+
+c27733986-272  12425 CCCTTGTGCTT-TAATCTGTCTTTGCCCTTCTCTGGGACCGTGGCTCCCT  12473
+                       .|||.|.|| |||| |...|.  ||.|. |    .|   |        
+c28099315-277   6628 --ATTGAGATTATAAT-TAAATA--CCATA-T----AA---T--------   6656
+
+c27733986-272  12474 CCCCACTGCAGCAACCATGATCCATTTCTCTCTCAAACTGTGTCTCTGAA  12523
+                           | ||    |      ||||     | | |||  ||||. |  ||
+c28099315-277   6657 ------T-CA----C------CCAT-----T-T-AAA--GTGTA-C--AA   6677
+
+c27733986-272  12524 CTTCCCACCTTCTTCGATATGGCCTGTTCTCTACCTTTAGTTTTGGAGTG  12573
+                           |     ||| |||   |||||..|   ||               
+c28099315-277   6678 ------A-----TTC-ATA---CCTGTAAT---CC---------------   6694
+
+c27733986-272  12574 TAGTTATGGAGAAGTCAGGTTCATTTCTGAGGTATTTAGGATGATTTAAT  12623
+                                    ||||   |   ||    | |   ||  |    |  
+c28099315-277   6695 ---------------CAGG---A---CT----T-T---GG--G----A--   6707
+
+c27733986-272  12624 GGTTATCTAGTTGTATTCATGAGCTGAGCTGAGCCTAGGATCCTCCTACT  12673
+                     ||    |||     |     | | |||   |||    | ||    | |||
+c28099315-277   6708 GG----CTA-----A-----G-G-TGA---GAG----G-AT----C-ACT   6728
+
+c27733986-272  12674 CTGCCACCATCTTCTCTTCCCTGAGAGTTCTTTATGTATTCATATCCTTT  12723
+                      ||  |   |        |||.| |||||     || |   . | ||.  
+c28099315-277   6729 -TG--A---T--------CCCAG-GAGTT-----TG-A---G-A-CCA--   6750
+
+c27733986-272  12724 CCTGGATATGTGATTGGCAAGTATTTTCTCCAAGTTTGTGGTTTGTCTTT  12773
+                        | | .|  |   |||    |    | | |  |. ||  . .|     
+c28099315-277   6751 ---G-A-CT--G---GGC----A----C-C-A--TA-GT--A-AG-----   6769
+
+c27733986-272  12774 TCATCCTCCTAACAGTCTTTCACAGAGAAAAAAATTATAATATTGGTTAA  12823
+                       | || || |.|  ||  | ||           | | || |    .|||
+c28099315-277   6770 --A-CC-CC-ATC--TC--T-AC-----------T-A-AA-A----ATAA   6791
+
+c27733986-272  12824 GTCCAATTTATCATTTTTTTTCTTTTTATGGATCGTGTTTTGGTGTCAAG  12873
+                         ||   |  |           | || |   |     | |. ||   |
+c28099315-277   6792 ----AA---A--A-----------T-TA-G---C-----T-GA-GT---G   6806
+
+c27733986-272  12874 TTTAAGGTTGTTTTTTTGTTTTGTTTTTGTTTTTGCCTAGCCCTATATCT  12923
+                       |  ||| |       |   ||    ||   | |||| |   |      
+c28099315-277   6807 --T--GGT-G-------G---TG----TG---T-GCCT-G---T------   6823
+
+c27733986-272  12924 AAAGATATTCCCCTATGTTTATTTGTAAAACTTTTATAGTTTTACATTTT  12973
+                       .| |   ||                   |    |  |     | |   
+c28099315-277   6824 --GG-T---CC-------------------C----A--G-----C-T---   6833
+
+c27733986-272  12974 ACATTTAAATGTGTGTTGCATTTTTAAAAAATTTTTTAATGTTTATTTAT  13023
+                     || ||   . | | |  ||                    ||       | 
+c28099315-277   6834 AC-TT---G-G-G-G--GC--------------------TG-------A-   6846
+
+c27733986-272  13024 TTTTGAGAGAGAGAGAGAGAGAGAGAGAGAGAGA-GAGAGAGAGA-GAAT  13071
+                         | |.| | ||| || . . | . .|||. . | | ||| ||  || 
+c28099315-277   6847 ----G-GTG-G-GAG-GA-T-C-A-C-TGAGC-CTG-G-GAG-GAC-AA-   6877
+
+c27733986-272  13072 GAATATCTGAAGCAG-GCTCTAGGC-TCTGAGCTGTCAGCACAGAGCCCG  13119
+                     |   | |||   ||| |    ||||   |||  | |  ||||    |.| 
+c28099315-277   6878 G---A-CTG---CAGTG----AGGCG--TGA--T-T--GCAC----CAC-   6904
+
+c27733986-272  13120 ATGCAGGGCTCGAAC--CCATGG---ACCACGAAA-TCATGACCTGAGCT  13163
+                      ||||   |||   |  || |||   || | ||.|   | ||||    ||
+c28099315-277   6905 -TGCA---CTC---CAGCC-TGGTTTAC-A-GAGAG--A-GACC----CT   6937
+
+c27733986-272  13164 GAAGTTGGACACTTAACTGACTGAGCCACCCAGGCGCCCCAGTGTGTGTT  13213
+                        |||  .||.  ||.. |.||.   |  ||        | | | |..|
+c28099315-277   6938 ---GTT--TCAA--AAAA-AATGT---A--CA--------A-T-T-TAAT   6963
+
+c27733986-272  13214 GTGTTTTGAGTTAACTTTTATATAAGTTATGGGAAATAAACTAAAGGTTC  13263
+                     || ||||   ||. |        | || ||   |. |.| ||.| |    
+c28099315-277   6964 GT-TTTT---TTT-C--------A-GT-AT---AT-TCA-CTGA-G----   6988
+
+c27733986-272  13264 TTTTTCTTTTGCCCATG-GATATCCAGTTGCCCCA-GCA-CAATTTGTTG  13310
+                           |  ||    || ||   ||| |  |.||| | | |||||| |.|
+c28099315-277   6989 ------T--TG----TGTGA---CCA-T--CACCATG-ATCAATTT-TAG   7018
+
+c27733986-272  13311 AACAGGTTTGTCTTTCTTATGTTAAATTGCCTTTGCACCTTTGTCAAAAT  13360
+                     |.||  ||      | |||  ||||    ||    ||.    || .||| 
+c28099315-277   7019 AGCA--TT------T-TTA--TTAA----CC----CAA----GT-GAAA-   7043
+
+c27733986-272  13361 CAACTGGGCGTATTTTCATGGGTCTATTTCTAGGTCCTCTGTTCTGTTCT  13410
+                     |. |    |  |    |||   || ||   |||  |.|.|||||| | | 
+c28099315-277   7044 CT-C----C--A----CAT---TC-AT---TAG--CATTTGTTCT-T-C-   7070
+
+c27733986-272  13411 GTTGATGTATGTATGTATGTATGAGTCTGCTCATACCACACACTCTTAGT  13460
+                                     || |     ||  | | | ||| || | || | |
+c28099315-277   7071 ----------------AT-T-----TC--C-C-T-CCA-AC-C-CT-A-T   7088
+
+c27733986-272  13461 TACTGTAAC-TAAGAGTAACAGTAACTGTATAGTGTAAGTCTTGCATTTT  13509
+                     ..|. |..| || |     |     |     | |  ||| |. |||    
+c28099315-277   7089 CCCC-TCCCCTA-G-----C-----C-----A-T--AAG-CA-GCA----   7112
+
+c27733986-272  13510 GA-TAGATTGGTTCCTCCCATTTTAATCTTTTTTTCCCCAAATTACATTA  13558
+                      | || |    ||  |   |||||| | |||.||||||    | |  |  
+c28099315-277   7113 -ACTA-A----TT--T---ATTTTA-T-TTTATTTCCC----T-A--T--   7140
+
+c27733986-272  13559 GGTATTCTAGATTATTTGCCT-TCCCATATGATATTTTGAATTTTATATC  13607
+                     || |   |   |||    ||| |.|    ||| |    || |||||||  
+c28099315-277   7141 GG-A---T---TTA----CCTGTTC----TGA-A----GA-TTTTATA--   7167
+
+c27733986-272  13608 TATAAAATATCTTTCTGGAATTTGAT-AGGAATTGCATTAAATCTGTATA  13656
+                       |   ||| |.|   |||    | | ||     |||.||    ||    
+c28099315-277   7168 --T---ATA-CAT---GGA----G-TCAG-----GCAATA----TG----   7190
+
+c27733986-272  13657 TAAATTTGGAGAGAATTGACATGTTTACTATGTTGAGTCTTCCAATCCAT  13706
+                         |  ||. . ..|||   ||   |||| |.|   ||||.||  |  |
+c28099315-277   7191 ----T--GGC-C-TTTTG---TG---ACTA-GCT---TCTTTCA--C--T   7218
+
+c27733986-272  13707 AAACATAATTTATCTTTTAATTTATTTAGTTGTTTGATTCCTTTCATCAG  13756
+                     .|.|||. |||. |    |    |   ||  |||  |     |||   | 
+c28099315-277   7219 GAGCATG-TTTC-C----A----A---AG--GTT--A-----TTC---A-   7242
+
+c27733986-272  13757 TGTTTTATGGTTTCTAGCATATGAGTCAGT-AC-ATGTC-TTTTTGGATG  13803
+                     |||||||         |||  ||.|||||. || || || |||||  || 
+c28099315-277   7243 TGTTTTA---------GCA--TGTGTCAGACACCAT-TCATTTTT--AT-   7277
+
+c27733986-272  13804 TACATCTAAATATTTAATTTTTTAGCAACTGTAAATTGTATTTTC-A-AT  13851
+                     |.  || ||  | | ||    | . || ||||  .| ||||.|.| | ||
+c28099315-277   7278 TG--TC-AA--A-T-AA----T-C-CA-CTGT--GT-GTATATACCACAT   7310
+
+c27733986-272  13852 TTTGGTGTCAACATGTTCATTGATAGTATATGGAAGTATAGATTTTTAAA  13901
+                     |||      |   | || |||  ||||| ||||    | . ||||  .. 
+c28099315-277   7311 TTT------A---T-TT-ATT--TAGTA-ATGG----A-C-ATTT--GG-   7337
+
+c27733986-272  13902 ATATTATCTTGTATCCTGTGACCTTGATGAACTCATTTAGTTCCATGAGG  13951
+                          .  |||| |  ||| || || .||   |  |||  ||   |||| 
+c28099315-277   7338 -----G--TTGT-T--TGT-AC-TT-TTG---T--TTT--TT---TGAG-   7363
+
+c27733986-272  13952 ATATTTTTGTTGA-TTACTTGGAATTTTATTATGTAGAAAATCATATCAT  14000
+                     |      ||  || |  |||| . |      .  | |    ||  | |  
+c28099315-277   7364 A------TG--GAGT--CTTG-C-T------C--T-G----TC--A-C--   7383
+
+c27733986-272  14001 CTGCAAATTGGG--GCAGT-TTTATTTCTTC-CTTTCTACT-CTCTCTAC  14045
+                     |  ||.|.|||.  |||||    .   |. | .|  || |. |||.|| |
+c28099315-277   7384 C--CAGACTGGAATGCAGTG---G---CA-CGAT--CT-CAGCTCACT-C   7420
+
+c27733986-272  14046 CAACTCCCCCTCCCCCCTTTTTTTTGCCCTATTGCACTGGCTAGATATTC  14095
+                     |||| |    |||            |||    | | ||||  |       
+c28099315-277   7421 CAAC-C----TCC------------GCC----T-C-CTGG--A-------   7438
+
+c27733986-272  14096 TTGTACTATATTGAATATCAGTGATAAGAGTGGAAATCCTTGCCTTGTTC  14145
+                     || ||  | || || | ||                 |||| ||    |||
+c28099315-277   7439 TT-TA--A-AT-GA-T-TC-----------------TCCT-GC----TTC   7459
+
+c27733986-272  14146 TTGATCATAGCAGGAAATTTTCAAGTGTCTTTGTATTAAGTATGTTGTTA  14195
+                     . |  |    |        | |      |     .  |||||    |   
+c28099315-277   7460 A-G--C----C--------T-C------C-----C--AAGTA----G---   7473
+
+c27733986-272  14196 ACTATAGGTTTTTTGTAGATAGTCTTTATCAAGTTGAGGAAGTTCCCCA-  14244
+                      ||   |       |  |   || |  | || |  |.    |  ||| | 
+c28099315-277   7474 -CT---G-------G--G---GT-T--A-CA-G--GT----G--CCC-AT   7493
+
+c27733986-272  14245 CTATTCCA-GTTTTCTTCAAATTTTTAGCATGAATGGGTAT-TGAATTTT  14292
+                     | |  ||| |    |  |       |.|| | |||   | | ||.|||||
+c28099315-277   7494 C-A--CCATG----C--C-------TGGC-T-AAT---T-TCTGTATTTT   7521
+
+c27733986-272  14293 GTCAAATTGATATGATTATAACAATTGATATGGTTTTTCTTCTTTTGCCT  14342
+                      | |    | || |   | .||    |  | |||     |||    ||| 
+c28099315-277   7522 -T-A----G-TA-G---A-GAC----G--A-GGT-----TTC----GCC-   7542
+
+c27733986-272  14343 GTTAACATGGTAGATTATATTGATTGATGTTTTTATTAGCTTTAATGATA  14392
+                     |      || |        | |   |             |          
+c28099315-277   7543 G------TG-T--------T-G---G-------------C----------   7550
+
+c27733986-272  14393 TATAATTATCATATAATATGTCCATTTAAAAGGTACAATTCAATGATTTT  14442
+                              |    |.   | |  |      ||| |  | |||  |.|  
+c28099315-277   7551 ---------C----AG---G-C--T------GGT-C--T-CAA--ACT--   7567
+
+c27733986-272  14443 CACTATATCCACTGAATTGGGTGGTGATAGCCACAATCTATTTTGGGGCA  14492
+                     | ||. | ||.|  ||      | ||||  ||.|   ||        || 
+c28099315-277   7568 C-CTG-A-CCTC--AA------G-TGAT--CCTC---CT--------GC-   7591
+
+c27733986-272  14493 CTTTCACTAACCCAAAATAAAGCCCCATATGTTTCACTCCTCTCCTAATG  14542
+                     |  |||  . ||     |    ||| | |.|  | .       | |   |
+c28099315-277   7592 C--TCA--G-CC-----T----CCC-A-AAG--T-G-------C-T---G   7611
+
+c27733986-272  14543 GCAACCACTAATCTACTTTCTGTCTCGGTAGGTTTGTCTATTCAGAAGAC  14592
+                     |        .|| ||    |.|. | | | |   .| |    |     ||
+c28099315-277   7612 G--------GAT-TA----CAGA-T-G-T-G---AG-C----C-----AC   7631
+
+c27733986-272  14593 TTCATGTATAAATGGAATGAGGCAATATGTGCTCTTTTGTGACTGGCTTC  14642
+                       |          |   |  | ||  . | || |    | |. || ||| 
+c28099315-277   7632 --C----------G---T--G-CA--G-G-GC-C----G-GG-TG-CTT-   7650
+
+c27733986-272  14643 TTTCACTTAACAGTGTTTTAAAAGTTCATCCATGTCATAGTATGATCAGT  14692
+                       || |  | |  | |||   | |       . || ||  ||||| |  |
+c28099315-277   7651 --TC-C--A-C--T-TTT---A-G-------G-GT-AT--TATGA-C--T   7673
+
+c27733986-272  14693 ATAT-TATTCATTTTCATTGTTGAATAGTATTCTATCATATGGATATACC  14741
+                     | ||  || |     | |. || ||| |     | | || ||  ||  | 
+c28099315-277   7674 A-ATG-AT-C-----C-TA-TT-AAT-G-----T-T-AT-TG--TA--C-   7698
+
+c27733986-272  14742 ACATTTTATTTATTCATTAATAATGGACATTTGGGTTGTTTTTACTTTTT  14791
+                     ||||||| |  .|        . |||||||.|  ||| |  |  |     
+c28099315-277   7699 ACATTTT-T--GT--------G-TGGACATAT--GTT-T--T--C-----   7724
+
+c27733986-272  14792 GAGGGTTATGAATAATGCTCCTATAAACATGTACGCGTTTTTTTTTGTGG  14841
+                               | |  |  ||   |   |    |              |||
+c28099315-277   7725 ----------A-T--T--TC---T---C----A--------------TGG   7735
+
+c27733986-272  14842 GCATGTGCCCCATTTCTCTTGGTTATCTACCTAGAAGTAGAATTATTGAT  14891
+                     |||  |     ||| | ||     | | |   ||. |  |||   |||  
+c28099315-277   7736 GCA--T-----ATT-C-CT-----A-C-A---AGT-G--GAA---TTG--   7758
+
+c27733986-272  14892 TCATATGGTAAGTGTATAGTTAACATTGATCAATTTGTGAATCCTTAACT  14941
+                      | || |||.|   |||.|| |     |  |          |||  |  |
+c28099315-277   7759 -C-TA-GGTCA---TATGGT-A-----G--C----------TCC--A--T   7780
+
+c27733986-272  14942 AGTTTTGCATCTCTGGAATAAATTCTACTTGGTCATGGTGTATATTATAT  14991
+                      ||  | ||       |       | | |||   ||  || || || |  
+c28099315-277   7781 -GT--T-CA-------A-------C-A-TTG---AT--TG-AT-TT-T--   7800
+
+c27733986-272  14992 ATTGTTGAATTTCCTTTGCTAATATGTAATTATTTTTGTGCCACAGCCAC  15041
+                          ||||   |       | | || |   |        |||  |||  
+c28099315-277   7801 -----TGAA---C-------A-T-TG-A---A--------CCA--GCC--   7817
+
+c27733986-272  15042 ATT-CACTCCCTCCCTCCCT--CTCTTCTCCCTCCCTCTC-TCCCTCCT-  15086
+                      || ||     |   ||| |  ..|... ||||.| | |. |   |. | 
+c28099315-277   7818 -TTGCA-----T---TCC-TGGAACAAA-CCCTAC-T-TAGT---TA-TG   7850
+
+c27733986-272  15087 T-CT-TT-TCTTTTCTTTT-CTTTTCTTTTCT-TTTCTTTTCTTTTCTTT  15131
+                     |  | |.  ||   ||||| .|.|. ||. || ..|    ||    |   
+c28099315-277   7851 TG-TGTAG-CT---CTTTTGATATA-TTA-CTGAAT----TC----C---   7882
+
+c27733986-272  15132 TCTTT-TCTTTTCTTTT-CTTTTC-TTTTCTTT-CTTTCTTTCTTTCTTT  15177
+                      ||||  ||..|.||||  ||... .||  ||| |  .|   |.|. || 
+c28099315-277   7883 -CTTTG-CTAATATTTTG-TTAAAGATT--TTTGC--AC---CATA-TT-   7920
+
+c27733986-272  15178 CTTTC-T-TTCTT--TCTTTCT-TT-CTTTCTTTCCTTCCTTCT-TTCT-  15219
+                     |.|.. . .|.||   |   || |.  |.| |||  ||| || | |.|| 
+c28099315-277   7921 CATAAGAGATATTGG-C---CTGTAG-TAT-TTT--TTC-TT-TGTACTG   7960
+
+c27733986-272  15220 TTCTCCT-TCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTC  15268
+                     |. || | .  ||                                     
+c28099315-277   7961 TA-TC-TGA--TT-------------------------------------   7969
+
+c27733986-272  15269 CTTCCTTCCTT--CCCCTCCCACCCCCTTCCCCCTCTCTCCCTCTCTCAC  15316
+                              ||      |   |                    |    || 
+c28099315-277   7970 ---------TTGG----T---A--------------------T----CA-   7978
+
+c27733986-272  15317 TG--TTTCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTT  15364
+                      |                                                
+c28099315-277   7979 -GGG----------------------------------------------   7981
+
+c27733986-272  15365 CCTCTTTCTTTCTTTGCTTCTTTCTTTTCTTTTCTTTTCTTTTCT-TT-T  15412
+                         |.. |.  | || | ||| |.|...  . |  | |.   || .| .
+c28099315-277   7982 ----TAA-TA--T-TG-T-CTT-CATAAA--A-C--T-CA---CTGATGA   8011
+
+c27733986-272  15413 --CTTTTCTTTTCTTTTCTTTTCTTTTCTTTTCTTTTCTTTCTCATACTG  15460
+                        |.|.|    |  | |.||| |   ||.||          |  | |||
+c28099315-277   8012 GG-TATAC----C--T-CATTT-T---CTATT----------T--T-CTG   8036
+
+c27733986-272  15461 CCTCTGATTTTGGTATAAGGATAACACTAACCTCATAAAATTAATTGGGA  15510
+                          ||    .|   | | ||     |.   | |||.|    |||  | 
+c28099315-277   8037 -----GA----AG---A-G-AT-----TG---T-ATAGA----ATT--G-   8056
+
+c27733986-272  15511 AGTGTACCTCATCTTCTTGCCTCTGTCTGATTTTGGTATAAGGGCAACAG  15560
+                      ||||   | |            ..|  | ||| ||||     | || . 
+c28099315-277   8057 -GTGT---T-A------------AAT--G-TTT-GGTA-----G-AA-T-   8077
+
+c27733986-272  15561 TAACTTCATAAAATTAATTGGGAACTCTTCCCT-ATTCCC-A-A-CCTCA  15606
+                     |  || | ||     .  ||. ||| |.|  || |  ||| | |     |
+c28099315-277   8078 T--CT-C-TA-----G--TGA-AAC-CAT--CTGA--CCCTAGAG----A   8106
+
+c27733986-272  15607 TCTTCTATTTTCTAG-AAGAGATTGGGTAGAATTGGTGTTATTCTTCTTT  15655
+                     | |||    |||| | || |.|||   .| |||   | |.||| |.||| 
+c28099315-277   8107 T-TTC----TTCT-GTAA-AAATT---CA-AAT---T-TAATT-TACTT-   8139
+
+c27733986-272  15656 GAATGTTTGTTAGAAGTTTGCAGTGAAATTCAAAATCAATCT-ACTTAGT  15704
+                      ||      | ||||.||. |||.|     |    | | | | ||  |  
+c28099315-277   8140 -AA------T-AGAAATTA-CAGAG-----C----T-A-T-TGAC--A--   8164
+
+c27733986-272  15705 AGTTGTAGGATTATTCAAATTATCTATTTTATATTGGGCGAATTGTA-CT  15753
+                       ||  |  .     |       | |||||||||||||.||.||.||  |
+c28099315-277   8165 --TT--A--C-----C-------C-ATTTTATATTGGGTGAGTTATAG-T   8194
+
+c27733986-272  15754 CATTTGTGCTTTTTGATAAATTGGTCCCTTTCATATAAGATGC-CAAATT  15802
+                     .||||||||||||||    |  ||        | ||      | |     
+c28099315-277   8195 AATTTGTGCTTTTTG----A--GG--------A-AT------CAC-----   8218
+
+c27733986-272  15803 TATGTGTGCAGAGTTGTTCATAATGTTCCATTATTGTCCTTTTCATGTCT  15852
+                     ||       ||  || |        | |||  |  ||  |    ||||.|
+c28099315-277   8219 TA-------AG--TT-T--------T-CCA--A--GT--T----ATGTAT   8239
+
+c27733986-272  15853 GTAATGTCTGTAGTGATG-TTCCCCATTTAATTCCAGACATTGGTACTTT  15901
+                     ||||.|| ||||.. |||     |     ||| | .||  |.  |||   
+c28099315-277   8240 GTAAAGT-TGTAAA-ATGG----C-----AAT-C-TGA--TA--TAC---   8269
+
+c27733986-272  15902 CTATTCTTTTATTCTTTG-TCAGTCATAGTAGAGGTGTTTGTCAATTCTA  15950
+                     | |  ||.|||||||||| |  ||| |  |. ||| ||.||| |     |
+c28099315-277   8270 C-A--CTATTATTCTTTGAT--GTC-T--TC-AGG-GTCTGT-A-----A   8303
+
+c27733986-272  15951 TGGATGTTTAAAATTTTTTTAATGTTTATTTTTGAGAGAGAGAGAGAGAA  16000
+                     ||   ||    |     |||..||    ||  |           . |   
+c28099315-277   8304 TG---GT----A-----TTTCCTG----TT--T-----------C-A---   8320
+
+c27733986-272  16001 AATGCACATGGGAGAGAGGCAGAGAGAGAGGGAGACACAGAATC-TGAAG  16049
+                      .| | | |    |  |  || . . | |   . | ||.|  || | .  
+c28099315-277   8321 -CT-C-C-T----G--A--CA-T-T-A-A---T-A-ACTG--TCAT-T--   8344
+
+c27733986-272  16050 CAGTCTTCAGGCTCTGAGCTGTCAGCACAGAGCCTGATGC-AGGGCTTGA  16098
+                     |.|| || .   |.| . || | .|| |||. | |  ||| ||.|   ||
+c28099315-277   8345 CTGT-TT-T---TTT-T-CT-T-TGC-CAGT-C-T--TGCTAGAG---GA   8377
+
+c27733986-272  16099 ACTCACAGACTATGAGATCATGACC-T-GAGCTGAAGTCGGGTGCTTAAC  16146
+                     . |    |  | | | ||  |  || | ||  | |  |    |  ||  |
+c28099315-277   8378 T-T----G--T-T-A-AT--T--CCATTGA--T-A--T----T--TT--C   8400
+
+c27733986-272  16147 CAACTGAGCCACCCAG-ACACCCCCTATTGATGTTTTAAAAGAACAGGTT  16195
+                      ||   ||  |   || | .|.|    |||  ||||        ||  | 
+c28099315-277   8401 -AA---AG--A---AGTA-GCTC----TTG--GTTT--------CA--T-   8423
+
+c27733986-272  16196 CTTTGTTTCATTTATTTTCT-CTGTT---GTT-TTTCTGTTTTCTAGTT-  16239
+                        ||    |||| |||||| |||||   ||| .|| ||||||||| || 
+c28099315-277   8424 ---TG----ATTT-TTTTCTACTGTTTTTGTTGATT-TGTTTTCTA-TTT   8463
+
+c27733986-272  16240 CATTGATTTTTA--CTCTTATATTT-ATTATTTTCTTAC-TT-CTGCTT-  16283
+                     ||.|||||||||  |||  | ..|| ||||||| ||  | || |||||| 
+c28099315-277   8464 CACTGATTTTTAATCTC--A-GCTTCATTATTT-CT--CATTTCTGCTTG   8507
+
+c27733986-272  16284 TCTTTGG-TTTATTTTGC-TCTTCTTTTTCTAGGTTACTAAGATGAGAAT  16331
+                      |||||| |||||||| | ||||||||||||||||| ||    ||||| |
+c28099315-277   8508 -CTTTGGGTTTATTTT-CCTCTTCTTTTTCTAGGTT-CT----TGAGA-T   8549
+
+c27733986-272  16332 TAGTTAATTTGATGAGAGTT-TAGATTATTGATTTGAGACCTT--T-TC-  16376
+                       |        | |||. || |  ||||||  |||||||| ||  | || 
+c28099315-277   8550 --G--------A-GAGC-TTAT--ATTATT--TTTGAGAC-TTGCTCTCC   8582
+
+c27733986-272  16377 TTCTT--T-CCAGAATGAACATTTAATGCTGTAAACTTCC-CTCTCATCA  16422
+                     || ||  | ||||      |||||| |||||||||.|||| | | |||||
+c28099315-277   8583 TT-TTGATACCAG------CATTTA-TGCTGTAAATTTCCTC-C-CATCA   8622
+
+c27733986-272  16423 CTGCTT-AGCT-TTATTCCA-CAGATTTTGAAATGTTATATTTTAATTTT  16469
+                     |||.|| |||| | .|||.. || |||||||.||||||||||||.|.|||
+c28099315-277   8623 CTGATTTAGCTGT-GTTCTGTCA-ATTTTGATATGTTATATTTTCACTTT   8670
+
+c27733986-272  16470 -GTTTAGTTCAGTACAATTTTGATTTCCCTTGAAACTTCCTCTTTGA--C  16516
+                      .||.||||||.||.||||.|||||||||||||.||||.||.|||||  |
+c28099315-277   8671 CATTCAGTTCAATATAATTCTGATTTCCCTTGAGACTTTCTTTTTGAATC   8720
+
+c27733986-272  16517 TTCTGGGTTATTTAGAAGCGTGTTGTTTAATTTTC-AGGTATGCAGATTT  16565
+                       ||||.||||||.|||  ||.| ||||||||| | |.||.|||||||||
+c28099315-277   8721 --CTGGATTATTTGGAA--GTAT-GTTTAATTT-CTAAGTGTGCAGATTT   8764
+
+c27733986-272  16566 TC-TGCTT-GTCTTTCTGTTA-TTAATCTCTGATTTGAT--CAT-G-G-C  16607
+                     || | |.|  |||||.||||| |||.| |||||||.|||  ||| | | |
+c28099315-277   8765 TCCT-CCTC-TCTTTTTGTTACTTATT-TCTGATTCGATTGCATTGTGGC   8811
+
+c27733986-272  16608 TACAGAACACACTGTGTGTTTTCAATTCTTTTAAATTT-TCTGAGGTTTG  16656
+                     |||||||.||.|||||||.||||||||||||||||||| | |||||||||
+c28099315-277   8812 TACAGAATACTCTGTGTGATTTCAATTCTTTTAAATTTGT-TGAGGTTTG   8860
+
+c27733986-272  16657 G-GTTGA-GAGATCCAACATGGCAGAGAAGTAGGGGGATCTGAATTTACC  16704
+                     |  || | | | ||||| |     |  . |||    | ||    |  |  
+c28099315-277   8861 GT-TT-ATG-G-TCCAA-A-----G--T-GTA----G-TC----T--A--   8884
+
+c27733986-272  16705 TCATCCCTCAAACACAGCAATGTGGAGGCCAAAGGACTCTGAATTCCAAG  16754
+                     || |   |        |    ||   |   .|.| . ||||  |   | |
+c28099315-277   8885 TC-T---T--------G----GT---G---TATG-T-TCTG--T---A-G   8904
+
+c27733986-272  16755 AGTCCAGGCTGCAGAGTGACAGAGATGTCTCCAGGGACCCATGGGGACAA  16804
+                      | | |  ||  . .|| | ||| ||.| |       |   |  |  |  
+c28099315-277   8905 -G-C-A--CT--T-TGT-A-AGA-ATAT-T-------C---T--G--C--   8926
+
+c27733986-272  16805 CCTGGCAGGCCATAGGTGCATGATTGTGAACTGGGAGAGATAAAATGGAT  16854
+                       |    |    |       || ||| ||  ||   |||      ||  |
+c28099315-277   8927 --T----G----T-------TG-TTG-GA--TG---GAG------TG--T   8944
+
+c27733986-272  16855 GGCATAGGCACTGATGGGAGGGATTCCTCCTCTGCAGAGAGCCAAAGGGA  16904
+                         |   | |  ||  .|   |    |. | || | .            
+c28099315-277   8945 ----T---C-C--AT--AA---A----TA-T-TG-A-T------------   8959
+
+c27733986-272  16905 AGAGAAATAGAGGCTGTGGAAGGACAATATCTGGACAAGAGAAAAACCAC  16954
+                         .| ||     | |       |  ||| |      |           
+c28099315-277   8960 ----TA-TA-----T-T-------C--TAT-T------G-----------   8971
+
+c27733986-272  16955 AGACTGGGACGGAGAAAGAGCCAGTTGCTAACTGTGGGGCTTTCTCTGGA  17004
+                      |. ||  |   .|     |  .|||| |. |    .|  || || |   
+c28099315-277   8972 -GT-TG--A---TG-----G--TGTTG-TT-C----AG--TT-CT-T---   8994
+
+c27733986-272  17005 CTGGGGCCAGCTGCCCCGTTTGTGCACCTGGGGAGGAGGGGAGCCAGCCC  17054
+                     ||      |  |..  |   ||  ||| |           ||   .    
+c28099315-277   8995 CT------A--TAA--C---TG--CAC-T-----------GA---T----   9010
+
+c27733986-272  17055 CTGGTTCAGTAACTAGTTCAGAGGTGCAGTCCACAGTGGGAGAAAGCAAT  17104
+                      |  |||.||  |||||||     |  | |      |          |||
+c28099315-277   9011 -T--TTCTGT--CTAGTTC-----T--A-T------T----------AAT   9031
+
+c27733986-272  17105 ACCCTCCCTGGAGTGCTGTAGGAAGAAGGTATATAACTGTTCAAGGGACA  17154
+                                  ||||| || | ||   || | |  ||||        .
+c28099315-277   9032 -------------TGCTG-AG-A-GA---TA-A-A--TGTT--------T   9050
+
+c27733986-272  17155 AAGACTGCCTGCACCCACCAGCCAGAGGCCATACATTGATGGCATGGAGT  17204
+                     |||.|| | |. ||. |. |  .| |  |.|||| |  ||.. ||| .||
+c28099315-277   9051 AAGTCT-C-TA-ACT-AT-A--AA-A--CTATAC-T--ATAA-ATG-TGT   9085
+
+c27733986-272  17205 GGCACTTCCCCGAAACTGGGGTGCACAGGGGGACCCTTTAAGAC-ATTGG  17253
+                       |. |||.|| .   |    |  . ||        ||     | |||.|
+c28099315-277   9086 --CT-TTCTCC-T---T----T--T-AG--------TT-----CTATTAG   9108
+
+c27733986-272  17254 GGTTTAAATCCCAGCCAAGAGCCAGGGAGGCACAGGAGTTGGTGGAGTGG  17303
+                       |||  .|    |  . |.   .   ||  | .  | ||  |    || 
+c28099315-277   9109 --TTT--TT----G--T-GT---T---AG--A-T--A-TT--T----TG-   9128
+
+c27733986-272  17304 GACAAACTGCTTCATTTGCACCTGTGGCACTGTGAGGACGGCCTGAACAG  17353
+                       |  |  ||| |   ||    | ||    | |          |      
+c28099315-277   9129 --C--A--GCT-C---TG----T-TG----T-T----------T------   9142
+
+c27733986-272  17354 AGTGGTCTGGGACACCCAGTCCATGGGTGTT--G-CCATTTTTCCCCCTA  17400
+                       || |  |      | | |  ||  |||||  |   ||||      |||
+c28099315-277   9143 --TG-T--G------C-A-T--AT--GTGTTTAGG--ATTT------CTA   9167
+
+c27733986-272  17401 TCACCAACAAGGTGGGGCTTCA-GGGAACGACAGTAGGCCCACAGTGGAG  17449
+                     |         | |    ||||. || .|  | ||| |.|   |  |  . 
+c28099315-277   9168 T---------G-T----CTTCTTGG-TA--A-AGT-GAC---C--T--T-   9190
+
+c27733986-272  17450 GCAGGACTGGTGCAC-ACCAAACCATGCTCCTCCATGCCAGGTAACTGCA  17498
+                       .  . |. | ||| || ||.  ||| || ||  | |    |  |||  
+c28099315-277   9191 --T--T-TA-T-CACTAC-AAG--ATG-TC-TC--T-C----T--CTG--   9217
+
+c27733986-272  17499 TATCTACTGAAGCAGTATTGATGCTGATGAACCAGACAGCCCCTCCTCCA  17548
+                     |. |  ||   |  |||.|  |  |  |              ||  |   
+c28099315-277   9218 TG-C--CT---G--GTAAT--T--T--T--------------CT--T---   9234
+
+c27733986-272  17549 GGCCAGCACTGCCACCAGTTCCAAGGCACCCAGCAGTTTTGCATTTTTTG  17598
+                              |||  |   ||    |      |  |||||.|||     | 
+c28099315-277   9235 ---------TGC--C---TT----G------A--AGTTTAGCA-----T-   9252
+
+c27733986-272  17599 ATTTAATTCTTGGAAAATTCATAGTAGATATATGTTTTTTTCTTC-CTTT  17647
+                     ||  | |  |     |   |   || || ||||.      .|  | |   
+c28099315-277   9253 AT--A-T--T-----A---C---GT-GA-ATATA------AC--CGC---   9273
+
+c27733986-272  17648 TATCCTTATTTCTTCCCTCTAGTCTGGTTATTCTGGTTGTTGGTTTGTTT  17697
+                       |||| |   |||   |||  | |||  ||     | |.|| .|||   
+c28099315-277   9274 --TCCT-A---CTT---TCT--T-TGG--AT-----T-GATG-CTTG---   9299
+
+c27733986-272  17698 AAGCAGACATATTTAATCTATT-CTCTTTATACCTGTTCTATATCTCCTT  17746
+                     ||  .||  |||  | |||.|| | |   || ||| || |  | ||  | 
+c28099315-277   9300 AA--TGA--TAT--A-TCTTTTTC-C---AT-CCT-TT-T--A-CT--T-   9329
+
+c27733986-272  17747 ATTTATTCCCCCCCCCCGGATTAAGCCATATAGTTTATCTTCTTGGTCAA  17796
+                         .      |.| ||   | |  || |||| || .| |. ||  | ||
+c28099315-277   9330 ----G------CAC-CC---T-A--CC-TATA-TT-GT-TA-TT--T-AA   9354
+
+c27733986-272  17797 TTTTCTTTTATTTCAACTCCCCCCCCCCCATTGGTTTGTTGTAGCTCGTA  17846
+                     ||||.|  | ||||||||            ||  |.| || |||     |
+c28099315-277   9355 TTTTAT--T-TTTCAACT------------TT--TAT-TT-TAG-----A   9380
+
+c27733986-272  17847 TTTTTGGTTGTTTTGTTTTGTTTTTTGTTTTTGTTTTTTGCTTGTTTGTT  17896
+                     |||  |   |    |    |.|...|||           ||. |   |  
+c28099315-277   9381 TTT--G---G----G----GCTACATGT-----------GCA-G---G--   9400
+
+c27733986-272  17897 TTTTGTTT-ATTTGTTTTTTG-TTGTTTTTTGTTTTGTTTGTTTTCTTTT  17944
+                      || |||. |.. |      | .|||   | ||   |  ||   .|  . 
+c28099315-277   9401 -TT-GTTACAAA-G------GCATGT---T-GT---G--TG---AC--A-   9426
+
+c27733986-272  17945 CTAG-GGCTACTTCAATGAACAAATCAAAGCACACCTGATGGAGGGTCCA  17993
+                     || | || |  || ..||.||.|  |.  | | ||||       | ||  
+c28099315-277   9427 CT-GAGG-T--TT-GGTGTACCA--CT--G-A-ACCT-------G-TC--   9455
+
+c27733986-272  17994 AAACATCACTATGGGGAGGGAGATAAAGCAACCAAAGTCACAACAACAGA  18043
+                       ||  | | | ||  .   || |.| ||| | |  ||| |. ||| . |
+c28099315-277   9456 --AC--C-C-A-GG--T---AG-TGA-GCA-C-A--GTC-CT-CAA-T-A   9483
+
+c27733986-272  18044 GAGCAAGGAACACACTCCAAAAAAGCACCTCCTGAAGGGCCAGGCCCTGG  18093
+                      || .|| .. . . || ||    || | |  |||         || |  
+c28099315-277   9484 -AG-TAG-TT-T-T-TC-AA----GC-C-T--TGA---------CC-T--   9506
+
+c27733986-272  18094 ACACTATATGACCCCTCTTTAATATAGTAGTGATCACAGGTGCAGGACAC  18143
+                      | |      |||| ||       |  |  |   | |     |.|  |.|
+c28099315-277   9507 -C-C------ACCC-TC-------T--T--T---C-C-----CTG--CTC   9525
+
+c27733986-272  18144 ATAACAAGCTTTTAAAACACACAAGGGACAGAAAACTAGCCAAAATGATG  18193
+                         || |   | |.. | | |      |||     | |.|    ||.| 
+c28099315-277   9526 ----CA-G---T-AGT-C-C-C------CAG-----T-GTC----TGTT-   9546
+
+c27733986-272  18194 AAACAGAAGAATTCTCC-TCAAAAGAAATTCCAGGAAGAAATGACAACTA  18242
+                             |  ||| || ||      . ||        |  ||.|  |  
+c28099315-277   9547 --------G--TTC-CCATC------T-TT--------A--TGTC--C--   9564
+
+c27733986-272  18243 AAGAATTGATGAAAACAGACATAAACAATCTAACTGAACAGTTATTTAGA  18292
+                        | | | |||  ||   |     || |.|| ||     |||||||. |
+c28099315-277   9565 ---A-T-G-TGA--AC---C-----CA-TATA-CT-----GTTATTTT-A   9590
+
+c27733986-272  18293 ATGATAGTCATAAAATTAATTACTAGGCTTGAAAAAAGGATAGAAGACAG  18342
+                       || ||| | ||  ||      |   |||         ||||   ||  
+c28099315-277   9591 --GA-AGT-A-AA--TT------T---CTT---------ATAG---AC--   9610
+
+c27733986-272  18343 CAGAGAATCTATTGCTGCAGAGATCAAGGAACTAAAAAATAGTTATGATG  18392
+                     |      |       |||    || | |    |      | |  | | | 
+c28099315-277   9611 C------T-------TGC----AT-A-G----T------T-G--A-G-T-   9625
+
+c27733986-272  18393 AATAAAAATGCTGTAAATGAGGTGTAAAATAAGCTACACATAGTGACAGT  18442
+                     .|||    |  |     |    | |||| |    | ||| |. ||.|   
+c28099315-277   9626 CATA----T--T-----T----T-TAAA-T----T-CAC-TC-TGCC---   9648
+
+c27733986-272  18443 GAGGATTGAAGAGGCAGAGGAGAGAAAAAGTGAAGTAGAAAATAAAATTA  18492
+                      |  ||        |            . || .  |      |    |||
+c28099315-277   9649 -A--AT--------C------------C-GT-C--T------T----TTA   9661
+
+c27733986-272  18493 TGGAAAAAGATGATACTGAGAAAGCTGAGAGAGAGAAAAAAATTCTGCAC  18542
+                      |           |  ||    |  |      |      .| |||.| ||
+c28099315-277   9662 -G-----------T--TG----A--T------G------TA-TTCAG-AC   9677
+
+c27733986-272  18543 CACAAGGGGAGAATTAGATAACTAAGTGATTCAATGAAACATAATATCTG  18592
+                       |         |||   || | |  || |  ||||   |||  | | | 
+c28099315-277   9678 --C---------ATT---TA-C-A--TG-T--AATG---CAT--T-T-T-   9698
+
+c27733986-272  18593 TTATCATAGGAGT-TCCAGAAGAAGAAAGAGAGAAAGGGGCGGAAAGTGT  18641
+                     || || | | | | |   |.  .||   | |. .|.|||    .||    
+c28099315-277   9699 TT-TC-T-G-A-TAT---GT--TAG---G-GC-TATGGG----TAA----   9725
+
+c27733986-272  18642 ACTTGAACAAATCATAGCCAAGAACTTCCCCAGTTTAGGGAAGGAAACAG  18691
+                     | |||||||..| .|. . .|||| |||  || |||.  ||.  .   .|
+c28099315-277   9726 A-TTGAACATTT-TTT-T-TAGAA-TTC--CA-TTTT--GAT--T---TG   9760
+
+c27733986-272  18692 ACATTGAAAT-CCAGGAGGCACAGAGAACTCCCTTCAG--TGGTAACTTG  18738
+                        |||  .| | .|||.| .|||.||   |||  | |  ||| |    |
+c28099315-277   9761 ---TTG--TTGC-GGGAAG-TCAGGGA---CCC--C-GAATGG-A----G   9792
+
+c27733986-272  18739 AATTGATCTTCTGCATGACATATCATAGTGAAACTGGCAAAATAGAAAGA  18788
+                     .   || |  |.|| ||| |       |     |   ||   | |   | 
+c28099315-277   9793 G---GA-C--CAGC-TGA-A-------G-----C---CA---T-G---G-   9811
+
+c27733986-272  18789 TAAAGAGAGAATTC-TGAAAGCAGCTAGGGACAAACAGGCCTTAACCTAC  18837
+                     ||  || ||||  | | ||| ..| |   ||     ||.  ||    | |
+c28099315-277   9812 TA--GA-AGAA--CAT-AAA-TTG-T---GA-----AGA--TT----T-C   9838
+
+c27733986-272  18838 AAGGGTAGACACATAAAGGTAGTAGCAGACCTATCTACTGAAACTTGGCA  18887
+                     |.||    ||  ||     |           ||| ||  |    ||  |.
+c28099315-277   9839 ATGG----AC--AT-----T-----------TAT-TA--G----TT--CC   9857
+
+c27733986-272  18888 GGCCAGAAGGGAGTGGCAGGAAATACTCAATGTGCTGAATAGGAAAAATA  18937
+                       ||| |    | |   .  || ||||   | |  | | |     |   |
+c28099315-277   9858 --CCA-A----A-T---T--AA-TACT---T-T--T-A-T-----A---A   9877
+
+c27733986-272  18938 TGTAGCCAAGAATCCTTTATCAAGCAACACTGTCATTCAGAATAGAAGGA  18987
+                     | |         || || | ||  |    ||||| |      |       
+c28099315-277   9878 T-T---------TC-TT-A-CA--C----CTGTC-T------T-------   9894
+
+c27733986-272  18988 GAGATAAAGGTTTTCCCAGACAAACAAAAACTGAAGGAGTTCATCACCAC  19037
+                         ||        |  .| |||.|   . |        ||  | || | 
+c28099315-277   9895 ----TA--------C--TG-CAATC---T-C--------TT--T-AC-A-   9912
+
+c27733986-272  19038 TAAACCAGACCCTAAGGGGGGGCTCTGTGAATGGAATGTTGCAAAGATCA  19087
+                     |       |    ||        | |||||| | | | || |    ||  
+c28099315-277   9913 T-------A----AA--------T-TGTGAA-G-A-T-TT-C----AT--   9931
+
+c27733986-272  19088 AAAAGTACCAGAGACACCACTACAAGCATGAAACCAACAGGATAACACAA  19137
+                         |     ||  |   |||       |            ||  |||. 
+c28099315-277   9932 ----G-----GA--C---ACT-------T------------AT--CACT-   9945
+
+c27733986-272  19138 TAACTCTAAATCCATATCTTTGAATAATAACACTGAATGTAAGTGGACTA  19187
+                     |  | |     ||| .||    |||    ||.|    | |  ||| | | 
+c28099315-277   9946 T--C-C-----CCA-GTC----AAT----ACCC----T-T--GTG-A-T-   9968
+
+c27733986-272  19188 AATGCTCCTATCAAAAGACACAGGTTATAAGAATGGATACAAAAACAAGA  19237
+                       |  ||||||     | | |            ||  |            
+c28099315-277   9969 --T--TCCTAT-----G-C-C------------TG--T------------   9981
+
+c27733986-272  19238 CCCATCTATTTGCTGTCTATGAGAGACCCATTTTAGACCTGAGGACACCT  19287
+                     |  .| ||.|  ||  || | | | .  | |      |.|     ||.||
+c28099315-277   9982 C--TT-TAAT--CT--CT-T-A-A-T--C-T------CAT-----CATCT  10006
+
+c27733986-272  19288 TTAGATAGAAAGCAAGGGGATGGAAAATCATCTATCATGATACTTGTAAG  19337
+                     || | |  || ||. |.||||| |  || .|| | |      |       
+c28099315-277  10007 TT-G-T--AA-GCT-GAGGATG-A--AT-GTC-A-C------C-------  10031
+
+c27733986-272  19338 TCAAAAGAAAGCTAGAGTAGCCATACTTATATCAGAAAAACTAGATTTTA  19387
+                     |          | || | | ||   || .|    |    | | ||||  .
+c28099315-277  10032 T----------C-AG-G-A-CC---CT-GT----G----A-T-GATT--G  10051
+
+c27733986-272  19388 AACTAAAAGTTGTAACAAGAGATAAAGGGCATTATATCATAATTATGGGT  19437
+                       |     ||  ||||      |   |  |   .   || ||||  |   
+c28099315-277  10052 --C-----GT--TAAC------T---G--C---C---CA-AATT--G---  10069
+
+c27733986-272  19438 CTATTCATCAAGAAGAGCTAACAATTATAAATGTTTATGCACCCAATTCA  19487
+                      | ||          |   |||    | |      |||| |   ||| |.
+c28099315-277  10070 -T-TT----------A---AAC----A-A------TATG-A---AAT-CT  10088
+
+c27733986-272  19488 GAGGAACCCCAATATATAAAACAATCACAAACCTAAGCAATCTTATTGGT  19537
+                     | ||  |.||  | |. ||         | |   ||| || |  |  || 
+c28099315-277  10089 G-GG--CACC--T-TG-AA---------A-A---AAG-AA-C--A--GG-  10111
+
+c27733986-272  19538 AAGAATGTGGTAATTGCAGGGATTTTAATACTATACTTACAACAATGGAC  19587
+                        | |     ||   |||           |.||. || ||     ||. 
+c28099315-277  10112 ---A-T-----AA---CAG-----------CAATG-TT-CA-----GGG-  10130
+
+c27733986-272  19588 AGATCATCTAGGCAGAAAATCAATAAAGAAACAATGATCCTGAATGACAC  19637
+                     ||  ||  .||| |||.|| |..|||||  .|  ||     |  ||.  |
+c28099315-277  10131 AG--CA--AAGG-AGATAA-CCTTAAAG--TC--TG-----G--TGG--C  10161
+
+c27733986-272  19638 ACTGAACCAGATGGACTTGACAGATATATTCAGAACTTTTCACCCTAAAG  19687
+                      |||.    |  || |    | |         |                |
+c28099315-277  10162 -CTGT----G--GG-C----C-G---------G----------------G  10173
+
+c27733986-272  19688 CAGCAGAATACACATTCTTCTCGAGTGCACATGGAATATTCTCCAAGATA  19737
+                      ||  |||  ||          |||  | |||  | | |||||     | 
+c28099315-277  10174 -AG--GAA--CA----------GAG--C-CAT--A-T-TTCTC-----T-  10195
+
+c27733986-272  19738 GATCACATACTGGGTCACAAAACAGCCCTCAATAAATATAAAAGAATTGT  19787
+                       |  | |  |   ||  ||||  ||       ||||| ..| |||    
+c28099315-277  10196 --T--C-T--T---TC--AAAA--GC-------AAATA-GGA-GAA----  10218
+
+c27733986-272  19788 GATCATAC-CATGCACATT-TTTAGATCACAATGCTATGAAACTTCAAAT  19835
+                      || || | | || | ||| |||  .||.||  ||.| |.||   |  ||
+c28099315-277  10219 -AT-AT-CGC-TG-A-ATTCTTT--TTCTCA--GCAA-GGAA---C--AT  10252
+
+c27733986-272  19836 CAACGACAG-GAAAAAG--TGTGGAAAACCTCCACATGCATGGAGGTTAA  19882
+                     |  |  |.| ||||.||  ||||       ||| | |. | || ||  |.
+c28099315-277  10253 C--C--CTGAGAAAGAGAATGTG-------TCC-C-TA-A-GG-GG--AG  10284
+
+c27733986-272  19883 AGAACATCCTACTAAGGAATGAACAGTCAACCAGGCAATTAAAGAAGAGA  19932
+                      |  |  | | ||  ||||||    | |       |             |
+c28099315-277  10285 -G--C--C-T-CT--GGAATG----G-C-------C-------------A  10300
+
+c27733986-272  19933 TTCAAAAAATATATGGAAAAAATGGAAATGAAAATACAACAGTCAAAAAC  19982
+                       |      | | |||       |||.  |    |    |.||       
+c28099315-277  10301 --C------T-T-TGG-------GGAC--G----T----CTGT-------  10316
+
+c27733986-272  19983 CTTTGGGGTGGAGCAAAGGCAGTCCTAAGAGGAAAATAC-ATTGCAATCC  20031
+                     ||||    |  | |   ||   |  |    |     | | || | |    
+c28099315-277  10317 CTTT----T--A-C---GG---T--T----G-----T-CGAT-G-A----  10335
+
+c27733986-272  20032 AGGCCTATCTGAAGAAATAAGAAAAATCCCAAATACAAAATTCTAACAGC  20081
+                      ||       ||.||||||||      |||   |.   . | ||  |  |
+c28099315-277  10336 -GG-------GATGAAATAAG------CCC---TG---G-T-CT--C--C  10359
+
+c27733986-272  20082 ACACTTAAAGGAACTAGGAGCAGAACAGCAAAGACACCCCAAGGCCAGCA  20131
+                        |     |    |           ||  . | |.||| | ||| . .|
+c28099315-277  10360 ---C-----G----T-----------AG--T-G-CTCCC-A-GGC-T-TA  10378
+
+c27733986-272  20132 GA-AGAGAAATAATAAAGAGCAGAAATAAACAATATAGAACCCAAAAAAA  20180
+                      . || |  ||      |||  ||||       | |    |||      |
+c28099315-277  10379 -TTAG-G--AT------GAG--GAAA-------T-T----CCC------A  10398
+
+c27733986-272  20181 CCATAGAACAGATCAATGAAACTAAGCTTGTTTTTTGAAAAAATAAACAA  20230
+                     || || |     |.|||     |    |||      |      |   |  
+c28099315-277  10399 CC-TA-A-----TAAAT-----T----TTG------G------T---C--  10415
+
+c27733986-272  20231 AATTGATAAACCCCTAGCCAGACTTCTCAAAAAGAAAAGAGAGAGAACAC  20280
+                     |   |    ||  |  |  |   |                          
+c28099315-277  10416 A---G----AC--C--G--A---T--------------------------  10423
+
+c27733986-272  20281 AAATAGATAAAATCATGAATGAAAATGGACTTATCACAACCAATCCCTCA  20330
+                        | |      ||           ||  ||   |.|||  |  ||||  
+c28099315-277  10424 ---T-G------TC-----------TG--CT---CTCAA--A--CCCT--  10441
+
+c27733986-272  20331 GAAATACAAACAGTTATCAGAGAATACTATGAAAAATTAT-ATGTCAACA  20379
+                     |   |     |     ||        ||  |   | |||. ||||||.||
+c28099315-277  10442 G---T-----C-----TC--------CT--G---A-TTAAGATGTCATCA  10464
+
+c27733986-272  20380 AACTGGACAATCTGGAAGAAATGGACAAATTCCTAGACACCCACACTTGC  20429
+                     ||  | |||| |   |.|   ||  |     | | ||     | |||| |
+c28099315-277  10465 AA--G-ACAA-C---ATG---TG--C-----C-T-GA-----A-ACTT-C  10488
+
+c27733986-272  20430 CGAAACTCAAACGGGAAGAAATAGAAAATTTGAACAGACCCATAGCTAGT  20479
+                         | | .|.|   ||    |. ..|||||    .| ||| | |   ||
+c28099315-277  10489 ----A-T-TAGC---AA----TT-TTAATTT----TG-CCC-T-G---GT  10514
+
+c27733986-272  20480 GAAGAGATTGAATCAGTTATCAACAATCTCCCAGCAAATAAGAGTCCTGG  20529
+                         . .| |  |  |        | |||  | ||          |||  
+c28099315-277  10515 ----C-CT-G--T--G--------A-TCT--C-GC----------CCT--  10530
+
+c27733986-272  20530 GCCAGATGGCTTCCCAAGGGAATTCTACCAGACATT-TACAGCAAAGTTA  20578
+                     ||       || ||      | || | ||   | || |   |   | | |
+c28099315-277  10531 GC-------CT-CC------A-TT-T-CC---C-TTGT---G---A-T-A  10551
+
+c27733986-272  20579 ATACTTATCCATCTGAAGATGTTCCAAAAAATTGAAATGGAAGGAAAGCT  20628
+                      |  || |  || | |       ||      |||   |    | | |||.
+c28099315-277  10552 -T--TT-T--AT-T-A-------CC------TTG---T----G-A-AGCA  10571
+
+c27733986-272  20629 TTG-GCTCATTCTATGAAGCCAGCATTACCTTGATTCCAAAACCAGACAG  20677
+                     | | |.|| | ||         |       | ||  ||    |   ||  
+c28099315-277  10572 T-GTGATC-T-CT---------G-------T-GA--CC----C---AC--  10590
+
+c27733986-272  20678 AGACCCCACGAAAAAGGAGAGTTACA-GGCCACTATCCCTGATGAACATG  20726
+                       |||| .           | || || |     || |.|       |   
+c28099315-277  10591 --ACCC-T-----------A-TT-CATG-----TA-CTC-------C---  10608
+
+c27733986-272  20727 GATGCAAAAGTTCTCAACAAGATACTTACAAATTGAATTCAA-CAGCATA  20775
+                         |     | | |  |      |||     |||||   || || | ||
+c28099315-277  10609 ----C-----T-C-C--C------CTT-----TTGAA---AATCA-C-TA  10629
+
+c27733986-272  20776 TAAGAAGAATTATCCACCATAAT-CGAATGGGATTCATTTCTGGGCTGCA  20824
+                      |. || ||  |    |  |  | |   |||  ||  ||.| || || ||
+c28099315-277  10630 -AT-AA-AA--A----C--T--TGC---TGG--TT--TTAC-GG-CT-CA  10656
+
+c27733986-272  20825 GGGCTGGTTCAGTATTCACA-AATCAATCAATATGATACATC-ACATTGA  20872
+                     |||  ||  |   || |||. || |   |       |||  | |||| | 
+c28099315-277  10657 GGG--GG--C---AT-CACGGAA-C---C-------TAC--CGACAT-G-  10683
+
+c27733986-272  20873 TAAAAGAAAGGATAAGTACAATATGATCCTGTCAATAGATGCAGAAAAAG  20922
+                     |        | ||  || |       |||   |        |.|     |
+c28099315-277  10684 T--------G-AT--GT-C-------TCC---C--------CTG-----G  10698
+
+c27733986-272  20923 AATTTGACAAAATACAGCA-CCCTTTCT--TTTCAACTTCTTTTA-ACAT  20968
+                     | |  | |      |  || |  |||..  ||||. || |||||. || |
+c28099315-277  10699 A-T--G-C------C--CAGC--TTTAAAATTTCT-CT-CTTTTGTAC-T  10731
+
+c27733986-272  20969 TTATTTTTCAGAGACATAGAGTGTGAGTGGGGGAAGGGCAAAGACAGAGG  21018
+                       |||  ||    .| |    | | | |     .                
+c28099315-277  10732 --ATT--TC----CC-T----T-T-A-T-----T----------------  10744
+
+c27733986-272  21019 GAGAAACAGAATCTGAAGCAGGCCCCAGGCTCTGAGCTGTCAGCACAGAG  21068
+                                |||    |||     |  | |  |||   | | ||  | 
+c28099315-277  10745 -----------TCT----CAG-----A--C-C--AGC---C-G-AC--A-  10761
+
+c27733986-272  21069 TCTGATGCGGGGCCCAAACCCACAAACCACGATATCATGACCTGAGCCGA  21118
+                      ||  |. |||              |  |  | || | ||         |
+c28099315-277  10762 -CT--TA-GGG--------------A--A--A-AT-A-GA---------A  10777
+
+c27733986-272  21119 AGTCGGACGCTTAACCGACTGAGCCACCCAGGTACCCCACAGCATCCTTT  21168
+                     |     | |   ||||   |     |  ||  |        | |      
+c28099315-277  10778 A-----A-G---AACC---T-----A--CA--T--------G-A------  10791
+
+c27733986-272  21169 CTTAATAAAACCCTCAAGAAATTCTGGATAGAAG-GAACATACCTAAACA  21217
+                        |||  |    ||  |       ||   |  | ||  ||   |     
+c28099315-277  10792 ---AAT--A----TC--G-------GG---G--GTGA--AT---T-----  10808
+
+c27733986-272  21218 TCATAAAAGCCCACAGCTAATATCATCCTCAATGGGGAAAAACTGAGAGC  21267
+                     ||       ||| | |.||||.| ||||  | |    |  |  |    | 
+c28099315-277  10809 TC-------CCC-C-GATAATTT-ATCC--A-T----A--A--T----G-  10832
+
+c27733986-272  21268 TTTCCCCCTGAGATCAGGAACATGACAGGGATGTCCACTCTCACAACTGT  21317
+                     ||||    |    |  ||    |         ||  | |||     || |
+c28099315-277  10833 TTTC----T----T--GG----T---------GT--A-TCT-----CT-T  10850
+
+c27733986-272  21318 TGTTTAACATAGTGTTGGAAGTCCTAGCATCAGCAATTAGACAACAAAAT  21367
+                     | |       |       |||||.|    |  |   ||      |     
+c28099315-277  10851 T-T-------A-------AAGTCAT----T--G---TT------C-----  10865
+
+c27733986-272  21368 GAAATAAAAGGCATCAAAATTGGCAAAGAAGATGTCAAAC-T-TTCACTT  21415
+                         |  | ||  | |   ||   ||||.  ||.| |.|| | || ||||
+c28099315-277  10866 ----T--A-GG--T-A---TT---AAAGT--ATAT-ATACATGTT-ACTT  10895
+
+c27733986-272  21416 TCCACAGACAACATGATACACTACATGGAAGGCCAAAAGACTACTAGAAC  21465
+                           |.|| || | | |  ||| || |.| ||     | | |   |  
+c28099315-277  10896 ------GTCA-CA-G-T-C--TAC-TG-ATG-CC-----A-T-C---A--  10918
+
+c27733986-272  21466 TGATACATGAATTCAGCAAAGTCTCAGGGTACAATATCAATGTACAGAAA  21515
+                     |  |  .| | |    ||  || | .|.||| || ||||| |   | |||
+c28099315-277  10919 T--T--TT-A-T----CA--GT-T-TGAGTA-AA-ATCAA-G---A-AAA  10947
+
+c27733986-272  21516 TCGGTTGCATTTCTCTACACTAATAATGAAGCA-CCTGAAAGAGAAATCA  21564
+                      || |   |   | || | ||  |. | |  || ||| .     .|  | 
+c28099315-277  10948 -CG-T---A---C-CT-C-CT--TT-T-A--CATCCT-T-----TA--C-  10971
+
+c27733986-272  21565 AGGAACTGATCTCATTTACAATTGCACCAAGAACATAAAATACCTAGGAA  21614
+                          || .||||||||  . ||  |  .|||  ||..  | | |.| | 
+c28099315-277  10972 -----CT-CTCTCATTT--G-TT--A--TAGA--ATTG--T-C-TTG-A-  11000
+
+c27733986-272  21615 TAAATCTAACCAAAGATGTAAAAGATCTGTATGCTGAAAACTATAGAAAA  21664
+                     |.| | |  ||               |    | |||    | |||     
+c28099315-277  11001 TGA-T-T--CC---------------C----T-CTG----C-ATA-----  11016
+
+c27733986-272  21665 CTTATGAAGGAAATTGAAGAAGACAAAGAAAGGGAAAAACATTCCATGCT  21714
+                     |.| |     || |                    ||  |||  | |   |
+c28099315-277  11017 CAT-T-----AA-T--------------------AA--ACA--C-A---T  11031
+
+c27733986-272  21715 CATGGATTGGAAGAATAAATATTGTTAAAATGTCAATACTACCCAAAGCT  21764
+                     ||   |  ||| |        | |||||||| |   |  |    .  |||
+c28099315-277  11032 CA---A--GGA-G--------T-GTTAAAAT-T---T--T----T--GCT  11054
+
+c27733986-272  21765 ATCTACACATTCAATTCAATTCCAATAAAATTGCACAAGCATTCTTCTCA  21814
+                      || | | |  || |||||  | |        | |     ||  |  | |
+c28099315-277  11055 -TC-A-A-A--CA-TTCAA--C-A--------G-A-----AT--T--T-A  11075
+
+c27733986-272  21815 AAGCTAGAACAAACAATCCCCAAATTTATATGGAACCACAAAAGACCCTG  21864
+                       |   ||| |    ||  |       | | | |         |     |
+c28099315-277  11076 --G---GAA-A----AT--C-------A-A-G-A---------G-----G  11089
+
+c27733986-272  21865 AATAGCCAAAGTAATATTGAAAAAGAAAACTAAAGTGGGAGGCATCACAG  21914
+                        ||    ||       |     ||||||   | |   |   .|     
+c28099315-277  11090 ---AG----AG-------G-----GAAAAC---A-T---A---TT-----  11105
+
+c27733986-272  21915 TACCGGGCTTTAGCCTGTATTACAAAGATGTAATCA-TCAAGACAGTATG  21963
+                     |||    |  || |  |||| | ||.| | ||.||| | | | |   |||
+c28099315-277  11106 TAC----C--TA-C--GTAT-A-AATG-T-TATTCAAT-A-G-C---ATG  11136
+
+c27733986-272  21964 ATATTGGCACAAACACAG-ACGCATAGACCAATGAAATAGAATAGAGAAC  22012
+                     .|||   ||     |||| | | || ||| |  |||.|   ||    ..|
+c28099315-277  11137 CTAT---CA-----ACAGTA-G-AT-GAC-A--GAATT---AT----TTC  11165
+
+c27733986-272  22013 CCAGAATTG-GACCCACAAATGTATGGCCAA-CTAATCT-T-TGACAAAG  22058
+                     | |   ||. | |  ||     | || | |. |   ||| . ||| ||| 
+c28099315-277  11166 C-A---TTAAG-C--AC-----T-TG-C-ATTC---TCTGAATGA-AAA-  11195
+
+c27733986-272  22059 CAGCAAAGAGTATCCAGTGGTAAAAAGACAGTCTGTTTAGCAATGGTGCT  22108
+                     ||||       | | | ||.|     | || ||||||.|| ||   | ||
+c28099315-277  11196 CAGC-------A-C-A-TGAT-----G-CA-TCTGTTAAG-AA---T-CT  11223
+
+c27733986-272  22109 GGGTGAACTGGAGAGCAACATGCAGAAGAATTAAACTAGAAGACCACTTT  22158
+                        ||  ||  .| |    |  |       |     |     ||  ||||
+c28099315-277  11224 ---TG--CT--TG-G----A--C-------T-----T-----AC--CTTT  11240
+
+c27733986-272  22159 CTTACACCATACACAAAAATAAACTCAAAATGGATGAAAGACCTAAATGT  22208
+                      ||      |         |    |     |   |   .  |||   | |
+c28099315-277  11241 -TT------T---------T----T-----T---T---T--CCT---T-T  11253
+
+c27733986-272  22209 GAGACAGGAAAACATCAAAACTCTAGAGGAGAAAACAGGCAACAACATAT  22258
+                     |||               |  |   |         ||||          |
+c28099315-277  11254 GAG---------------A--T---G---------CAGG----------T  11264
+
+c27733986-272  22259 TTGACCTCAGCTGCAGCAATTCTTGCTTGACACATCTCCAAAGGCAAGGG  22308
+                           || |||       |||  ||| | | |  |   |  |||. || 
+c28099315-277  11265 ------TC-GCT-------TTC--GCT-G-C-C--C---A--GGCT-GG-  11286
+
+c27733986-272  22309 AATTAAAAGCAAAAATGAACTATTGGAACTTCATGAAGATAAAAAGCTTC  22358
+                     |.|     ||||...||  | |  | . || |           | ||   
+c28099315-277  11287 AGT-----GCAATGGTG--C-A--G-T-CT-C-----------A-GC---  11308
+
+c27733986-272  22359 TGCACTACAAAGGAAACAATAAACAAAACTAAAAGGCGACTGATAGAATG  22408
+                     | ||||.|     || |      |   .||    | |  ||  |  . ||
+c28099315-277  11309 T-CACTGC-----AA-C------C---TCT----G-C--CT--T--C-TG  11330
+
+c27733986-272  22409 GGAAAAGATATTTGCAAATGACATATTAGATAAAGGATTAGTATCCAAAA  22458
+                     |     | | |   |         |  | ||   | ||   ||||     
+c28099315-277  11331 G-----G-T-T---C---------A--A-AT---G-AT---TATC-----  11346
+
+c27733986-272  22459 TCTGTAAGGAATTTACCGAAGTCAACAC-CCAAAAACAAATAATCCAGTG  22507
+                      |  |  |       ||    |||.| | ||     |||.||. |   | 
+c28099315-277  11347 -C--T--G-------CC----TCAGC-CTCC-----CAAGTAG-C---T-  11369
+
+c27733986-272  22508 AAGAAATGGGCAGAAGACATGAATAGACACTTTTCCAAAGAAGACATCCA  22557
+                     |.||. |.  |||  |   ||  |     |   |     |    |  | |
+c28099315-277  11370 AGGAT-TA--CAG--G---TG--T-----C---T-----G----C--C-A  11389
+
+c27733986-272  22558 GATGGCCAACAGACACATGAAAAGATGCTCAATGTCACTTATCATCAGGG  22607
+                          ||| | | | | ||    |   || | | |   || |  |  |  
+c28099315-277  11390 -----CCA-C-G-C-C-TG----G---CT-A-T-T---TT-T--T--G--  11409
+
+c27733986-272  22608 AAATACAAATCAAAACCACACTGAGATACCACCTCACACTGGTCAGAGTG  22657
+                     .|.|.    ||||    . |  |||            | |||   | || 
+c28099315-277  11410 TATTT----TCAA----T-A--GAG------------A-TGG---G-GT-  11430
+
+c27733986-272  22658 GCTAAAATGAACAATTGC-ACTGTTGGC-GGGAATGCAAACTGGTGCAGC  22705
+                       |    |   ||    | | ||||||| .||        ||||||  ||
+c28099315-277  11431 --T----T---CA----CTA-TGTTGGCTAGG--------CTGGTG--GC  11456
+
+c27733986-272  22706 CA-CTCTGAAAACAGTGTGGAGGTTCCTCAAAAAATTAAAAATAGAGCTA  22754
+                     .| |||      |  |  | |    ||||        |..  | ||  | 
+c28099315-277  11457 AAACTC------C--T--G-A----CCTC--------AGG--T-GA--T-  11477
+
+c27733986-272  22755 CCCTATGACCCAGCAATAGAACTACTAGGAATTTATCCAAAGGATACAGG  22804
+                     ||  |   |||| |       || |  ||..|    ||        ||. 
+c28099315-277  11478 CC--A---CCCA-C-------CT-C--GGCCT----CC--------CAA-  11498
+
+c27733986-272  22805 AGTGCTGATTCATAGGGGCACATGTACCCCAATGTT-TACAGCAGCGCTA  22853
+                     ||||      | | |||    || |||   |. ||| |   | ||| | |
+c28099315-277  11499 AGTG------C-T-GGG----AT-TAC---AG-GTTGT---G-AGC-C-A  11525
+
+c27733986-272  22854 TCAACAATAACCAAATTATGGAAAAAACCTAAATGTCCATCAACTGATGA  22903
+                      |  |. |..||     | |       |||.   |.|  | .|||  |  
+c28099315-277  11526 -C--CG-TGCCC-----A-G-------CCTG---GAC--T-TACT--T--  11548
+
+c27733986-272  22904 ATGGATAAAGAAGATGTGGTTAATATATACAATGGAATACTACTTGTCAA  22953
+                      |   |     . || |  ||| | |||    |  | |  |  || |   
+c28099315-277  11549 -T---T-----T-AT-T--TTA-T-TAT----T--A-T--T--TT-T---  11568
+
+c27733986-272  22954 TGAGGA-AGAATGAAATCCTTC-CATTTG-CAGCCACGTGGATGGAATTG  23000
+                     |||| | ||   |.  || | | | |.|| || || |             
+c28099315-277  11569 TGAG-ATAG---GG--TC-T-CAC-TCTGTCA-CC-C-------------  11594
+
+c27733986-272  23001 GAGGGTATTATGCTAAGTGAAATAAGTCAGAGAAAGACAGATATCATATG  23050
+                      ||        |||   |||     ||        | |||        ||
+c28099315-277  11595 -AG--------GCT---TGA-----GT--------G-CAG--------TG  11610
+
+c27733986-272  23051 TGTTCACTCATATGTGGAACTCGAGAAACTTAACATAAGACCATGGGGGA  23100
+                      |  ||  || ||      | | .|  |||   |     ||  |      
+c28099315-277  11611 -G--CA--CA-AT------C-C-TG--ACT---C-----AC--T------  11628
+
+c27733986-272  23101 AAGGAAGGGGAAAAACAAAGAAGGAGGGAGGCAAACCGTAAGAGACTCTT  23150
+                       | |||        |               |  .|     ||  || | 
+c28099315-277  11629 --G-AAG--------C---------------C--TC-----GA--CT-T-  11641
+
+c27733986-272  23151 AAATACAGAGAACAAACTGCGTGTTGATGGTGGGGGGAGAGGGGAAAATG  23200
+                        |.|.| |      || |      | |||           | |.  | 
+c28099315-277  11642 ---TCCTG-G------CT-C------A-GGT-----------G-AT--T-  11658
+
+c27733986-272  23201 GCTGATGGGCATTGAGAAGGGCACTTGTTGGCATGAGCACTGGGTGTTGT  23250
+                      || .    | |     |   | ||      |   ||| ||   . .|| 
+c28099315-277  11659 -CT-C----C-T-----A---C-CT------C---AGC-CT---C-CTG-  11677
+
+c27733986-272  23251 ATGTAAGCAATGAATCATGGGAATCTACCCCCAAAACCAAGAGCA--CAC  23298
+                     | ||| ||  ||      || |  ||         |  .|| |||  |||
+c28099315-277  11678 A-GTA-GC--TG------GG-A--CT---------A--TAG-GCATGCAC  11702
+
+c27733986-272  23299 TGTACACACTGTATGTTATCCAATTTGGCAATAAATCATATTAAAAAAAT  23348
+                         ||| |   |||    ||  |  |||  |                  
+c28099315-277  11703 ----CAC-C---ATG----CC--T--GGC--T------------------  11716
+
+c27733986-272  23349 AAATTTTCTGAGGTTTGTTTTATGGTCCAAGGTATAGTATATCTTGGTAT  23398
+                     ||.|||| |   |  ||||      |      | ||  |||    |  | 
+c28099315-277  11717 AAGTTTT-T---G--TGTT------T------T-TA--ATA----G--A-  11738
+
+c27733986-272  23399 ATGTTCTATGGGCACTTAAAAATTATGTTCTGCTGTTGTTGGGTGGAGTA  23448
+                       |    ||||| | |      || ||  |  |  .|||    |   |  
+c28099315-277  11739 --G----ATGGG-A-T------TT-TG--C--C--ATGT----T---G--  11758
+
+c27733986-272  23449 TTCCATATGTGTCAATTAGATCCTATTGGTTGATGGTGTTATTCATTGCG  23498
+                       ||        ||    |. |           |||         |  | 
+c28099315-277  11759 --CC--------CA----GG-C-----------TGG---------T--C-  11770
+
+c27733986-272  23499 TCTATATCCTTGCTGATTTTCTGTGTGGTTGTTCTATTAATTGCTGAGAG  23548
+                     || | |.| |  |       |    |||  |  ||        |      
+c28099315-277  11771 TC-A-AAC-T--C-------C----TGG--G--CT--------C------  11786
+
+c27733986-272  23549 GGAAATGAAATTTC--CAACTATAGAACTGTACATGTGTCTTCCTTCTTT  23596
+                       || ||||   ||  |  |  | |  |    |.|| | |||||      
+c28099315-277  11787 --AA-TGAA---TCTGC--C--T-G--C----CTTG-G-CTTCC------  11811
+
+c27733986-272  23597 CAGTTCCATTAGTTTTTTGCATCA-CATATTTT-GCAGTTCTGTTGTTTG  23644
+                     |||       |||     ||  ||  . |||.| |  |  |    ||  |
+c28099315-277  11812 CAG-------AGT-----GC--CAG-G-ATTATAG--G--C----GT--G  11835
+
+c27733986-272  23645 GTACATACATATTTAAGATTTCTGTGTCTTTTTAGTAAATTGACTCTTTT  23694
+                     . ||   |         |   |     |         | | | | |    
+c28099315-277  11836 A-AC---C---------A---C-----C---------A-T-G-C-C----  11847
+
+c27733986-272  23695 ATTATTATATAATGTCTCTCTTTGTACCTAATAATTTTTCTGAAGTCTAT  23744
+                                   |||| ||   |||||| ||       |    ||  |
+c28099315-277  11848 --------------TCTC-CT---TACCTA-TA-------T----TC--T  11865
+
+c27733986-272  23745 CTTATATCAATACATCCAGTTG-TGCTTTCTTTGGATTAATGCTTGAATA  23793
+                      || || |    |.|||  | | || || ||.   |  |||| |  | | 
+c28099315-277  11866 -TT-TA-C----CTTCC--T-GATG-TT-CTA---A--AATG-T--A-T-  11893
+
+c27733986-272  23794 TCTTTTTCCATTCTTTCACATTTTAGCCTACTTATATTATTATTTTTGAA  23843
+                     |||||  | ||  ||||.| |||   | || || ||           || 
+c28099315-277  11894 TCTTT--C-AT--TTTCCC-TTT---C-TA-TT-TA-----------GA-  11919
+
+c27733986-272  23844 GTAATTTTTTTGTAGACTGTATATAGCTGAATCATGTTTTATAATCCACT  23893
+                     |            | ||    | |  |     | ||              
+c28099315-277  11920 G------------A-AC----T-T--C-----C-TG--------------  11929
+
+c27733986-272  23894 CTACCAGTCTCTGTCTTTTAATTATATTTATATCATTTATATTCAATGGA  23943
+                      ||   | | |                  || ||     | ||||  || 
+c28099315-277  11930 -TA---G-C-C------------------AT-TC-----T-TTCA--GG-  11945
+
+c27733986-272  23944 AGTTTAATGTTAGGAATG-TGGGTTAATTGTCTTATTTTGTAATTCCATT  23992
+                             || |||..|| ||        | |  |.  |. ||||   ||
+c28099315-277  11946 --------GT-AGGTCTGCTG--------G-C--AA--TA-AATT---TT  11969
+
+c27733986-272  23993 TTGATTTATCTGCTGTATTTTTGAATATATC-TCTTTTGTAGCTTTTTCA  24041
+                     |.| ||| ||        ||| ||| | | | |||  || |  |||||| 
+c28099315-277  11970 TAG-TTT-TC--------TTT-GAA-A-A-CATCT--TG-A--TTTTTC-  11999
+
+c27733986-272  24042 AGTCGTTTCTCTAGGTGTTAAATTATATATACAATACTTGTCATAGTGTT  24091
+                       |  || |.|| ||         ||||  | .  .|||  | | | |  
+c28099315-277  12000 --T--TT-CACT-GG---------ATAT--A-G--GCTT--C-T-G-G--  12022
+
+c27733986-272  24092 ATCATT-TTATCAGTTTGAGTTAAATTTAGAAAAACCTTACCCTTCTCTA  24140
+                       | ||   | |    ||        ||       |||| || | |||  
+c28099315-277  12023 --C-TTG--A-C----TG--------TT-------CCTT-CC-T-CTC--  12042
+
+c27733986-272  24141 TATCCTTTTACTTCATCCATTTGTGATAAAT-TT--GTCTTAAATATTTC  24187
+                              | || | |  || | || |||| ||  |||    || ||||
+c28099315-277  12043 ---------A-TT-A-C--TT-G-GA-AAATGTTATGTC----AT-TTTC  12070
+
+c27733986-272  24188 CTCTACATAGATTTATAACTACATCAAAGAGTGTTACAATTTTTGCTTCA  24237
+                      | | | | |      . |  || |.|.| || || |     | | | ||
+c28099315-277  12071 -T-T-C-T-G------G-C--CA-CCATG-GT-TT-C-----T-G-T-CA  12094
+
+c27733986-272  24238 AAATCAAACATAATTTAGAAGATCCAAG-AGGAGAGTAAAATGTTATATT  24286
+                        ||..| ||..|||  ..  |||..| ||| ||  .       || ||
+c28099315-277  12095 ---TCTGA-ATTGTTT--TT--TCCCTGTAGG-GA--C-------AT-TT  12125
+
+c27733986-272  24287 TACCCATTTCTTGTTTCCATTTTTTCTTTTTTACCTTCCTGATGCTCCAG  24336
+                     ||   ||||||     |       |||||  .|       ||  ||    
+c28099315-277  12126 TA---ATTTCT-----C-------TCTTT--AA-------GA--CT----  12145
+
+c27733986-272  24337 AATTCCTTCCTTTAGCTGTCCTTTTATGTTTCAATAACTTCCATTAGCCA  24386
+                       ||  ||| ||| |||    |||.|| |||.|| || ||   || ||| 
+c28099315-277  12146 --TT--TTC-TTT-GCT----TTTAAT-TTTTAA-AA-TT---TT-GCC-  12177
+
+c27733986-272  24387 TTCTTTTAGGATAGTTCTTTTAGTTTTGTCCATCTAAGGT-CTGATTTCA  24435
+                       |    |        ||.| | |.| |    | |  |||  ||.    |
+c28099315-277  12178 --C----A--------CTAT-A-TAT-G----T-T--GGTG-TGG----A  12198
+
+c27733986-272  24436 TCTTCATTCTTGAAGGATATTTTCACTGGATAGAAGATTCTAGGTTAATA  24485
+                     | ||| |  |||  |||| |.| |  |   |    | || | ||     .
+c28099315-277  12199 T-TTC-T--TTG--GGAT-TAT-C--T---T----G-TT-T-GG-----G  12223
+
+c27733986-272  24486 GTTTTTATTTTTTCATTACTTGAAAAAATATTC-CACTTCTTCTGTCATT  24534
+                     ||||  .      | |  |. |.       ||| ||..|   |||| |  
+c28099315-277  12224 GTTT--G------C-T--CA-GC-------TTCTCAAAT---CTGT-A--  12248
+
+c27733986-272  24535 TGAATTGTTTTTACTGTCTAGGTATATTGTCA-TTTGCTAGTGGTTTCAA  24583
+                      |    ||||  | ||||    | | |||.|| .||  ||| |     ||
+c28099315-277  12249 -G----GTTT--A-TGTC----T-T-TTGCCACATT--TAG-G-----AA  12276
+
+c27733986-272  24584 GATTTTTTCTTTGTCTTTTTTT-AG-TC-TTCAGAAGTTTGTCTATTTTA  24630
+                     | ||||  |.  |.|.     | || || | || ||   | .|| |||||
+c28099315-277  12277 G-TTTT--CA--GCCA-----TGAGATCGT-CA-AA---T-ACT-TTTTA  12309
+
+c27733986-272  24631 TGTCTTGATGTGGATTTCTTTGAATTTATCATTTTTTAAT-ATCATTAAG  24679
+                     .| |      |  |   |    |   || | |.||  .|| ||| ||.  
+c28099315-277  12310 AG-C------T--A---C----A---TA-C-TCTT--CATCATC-TTC--  12333
+
+c27733986-272  24680 TGTCTTGGATCTGTAAGGTTTATGTGTTTTGCCAAATTTGGGGAGTTTTC  24729
+                     | ||| ||  |   |   ||  || |.||      ||.||.. |||  | 
+c28099315-277  12334 T-TCT-GG--C---A---TT--TG-GATT------ATATGAA-AGT--T-  12360
+
+c27733986-272  24730 AGCCCTTATTTCTTTAAATGCTTTT--TCATCTACACAG-TCTTTCTCTT  24776
+                     ||     .|  ||||   || ||.|  ||  |  ||.|| |||  ||   
+c28099315-277  12361 AG-----GT--CTTT---TG-TTATGGTC--C--CATAGGTCT--CT---  12390
+
+c27733986-272  24777 CTG-GGATTCTGATTACATGAATGTTAAATA-TCTTATTATTTCCCACAT  24824
+                       | || ||||||| |.||   ||||  .|| .|| || |||||.|. ||
+c28099315-277  12391 --GAGG-TTCTGAT-AAAT---TGTT--TTAGACT-AT-ATTTCTCT-AT  12428
+
+c27733986-272  24825 -GTTTCTGAGGTTCTGTTAATTTTTTAAAAACTGTCAGATTGTATTTCTG  24873
+                      ||| |  ||||  ||             |   || | ||    || ||.
+c28099315-277  12429 TGTT-C--AGGT--TG-------------A---GT-A-AT----TT-CTA  12450
+
+c27733986-272  24874 TTGTTCTGTCTTCCA-GTTCATCAG-TTCTTTTCTCACCACCCCCCTCCA  24921
+                     |||||||.|||||||  || || .| ||||||||||.  ..|||| ||||
+c28099315-277  12451 TTGTTCTATCTTCCAC-TT-AT-TGATTCTTTTCTCT--GTCCCC-TCCA  12494
+
+c27733986-272  24922 TTTTGTTGTTAAGCTCATCTTTG-A-GTGTT-AATTTTGCTATTGTTGTT  24968
+                     ||||..||||.||.||||.|||| |  | || ||||||||||||   || 
+c28099315-277  12495 TTTTACTGTTGAGTTCATTTTTGCAT-T-TTGAATTTTGCTATT---GT-  12538
+
+c27733986-272  24969 GTTTTTTTTTTTTCCA-CTTCTATTTG-GCTCTTCTTT-TCTGAGACTGT  25015
+                     |        ||||| | .||| ||||| | ||||.|||  |||||||| |
+c28099315-277  12539 G--------TTTTC-AGTTTC-ATTTGAG-TCTTATTTG-CTGAGACT-T  12575
+
+c27733986-272  25016 TTCTATGTGGGATTTTCTCTTTTCCCCCCATTTGCTTCAAGTGTCTGTT-  25064
+                     | ||  |||   |||             ||||||.|||||.||  |||| 
+c28099315-277  12576 T-CT--GTG---TTT-------------CATTTGTTTCAAATG--TGTTT  12604
+
+c27733986-272  25065 ATT-GCT-TGTTGAAGTGTTTTTATTTTGGCTGCTTTAAAAAT-TTCA-G  25110
+                     |||  || | |||||...|||||||||||||||.||||||||| ||..  
+c28099315-277  12605 ATTT-CTCT-TTGAAACATTTTTATTTTGGCTGATTTAAAAATATTTTT-  12651
+
+c27733986-272  25111 TCAGATAATTCTAACATCTT-TT-AT-TTAATTGTTTTCTTCTATTTT-T  25156
+                     |||||||||||||||||||. .| || ||..| ||..||.|||||||| |
+c28099315-277  12652 TCAGATAATTCTAACATCTCCATCATCTTGGT-GTCATCATCTATTTTCT  12700
+
+c27733986-272  25157 TTCAAGTTGAGGTTTTCCTGGTTATCACTGTGACAG-TTGATTTTTTTTT  25205
+                     |||||||||||.|||||||||||||||||.|||||| | |.    ||| |
+c28099315-277  12701 TTCAAGTTGAGATTTTCCTGGTTATCACTATGACAGGT-GG----TTT-T  12744
+
+c27733986-272  25206 AA-TTAAAA--T-C-T-TTT-GAGTTTCATTGAACATTTTGGGTATTACG  25248
+                     .| | .|||  | | | ||| |||  | ||||  | |  |   ||| |.|
+c28099315-277  12745 GAGT-GAAACCTGCATATTTTGAG--T-ATTG--C-T--T---TAT-AAG  12781
+
+c27733986-272  25249 AAACTCTGTAT-TCCTATTTAAAGT-TTCT-TTTAG-CTGACTTCCTCTG  25294
+                     |  ||||. || .|| |.||||| . |||| |||||  ||.||||||.||
+c28099315-277  12782 A--CTCTA-ATCACC-ACTTAAA-CCTTCTGTTTAGG-TGCCTTCCTTTG  12825
+
+c27733986-272  25295 ACACCACACCAGCGGAAAGGCCTGGTACTGTGC-CATTGCT-TCCAGGTG  25342
+                     |||||||.|||||.|||.||||||..||||| | |||||||  ||||.|.
+c28099315-277  12826 ACACCACGCCAGCAGAAGGGCCTGACACTGT-CTCATTGCTG-CCAGATA  12873
+
+c27733986-272  25343 GGGTTAGATGTTCAAGTTCTTCACTTGGCTTCAGTTTACATCTGGATGAG  25392
+                     ||||||||.|||||.||||  | |    |  .||     ||  ||  | |
+c28099315-277  12874 GGGTTAGAAGTTCAGGTTC--C-C----C--AAG-----AT--GG--G-G  12904
+
+c27733986-272  25393 GAAGGATTC-TC-TAT-TT-CTGGGTGAGGATG-GGG-CTCTGGCT-CC-  25434
+                      |||||||| .| | | || ||||||| | .|| ||| | ||  || || 
+c28099315-277  12905 -AAGGATTCCACCT-TATTGCTGGGTG-G-TTGTGGGAC-CT--CTGCCT  12947
+
+c27733986-272  25435 C-CACTGGGCCTCTGCTGATA-C-CATCCTGGCTGGAAG-GGGGTAAAG-  25479
+                     | |.||.||.||||||||||| | |  |||||||| | | |||||.. | 
+c28099315-277  12948 CTCGCTAGGACTCTGCTGATATCAC--CCTGGCTG-A-GTGGGGTGG-GA  12992
+
+c27733986-272  25480 CACCAT-ATTACT--TC-TTATGTGGCTTCTAGTGACACCATTGGGG-GT  25524
+                     |||| | ||||||  || |||. ||.|.|||||||||||||.||||| ||
+c28099315-277  12993 CACC-TCATTACTGCTCATTAC-TGACCTCTAGTGACACCACTGGGGAGT  13040
+
+c27733986-272  25525 G-CCCTCATTACTGCCAAGCAGTGGTTAAA-GTCTTGACTTTCC-TCTTG  25571
+                     | || ||||||||||..|||||..|| .|| |.|.|||||.||| | |||
+c28099315-277  13041 GGCC-TCATTACTGCTGAGCAGAAGT-GAATGCCCTGACTCTCCAT-TTG  13087
+
+c27733986-272  25572 GCCTCCTCTGACATCTTAGCAAAGATGGGGAGGGGTTCTTTTTATTG-TA  25620
+                     ||||||||||||| |    |    .|        || |     |  | .|
+c28099315-277  13088 GCCTCCTCTGACA-C----C----CT--------GT-C-----A--GCAA  13112
+
+c27733986-272  25621 GGGAGGGGTGAAGTTTAGGTTCCCAGTGTGTGGTTTCTGCCTACACAGGG  25670
+                     ||.|||.|.|  |    ||| |||  | |    || |||      |||||
+c28099315-277  13113 GGAAGGAGAG--G----GGT-CCC--T-T----TT-CTG------CAGGG  13141
+
+c27733986-272  25671 GTTGAGGGGTGTGTAGGGAG-C-AGGTGGGACTACCTAGCACCCAGTAGA  25718
+                      .  ||||.||   |   || | |   |  .|| |||  ||  || | | 
+c28099315-277  13142 -C--AGGGATG---A---AGTCCA---G--CCT-CCT--CA--CA-T-G-  13169
+
+c27733986-272  25719 GGTGAACATCCCAGATCCCCATAAGTCTTCTCTGACACCAATAGGGATGG  25768
+                     | ||         | |||||  |   |||..  |   ||| |.|||  ||
+c28099315-277  13170 G-TG---------G-TCCCC--A---CTTAA--G---CCA-TTGGG--GG  13195
+
+c27733986-272  25769 -GG-GCCTGGGTCCTTTATTTCAGCCTGG-GGAGGGTGGAGGTTTAGACT  25815
+                      || |  |  ||     .|   ||   || ||||| |||      | |||
+c28099315-277  13196 AGGAG--T--GT-----GT---AG---GGAGGAGG-TGG------A-ACT  13222
+
+c27733986-272  25816 CCCCACTTGGC-CTTTGCTGTCTTGGGTGGATATGGGTTTGCAGTGTTTG  25864
+                     ||   ||.| | ||..||.. |  || || | |||  |.  ||    .. 
+c28099315-277  13223 CC---CTAG-CACTCAGCAA-C--GG-TG-A-ATG--TC--CA----AA-  13253
+
+c27733986-272  25865 GCTCCAGTTATTTTAGGCAAGCAGTTATTGCCTAAAAGTTTTCTGTCCTG  25914
+                      ||||    .  | |  |.  ||      |||      ||||  | |  |
+c28099315-277  13254 -CTCC----C--T-A--CT--CA------GCC------TTTT--G-C--G  13274
+
+c27733986-272  25915 CTAAGCTGCACCTTAACTACTCCTTTGGTTAGAAAAAGTAGGCTTTAGGG  25964
+                       ||   |   |   | | | |||  | |  ||    |  |.|  | |||
+c28099315-277  13275 --AA---G---C---A-T-C-CCT--G-T--GA----G--GAC--T-GGG  13296
+
+c27733986-272  25965 GAGCCTGGGTGGCTCAGTCTGTTGAGCGTCCAACTTTGGCATCAGGTCAT  26014
+                     | |||.    ||  ||  ||||     ||  || |  .|   |    | |
+c28099315-277  13297 G-GCCA----GG--CA--CTGT-----GT--AA-T--AG---C----C-T  13319
+
+c27733986-272  26015 GATCTCGCAGTTTGTGAGTTTGAGCCCCACGTCGGGCTCTGCTGACAGCT  26064
+                       | | |  |.  | | ||  |  ||| || ||.| | ||  | .  |||
+c28099315-277  13320 --T-T-G--GA--G-G-GT--G--CCC-AC-TCAG-C-CT--T-T--GCT  13346
+
+c27733986-272  26065 CAGAGCCTGGAGCCCGCTTCAGATTCTGTGTCTCCCTCTCTCTGCCCCTT  26114
+                     |.   |||| ||  .|     ||   ||||             |      
+c28099315-277  13347 CT---CCTG-AG--TG-----GA---TGTG-------------G------  13363
+
+c27733986-272  26115 TCCTGCTCATGCTGTCTCTC--TCTCTCTGTCT-CTCAAAA-ATGAATAA  26160
+                         | || |||.||.| |.   ||    | |.  | |.|| | || ||.
+c28099315-277  13364 ----G-TC-TGCAGTAT-TAGG-CT----G-CAG-T-AGAACA-GA-TAT  13396
+
+c27733986-272  26161 ATGTTTAAAAAAAAAAAAGCATGCTTTTCTTGGGACTTTTTTGGTCT-GT  26209
+                      |||.|     |||  | || |  ||  ||   |.||    ||  || | 
+c28099315-277  13397 -TGTCT-----AAA--A-GC-T--TT--CT---GTCT----TG--CTAG-  13422
+
+c27733986-272  26210 GCTTGTTGGTC-TTTCCAGGTTGCCAACTTCTTCAGCACCCTTTCTGGGA  26258
+                     |||. .|   | |||||.|||  |   ||| |  .|        ||||  
+c28099315-277  13423 GCTA-CT---CATTTCCTGGT--C---CTT-T--GG--------CTGG--  13450
+
+c27733986-272  26259 TATATGAGGCAAAACAAAAATTCAGGGGCCTCACTGCTCTGTCATTTCTT  26308
+                          | ||             |||          ||| |  |   | ||
+c28099315-277  13451 -----G-GG-------------CAG----------GCT-T--C---T-TT  13464
+
+c27733986-272  26309 GGGTCCCTAACCAGTTTTCTTTCTT-CTCTCTAC-CTTTCAGAGTCTTCT  26356
+                     |||          |    |||| ||  | ||||. |.| ||| || || |
+c28099315-277  13465 GGG----------G----CTTT-TTG-T-TCTAAACAT-CAG-GT-TT-T  13493
+
+c27733986-272  26357 TATGGTCGCTTTATACAAAATGTCAGGTTTTCATTGTATTTATCAAGAGA  26406
+                     ||     | | |.|||..|  | ||||    .|  | |   | |      
+c28099315-277  13494 TA-----G-T-TGTACTTA--G-CAGG----AA--G-A---A-C------  13516
+
+c27733986-272  26407 AAGAGGGAAAAGTAGGTCTACTCTGTCTTCCTGG-GAGCA-GTAGTCCTG  26454
+                        ||||||||||||||||.|||||||||||||. | |||  .|||||||
+c28099315-277  13517 ---AGGGAAAAGTAGGTCTTCTCTGTCTTCCTGAAG-GCAC-CAGTCCTG  13561
+
+c27733986-272  26455 AGATGTATCTTTATAGTGTTGGCAGATA--TCACAGTATGTTT-CCATGC  26501
+                     ||.|||||.|||.|||||||||||||||    ||||||||||| | ||||
+c28099315-277  13562 AGCTGTATATTTTTAGTGTTGGCAGATAGG--ACAGTATGTTTGC-ATGC  13608
+
+c27733986-272  26502 TGGCCTGA-A--TTCTTCACG-A-GAGGAG-AATTGCAACAATACAA-CT  26544
+                     ..||.||. |  || |  . | | |.|||| ||| ||||||.|.||. ||
+c28099315-277  13609 CAGCTTGTGAGGTT-T--G-GGATGGGGAGGAAT-GCAACAGTGCAGTCT  13653
+
+c27733986-272  26545 GAGTAGGTGAGAGTGGGAG--GG----CTCCA-GTGTACC---CAGTAGG  26584
+                     |.| .|| | | |||||||  ||    |||||  ||||||   |||  ||
+c28099315-277  13654 GGG-CGG-G-G-GTGGGAGCAGGTGGGCTCCAC-TGTACCTGGCAG--GG  13696
+
+c27733986-272  26585 --GTTG-CAAACTGTTGTGTACTTGGGAGGCTGGACATTTTATTCTCATT  26631
+                       ||.| |||   || ||||.||||.||||||||.| |||||||||||||
+c28099315-277  13697 CTGTAGACAA---GT-GTGTCCTTGAGAGGCTGGGC-TTTTATTCTCATT  13741
+
+c27733986-272  26632 -CCTACTAGTTTTGTCAGTG-TGCCAATTCTGGGAC-TTTTGCTATC--G  26676
+                      | |.|||||||||.|||.. .|||| ||||||||| |||||||  |  |
+c28099315-277  13742 GC-TTCTAGTTTTGCCAGCACAGCCA-TTCTGGGACGTTTTGCT--CTTG  13787
+
+c27733986-272  26677 GAGACATTCATCAC-CTT-CACTGTTCT-CTGC-TT-TGAATCTCAGTGT  26721
+                     |||||||||.|||| ||| | |    || |||. || ||||||.||||||
+c28099315-277  13788 GAGACATTCCTCACTCTTGC-C----CTACTGTGTTCTGAATCCCAGTGT  13832
+
+c27733986-272  26722 CTGGCTCCTGCTTGGGCTCCCAGGTCAGCATCTTCCTACTGAGTTTGGCC  26771
+                     |||.||||.|||||||||  |.||    | |        ||||||..|||
+c28099315-277  13833 CTGACTCCAGCTTGGGCT--CTGG----C-T--------TGAGTTCAGCC  13867
+
+c27733986-272  26772 AATAGGAAG-CTCT-GCTGGGAGATTGAGGGATGGGGAGAGGTAAGCTGG  26819
+                     ||||||| | ||||  ||.|.||||| ||||  |.|| |||| |   || 
+c28099315-277  13868 AATAGGA-GACTCTT-CTAGAAGATT-AGGG--GAGG-GAGG-A---TG-  13906
+
+c27733986-272  26820 TACTTCTTACCACTCCACTGTGCTTTGGGAGGCATCTCTTCTGGCACTCC  26869
+                       |  |   |||||   || | ||||||  ||||       |  |  |  
+c28099315-277  13907 --C--C---CCACT---CT-T-CTTTGG--GGCA-------T--C--T--  13929
+
+c27733986-272  26870 ACCTTCTTTCAGAAAGGCCCACCATGGTTTCTGCACTCACCTTCTTCCTC  26919
+                      | |||  |  |   |         ||   || | |  |           
+c28099315-277  13930 -C-TTC--T--G---G---------GG---CT-C-C--A-----------  13943
+
+c27733986-272  26920 TGCTCCTCAGCTATGGTGGGGTGGAAATTTCCCCACTGTTGCTAATTGCT  26969
+                      |||||| . |||         |   |       |  ||| |   |  | 
+c28099315-277  13944 -GCTCCT-T-CTA---------G---A-------A--GTT-C---T--C-  13962
+
+c27733986-272  26970 AGCCTTTGGTGAGTGTCACAGCATGTCCACCTCTTGTGTAACCAGTTCCA  27019
+                     |         ||||   |  || | |   | |.|  | |  ||  |||  
+c28099315-277  13963 A---------GAGT---A--GC-T-T---C-TAT--T-T--CC--TTC--  13983
+
+c27733986-272  27020 CGGTTAGGTCTTCAGCTTCTATTTCCTTCTTGGACCCTGGTTGATTCAG-  27068
+                        || ||     | |        ||  |  || |  ||    |||||| 
+c28099315-277  13984 ---TT-GG-----A-C--------CC--C--GG-C--TG----ATTCAGG  14004
+
+c27733986-272  27069 TCAGTGAAGGAAG-GAAGAGGCAAAGGCAGCAGCTGAGGT-TGAAAAGGA  27116
+                      |||||||||.||  ||||||||.|||||||||||| ||. ||||| || 
+c28099315-277  14005 -CAGTGAAGGGAGC-AAGAGGCAGAGGCAGCAGCTG-GGAGTGAAA-GG-  14049
+
+c27733986-272  27117 GGGA-GGGTGTATGGGATTTTAAG-GAGGGAGATGGAGGAGAACAGGAAT  27164
+                     |||| ||||||.||||.||| ||| | ||||| ||.||||||.||||...
+c28099315-277  14050 GGGAAGGGTGTGTGGGGTTT-AAGTG-GGGAG-TGAAGGAGAGCAGGCGC  14096
+
+c27733986-272  27165 GAAAATTGCCCTGGG-AGATGTG-TTAAAATTGTTGGGCAGTTTTAGGAC  27212
+                     |.|.|.||.| |||| ||.||.| | ...||||.||||||||..|.||.|
+c28099315-277  14097 GTACACTGTC-TGGGGAGGTGCGGT-GGGATTGCTGGGCAGTACTGGGGC  14144
+
+c27733986-272  27213 CCAA-TGGGAA-CACTGCACATA-GAAGTCATGTAAAACTGTCAGAAC--  27257
+                     |||. ||||.. | ||  | ||| ||.|||||      ||| |||. |  
+c28099315-277  14145 CCACCTGGGGTTC-CT--A-ATATGATGTCAT------CTG-CAGG-CAT  14182
+
+c27733986-272  27258 ---CA-CA-GAG--GGTT--CT-CTATGGCTACAT-T-CAGCTGCTTAGA  27295
+                        || || | |  ||||  || | | | |  ||| | ||||||||  ||
+c28099315-277  14183 AGGCAGCAAG-GAAGGTTTTCTAC-A-G-C--CATGTTCAGCTGCT--GA  14224
+
+c27733986-272  27296 TGCTGGCACAGGGAAGGAAAGCCAATGTTGGGGGTTTTGCCATGGGTGGC  27345
+                         | ||  |||..||   |  | | ||||        |||..||||||
+c28099315-277  14225 ----G-CA--GGGTTGG---G--A-T-TTGG--------CCACAGGTGGC  14252
+
+c27733986-272  27346 AGACAGACCCCAGGGTAGCCCCCATGATCCCTAC-TGCCTGGTGGT-CAT  27393
+                     ||||.  |.  ||||  |||  ||||.||||.|| | ||||||| | ||.
+c28099315-277  14253 AGACT--CT--AGGG--GCC--CATGGTCCCCACCT-CCTGGTG-TTCAC  14292
+
+c27733986-272  27394 GTCCTTGTGTGAT--TCCCTC-CCCT--GAGT-TAAAGGTAGGCCTTGTG  27437
+                     ..||| | || .|  |||| | ||||  |||| ||  ||.||||.  | |
+c28099315-277  14293 ACCCT-G-GT-TTAGTCCC-CTCCCTTTGAGTGTA--GGCAGGCA--G-G  14333
+
+c27733986-272  27438 -CC-TGG-CT-TCCAACCAG-TAG---GATATGGCAAAGGCA--GTTGAT  27477
+                      || .|| || .||. |||| | |   || ||. |  || ||  || |.|
+c28099315-277  14334 ACCCAGGACTGACCT-CCAGCT-GACAGA-ATA-C--AG-CAAAGT-GGT  14375
+
+c27733986-272  27478 GGGATGTTGCTCCTGT-T-GTTGT-GTTACATTATGTAAAATTTTGCCTT  27524
+                     || ||||. |.||||. . ||..| |   |.| ||  ||||.|.||||| 
+c28099315-277  14376 GG-ATGTC-CCCCTGACACGTAATAG---CCT-AT--AAAACTCTGCCT-  14416
+
+c27733986-272  27525 GC-CAG-TGGATTCACTCT--GGA-GACTCAT-GGTTGCTTGATGAAGTG  27568
+                      | |.| || .| |.||||  .|| | |||.| | ||||.|||. ||| |
+c28099315-277  14417 -CACTGCTG-CT-CGCTCTCCAGATG-CTCCTTG-TTGCCTGAA-AAG-G  14459
+
+c27733986-272  27569 -G-GC-AGACATGTTGGAGGAGTCCACATGGCAAGGAACTGCAGGAACCT  27615
+                      . || | ||||..||||||||.||||||||..||||  |||||||.|||
+c28099315-277  14460 CAAGCCA-ACATACTGGAGGAGCCCACATGGTGAGGA--TGCAGGAGCCT  14506
+
+c27733986-272  27616 GTAGAAGGTGA-GGGTGGCTTCTGAGAG--C-T--TAGTG----------  27649
+                     ||.|. ||||| ||| |||.||||||.|  | |  | ||.          
+c28099315-277  14507 GTTGG-GGTGAAGGG-GGCCTCTGAGGGGGCCTCCT-GTAACAAAACACC  14553
+
+c27733986-272  27650 -TG---TGGTCT--CTGGTCCACAGCTAGCAAGAAGC--CAGAGCCCC-A  27690
+                      |.   |  |||  ||||.|||||||.||||||||||  |||  |||. |
+c28099315-277  14554 ATAAACT--TCTTGCTGGCCCACAGCCAGCAAGAAGCTGCAG--CCCTGA  14599
+
+c27733986-272  27691 GTCCTATAG--GAC-C-AGGA-AGTGAATTCTG-C--CAACATTGAG--A  27730
+                     |||  || |  |.| | |||| | ||.||.||| |  || | | |||  |
+c28099315-277  14600 GTC--AT-GCAGCCACGAGGACA-TGGATCCTGTCTGCA-C-T-GAGTGA  14642
+
+c27733986-272  27731 CATCTTGGAAGCAGACTTTTCCCTCA-TTGAGC--CTCTAGATAAGAAAA  27777
+                     |  |||||.||||||.||||||| || ||||||  | | ||||.|||..|
+c28099315-277  14643 C--CTTGGCAGCAGATTTTTCCC-CAGTTGAGCTTC-C-AGATGAGATCA  14687
+
+c27733986-272  27778 AAAGCC-TGATGACACCTTGAGATCCTTAGAA-A-ATGACCCAGCTAAGC  27824
+                     .| ||| .| ||.|.|||||||||||..||.| | |  ||||||.|.|||
+c28099315-277  14688 CA-GCCCAG-TGGCCCCTTGAGATCCCAAGCAGACA--ACCCAGTTGAGC  14733
+
+c27733986-272  27825 CTGCCCCAACACCT-GACCCACAGAAACCCTGAGCTTATAAACATGTGTT  27873
+                     |. ||| .. .||| |||||||||||||.|||||.|||||.||.||||| 
+c28099315-277  14734 CA-CCC-TG-GCCTTGACCCACAGAAACTCTGAGATTATACACGTGTGT-  14779
+
+c27733986-272  27874 G-TTTT-AAGCT--TAC-CAATTTTGTA-TTAATTTGTTATGCAGCAATA  27917
+                     | |||| || |.  ||| |  ||| ||. | .|||||||.||||||||||
+c28099315-277  14780 GCTTTTTAA-CAGGTACAC--TTT-GTGGT-GATTTGTTTTGCAGCAATA  14824
+
+c27733986-272  27918 GAAAACTCACACATCAGGTGAGCTTGA-CAGAATGAGTTGGGGCAAGTAG  27966
+                     .|||||||....|||||||.||.||||  ||||||||||||||||||||.
+c28099315-277  14825 AAAAACTCGTTTATCAGGTAAGTTTGAG-AGAATGAGTTGGGGCAAGTAA  14873
+
+c27733986-272  27967 GAGGAGAGG-GTTTGCTGGG---GAGAGG----A-GTGGGGACAG-GGGG  28006
+                     |||||| || |||||||||.   ||||||    |  ||||.| || ||||
+c28099315-277  14874 GAGGAG-GGTGTTTGCTGGACCAGAGAGGCTCCAC-TGGGAA-AGAGGGG  14920
+
+c27733986-272  28007 TGT-TTGG-CTGATGAAGAAGCAGAGAAGC-T--CCCTGCCATTGAGG-T  28050
+                     .|| . || ||  ||.|||||  | ||  | |  || ||..|  |||. |
+c28099315-277  14921 AGTGA-GGTCT--TGGAGAAG--G-GA--CATGGCC-TGAAA--GAGAAT  14959
+
+c27733986-272  28051 GATCACATAACTGAGAGTC-C-A-GGG-GGTG-GGAA-GCATCATCTCTG  28094
+                     |.  ||||.  ||. .| | | | ||| || | ||.| |  |  || |||
+c28099315-277  14960 GG--ACATT--TGT-TG-CACTAAGGGTGG-GTGGTATG--T--TC-CTG  14997
+
+c27733986-272  28095 TAGATGTTGAAACCAAAAT-ATGGCAAAG--GTAAAACAAGACCACAAGC  28141
+                     | | ||. |  .|||.  | ||| |  .|  |||  |||| |  |||. |
+c28099315-277  14998 T-G-TGA-G--TCCAT--TCATG-C--TGCTGTA--ACAA-A--ACAT-C  15031
+
+c27733986-272  28142 TATGATTCAGATCTTCAAAGAATGAAGAGATATGACCA-GGAAGATATTA  28190
+                      || |   | | ||     || |||  . .|||| |||   || |.|| |
+c28099315-277  15032 -AT-A---A-A-CT-----GA-TGA--C-TTATG-CCAC--AA-ACAT-A  15060
+
+c27733986-272  28191 GTTGT-T-TCAGTAAGGG-G-TTGGTGGGGCATTCCAATGACATGTTCTA  28236
+                     .|| | | .||||..||| | .|| ||..|  | |   |  || |.|| |
+c28099315-277  15061 ATT-TCTCACAGTTTGGGAGGCTG-TGAAG--T-C---T--CA-GATC-A  15098
+
+c27733986-272  28237 AAGCAGCTGGAATACTTTAGGGATGGGAGAAGATTG-CAGTGGAGAGCAA  28285
+                     .|||| |   .| ||   ||  ||   . ..| | | |  ||| | | | 
+c28099315-277  15099 CAGCA-C---CA-AC---AG--AT---T-CCG-T-GTC--TGG-G-G-A-  15126
+
+c27733986-272  28286 GGAGGATACCTTTC-CAAACTCTTGGTAGGGGTAACTACATAATTTCTGG  28334
+                     |   |   ||   | |   |||.||||     |  | ||| .|   |   
+c28099315-277  15127 G---G---CC---CAC---CTCCTGGT-----T--C-ACA-GA---C---  15149
+
+c27733986-272  28335 AGCC-C--CATGCAAATGAAAATGTAGGGCTCCTTTTTCAAAAAACA-GG  28380
+                     |||. |  | | |    |..   ||   | |||    .|    | || | 
+c28099315-277  15150 AGCATCTTC-T-C----GCC---GT---G-TCC----AC----A-CATG-  15176
+
+c27733986-272  28381 AAAAGTGTGATGTTAAGAGTATTAAAATGTAAAGCTTTTTCCTTTCTTCC  28430
+                         ||| || |  | |||    .|..||   |||   | | |  |  ||
+c28099315-277  15177 ----GTG-GA-G--A-GAG----GAGCTG---AGC---T-C-T--C--CC  15201
+
+c27733986-272  28431 AC-ACTCTTTTTCTTGACTTG--TC---A-CAGTATT-TTAAAATG-TCA  28471
+                     || |||||    |. ||  .|  ||   | |.| ||| .|.|.| | || 
+c28099315-277  15202 ACGACTCT----CA-GA--AGGGTCTGGAGCTG-ATTCATGAGA-GCTC-  15241
+
+c27733986-272  28472 TTATTCTAAGGAAGGAAAAAT-TAAAAATCTAAATTAT-TAGCATGAATG  28519
+                     | |..||.|||  |    ..| |..|||||..|.|.|. |. |.|||  |
+c28099315-277  15242 T-ACCCTCAGG--G----CCTCTCCAAATCCCAGTCACCTC-CCTGA--G  15281
+
+c27733986-272  28520 TCATCCCTGATCTTTATTTTGAAGTATAATTTTAAATGCAAATATGAGAG  28569
+                     .|  |||  |.|  |.  | ||   |||     ..|| |         . 
+c28099315-277  15282 AC--CCC--ACC--TC--T-GA---ATA-----CCAT-C---------C-  15303
+
+c27733986-272  28570 CATTTAACTTGTAGGTGGAATCAGGAAAGTTGTACAG--T-T-TGTATT-  28614
+                     |||| | |    ||| |    ||||   ||| | |||  | | .|| || 
+c28099315-277  15304 CATT-A-C----AGG-G----CAGG---GTT-T-CAGCCTCTGAGT-TTG  15336
+
+c27733986-272  28615 TTG-CAG--TTCATACATGCATGT-GGACT-T-TGTTC--TTACCAGACA  28656
+                     |||  ||  ..||||||  ||| | .|.|| |  |  |  || |||    
+c28099315-277  15337 TTGG-AGGGCACATACA--CAT-TCAGTCTGTG-G--CAATT-CCA----  15374
+
+c27733986-272  28657 ATGGAAGCATTGCACTAAACTAATGTAAATGTATTTACT---TTACTTTT  28703
+                     ||||   ||| |..||.  ||||.| ||  |      ||   | . ||||
+c28099315-277  15375 ATGG---CAT-GTTCTT--CTAAAG-AA--G------CTGGGT-G-TTTT  15407
+
+c27733986-272  28704 TGATACAGG-CATATTCTA-C-CAACACT--CCACCTTCT-TCTTACTGA  28747
+                     .|. | .|| || |   |. | |  | ||    |. |  | ||  |.|| 
+c28099315-277  15408 AGG-A-GGGGCA-A---TGGCGC--C-CTGG--AA-T--TGTC--AATG-  15440
+
+c27733986-272  28748 TGAGTGAGTCACAAGGAGTGGTGAATCCAT-GTATTGTAC-C--CATTGA  28793
+                      ||  ||| ||   |||  ||  |..||.|  ||..|| | |  ||  |.
+c28099315-277  15441 -GA--GAG-CA---GGA--GG--ACCCCCTC-TAAAGT-CTCAGCA--GG  15475
+
+c27733986-272  28794 ACCCATAGTCATGTACATTGCTTCTCAGTGTTG-CAAATCCT--GCTCAA  28840
+                     ||| |  |   | |||||.. || |  |||. | |    |||  |.||||
+c28099315-277  15476 ACC-A--G---T-TACATAA-TT-T--GTGA-GGC----CCTTTGTTCAA  15509
+
+c27733986-272  28841 ---CCA---AAGCT-CACA--ACGA-GTGTTGGGTTCAAAG----CAACC  28876
+                        |||   ||..| | ||  |  | | ||..||.| ||||    |. ||
+c28099315-277  15510 AAACCAGGGAAAATGC-CATTA--ATG-GTAAGGAT-AAAGTTTTCT-CC  15553
+
+c27733986-272  28877 ATTGAAAGCAAACCAT--TCTGCTGCAAATCAAAGGTTATTG-CT-GGGG  28922
+                     .||     |.. ||||  ||| || |   ||     | .||| ||    |
+c28099315-277  15554 TTT-----CTT-CCATAGTCT-CT-C---TC-----T-CTTGGCTT---G  15583
+
+c27733986-272  28923 TTATGGGATGCTAGCAAATGTAAAA-GAATAAAATTGTAATGGTTAGAAA  28971
+                     |.||||  ||||     .| ||||. |. |   ||| ||||| | . |  
+c28099315-277  15584 TCATGG--TGCT-----TT-TAAATTGG-T---ATT-TAATG-T-C-A--  15615
+
+c27733986-272  28972 TATAATCCAAGAGTAGGACATCATAACCTTTTAATTTTAC-TT-TCAATA  29019
+                     | ||.||.|| | ||  | |  | ||. |||.|||||||. || |   ||
+c28099315-277  15616 T-TATTCTAA-A-TA--A-A--A-AAA-TTTAAATTTTAAATTGT---TA  15652
+
+c27733986-272  29020 AGCAGTTGTTTTCATTTT-CATAGT-AGGTATTATTT-TC-T-CATTACA  29064
+                      ||| ||.    | |||| | |||| |  |.|| |.| || | |.  |||
+c28099315-277  15653 -GCA-TTA----C-TTTTAC-TAGTCA--TCTT-TATATCATGCC--ACA  15689
+
+c27733986-272  29065 A-AGGTATTAATTTGTTAGATGCAAAACCCATA-AAACCAT--AGCAT-A  29109
+                     . || | ||.|      | |||||||.   ||. |||| ||  ||| | |
+c28099315-277  15690 TCAG-T-TTCA------A-ATGCAAAT---ATTGAAAC-ATTTAGC-TCA  15725
+
+c27733986-272  29110 -GACA-GGAACAAAGGAGAAAGCCCCCA-CCATCCAGAGGTACTCATGTT  29156
+                      | |. |||| ...| .||||    .||   | |   |   ||| .| ||
+c28099315-277  15726 TG-CGTGGAA-TTTG-TGAAA----TCAG--A-C---A---ACT-TT-TT  15757
+
+c27733986-272  29157 TCA-GAGGCTG--A-GT-CTTTTTG-GCCTTCTGTTCT-A--TGAAAATG  29197
+                     | |  || |||  | || |.||| | .| || |||||| |  .|..|.||
+c28099315-277  15758 T-AT-AG-CTGGTATGTACATTT-GTAC-TT-TGTTCTTACCAGGTAGTG  15801
+
+c27733986-272  29198 ---CTA-TGTATATATTTATATCAA-GAAAAATATCATAGTTT-ATCAAT  29241
+                        |.| |||.|| |   | |.||| |.||     | | |||| |||  |
+c28099315-277  15802 GAGCCACTGTCTA-A---A-ACCAATGCAA-----C-T-GTTTTATC--T  15837
+
+c27733986-272  29242 -GTTTTTTCTGTATCCTT-AATTTTC--CC-CCATA-TCAATCAATATCC  29285
+                      ..||||. || ||.|.. ||..|||  || .|||.  |   |  |. ||
+c28099315-277  15838 CACTTTTA-TG-ATACAAGAACATTCTGCCGACATGG-C---C--TG-CC  15878
+
+c27733986-272  29286 TTATAGAGC--A-T--TTTAGTTGAATAGCATTTCATACTTCACA-CATA  29329
+                     ||.  | ||  | |  ||| || ||.| | |  |||  || |.|| ||||
+c28099315-277  15879 TTC--G-GCTCACTGGTTT-GT-GAGT-G-A--TCA--CT-CTCAGCATA  15916
+
+c27733986-272  29330 T-TACAACTTAACTAATGCTTCAGAGAGA-GAC--TGCATG-GAT--TCT  29372
+                     . |  .. ||...|||.|   |||.||.| .||  || .|| ||.  . |
+c28099315-277  15917 AGT--GG-TTGGTTAAAG---CAGGGAAATAACAATG-GTGAGAAGGA-T  15958
+
+c27733986-272  29373 ATATGGA-TTCCCCGAAGTGCAAACAATATTTC--C-A--GT-TTGCTTT  29415
+                     ||||||| ||||..|  || |...||. .||||  | |  || .||.|||
+c28099315-277  15959 ATATGGACTTCCTTG--GT-CGTTCAG-GTTTCTTCGAATGTCATGTTTT  16004
+
+c27733986-272  29416 TC-ATCAACAGTG--GTTT-CTTTCTGGCT--GACCTGGTGAGAAGAGTG  29459
+                     || || |. . ||  ||..  || ||||||   |||  . | ||||.|||
+c28099315-277  16005 TCTAT-AT-T-TGAAGTAAG-TT-CTGGCTCC-ACC--A-G-GAAGTGTG  16044
+
+c27733986-272  29460 ACAAC-GGAACATG-CA-T-CTAGAGA--ACAAAGATGGTGG-GC-T-GA  29500
+                      |..| ||..| || || | ||.| |.  ||..||.|| |.|  | |  |
+c28099315-277  16045 -CGTCTGGGGC-TGTCAGTGCTTG-GCTTACTCAGCTG-TAGC-CATC-A  16088
+
+c27733986-272  29501 C-C-TCTGGTGTGCTGGAGAT--GGAGCTACATCAGTCATCTGCTCCTAT  29546
+                     | | |||  |||.||  .|.|  | || | || ||| ||.  .||||| |
+c28099315-277  16089 CACGTCT--TGTACT--TGCTTTG-AG-T-CA-CAG-CAA--ACTCCT-T  16126
+
+c27733986-272  29547 GT-GTGC-TGG--CC--TGGGAA----G-GC-CA-GGG-C-T-GGTG--G  29578
+                      | .| | |||  ||  ||| ||    | || || ||| | | | ||  |
+c28099315-277  16127 -TCAT-CCTGGGTCCACTGG-AATTCTGTGCTCATGGGGCATTG-TGAAG  16172
+
+c27733986-272  29579 TACCTGCCACCAGC-AACCGCAGGC-TACTGAAGGGAGTCAACAGGGTAG  29626
+                      || ||. |  .|. ||.|  ||||  | | .||| |||     || | |
+c28099315-277  16173 -AC-TGT-A--TGTGAAAC--AGGCG-A-T-TAGG-AGT-----GG-T-G  16204
+
+c27733986-272  29627 A-CCCC-ACA-T-C-C-C-CCTA-CTCCAGCAGGGCAACTG-GGCAGAGC  29667
+                     | .|.| ||. | | . | || | | ||  |||  || | | | |    |
+c28099315-277  16205 ATACACTACTGTGCTAACTCC-AGC-CC--CAG--CA-C-GTG-C----C  16241
+
+c27733986-272  29668 TGCTTGGCTTCT-GTG-GACCAGGATTTTGGTTCATTCTTCACAGAGCAG  29715
+                     | || | |.||| . | | |||| |        ||| |  |    .||  
+c28099315-277  16242 T-CT-G-CATCTCA-GCG-CCAG-A--------CAT-C--C----TGC--  16268
+
+c27733986-272  29716 AGGTGAGTTTATAATAGTTTTATCTGGTAAATGTGGAAGTCACAAATATT  29765
+                     |  || |   ..|| |||   . |    |.| ||  .|||| |     | 
+c28099315-277  16269 A--TG-G---CCAA-AGT---G-C----ACA-GT--CAGTC-C-----T-  16293
+
+c27733986-272  29766 GTGTTTTATGAGTGTAGTTC--CCCTATTTTTTGTGGGAAATTTTCAG-A  29812
+                     | |.|| .  . .  ||  |  ||||       |   ||      ||| |
+c28099315-277  16294 G-GCTT-C--C-C--AG--CAACCCT-------G---GA------CAGCA  16318
+
+c27733986-272  29813 TATTATACAAG-GAATGCAAGAATCTTTCTATCATTAGATCACTTTCCTG  29861
+                      |  | .|||| |..||||||.  |   | |  |  ||.||| |||| ||
+c28099315-277  16319 -A--A-CCAAGTGGCTGCAAGG--C---C-A--A--AGGTCA-TTTC-TG  16352
+
+c27733986-272  29862 GC-CTGTTTCAAATGAATGCTCTTT-CTAAAATGTAGCTAACATAACTCC  29909
+                     |. ||||  |    |   ||    | ||    || |   || ||. |   
+c28099315-277  16353 GTGCTGT--C----G---GC----TGCT----TG-A---AA-ATG-C---  16376
+
+c27733986-272  29910 AAAAGATTATAAAAATAGAAAAAAGTTTTTAGCATGAACTTGGAATTT-A  29958
+                     |||| |  |||||| | |      |    | | | |   | ||  ||| |
+c28099315-277  16377 AAAA-A--ATAAAA-T-G------G----T-G-A-G---T-GG--TTTGA  16402
+
+c27733986-272  29959 TTATATTATTTTAAGGCGTTAAAAGTATTCCAT-GATTTTAAAAGGCACA  30007
+                       | || ||   ||| |   .        |||. | |     | || |||
+c28099315-277  16403 --A-AT-AT---AAG-C---C--------CCAAAG-T-----A-GG-ACA  16425
+
+c27733986-272  30008 TGC-TGTATCCTTATA-TG-CTTATA--TATATGTATCTTGAAATATGCT  30052
+                      || | || | || || .|  | |||  .||| || |||     ||  ||
+c28099315-277  16426 -GCAT-TA-C-TT-TAGAGG-T-ATAGGAATA-GT-TCT-----TA--CT  16459
+
+c27733986-272  30053 TTATTCCTATAAATGTCAAGTGAATCATTTCAATATTGTTTTTCATGTTA  30102
+                     ||     |||   ||| | | |  | |||  |.|||. ||.| ||. . |
+c28099315-277  16460 TT-----TAT---TGT-A-G-G--T-ATT--ATTATA-TTCT-CAC-C-A  16489
+
+c27733986-272  30103 GAAAAATCTTGATTTACATTAAAAAACTATTGATAAACCCTTAAATATTT  30152
+                     |  | ||  .| |  |  ||    || | |||       || ||||    
+c28099315-277  16490 G--A-AT--AG-T--A--TT----AA-T-TTG-------CT-AAAT----  16511
+
+c27733986-272  30153 ACCAAAGTAAAATAATAAATAGGTATAAAAGTGTGCTATAAGTGTCTATT  30202
+                     .|      |||| ||    | | |. |||| |   | ||| |. ||.|. 
+c28099315-277  16512 GC------AAAA-AA----T-G-TG-AAAA-T---C-ATA-GA-TCAAA-  16539
+
+c27733986-272  30203 CATACCCATGTAGGGACATACTGGTTACCCTGCAGATC-TGGGTATC-CT  30250
+                     ||.|.|||   |.| | | |..||  ||||  |    | ||||   | ||
+c28099315-277  16540 CAAAACCA---AAG-A-A-AAAGG--ACCC--C----CGTGGG---CACT  16572
+
+c27733986-272  30251 GGT-C-CC-TACAGGCAAGAAGT--CC-TGCTT-GG-GGCAGT-TG-CTT  30290
+                       | | || | |   || ||.||  || ||.|| || ||  || || |||
+c28099315-277  16573 --TTCGCCAT-C---CA-GAGGTAGCCATGTTTTGGAGG--GTGTGTCTT  16613
+
+c27733986-272  30291 A-GCCAGAACC-CATGCAGTACCAGTG-GTCTAATGTTGAAAAAAGCAAA  30337
+                     . |  .|  || | ||..|||  .||. |  |||| ||   | .| ||.|
+c28099315-277  16614 TTG--GG--CCTC-TGTTGTA--TGTATG--TAAT-TT---A-TA-CATA  16648
+
+c27733986-272  30338 ---GAT--CACA-GAAATACAT-ACAAGTGTGGTATATAGCCCTGCCACT  30380
+                         ||  || |  |||.|||| ||| |||     |  | ||     || 
+c28099315-277  16649 TTT-ATTTCA-AT-AAAAACATCACA-GTG-----T--A-CC-----AC-  16680
+
+c27733986-272  30381 TGTCTGAGACTGCCTTCTCAGGTCCTAGCTCTGCATGGCATCTGCTTTGA  30430
+                       | |  |  | ||||.|    || |   | |.||   ||||  |.|  |
+c28099315-277  16681 --T-T--G--T-CCTTAT----TC-T---T-TACA---CATC--CAT--A  16706
+
+c27733986-272  30431 TGCGTGGGAGTTTGCTGTCATCAGCATCTTTGGCTCAAG--CTGC-TCCG  30477
+                      ||     | ||| |   |  ||  |   |   ..||||  |  | |   
+c28099315-277  16707 -GC-----A-TTT-C---C--CA--A---T---AACAAGAAC--CAT---  16730
+
+c27733986-272  30478 CTGCTGT-GTTCCTGTGAATATAGAACGTTGGCACAGTAGGTGTGTGGGG  30526
+                     || || | |.||.| |   | || ||.||.| |||||.|      |    
+c28099315-277  16731 CT-CT-TAGATCAT-T---T-TA-AATGTAG-CACAGAA------T----  16761
+
+c27733986-272  30527 ATGGGGAGAGGTACCTGCCCATGAGTGTGC-CTC-TCTGGAGCTGAGTAG  30574
+                      |         | |.||  | ||  ||  | |.| ||   | |     | 
+c28099315-277  16762 -T---------T-CATG--C-TG--TG--CACACATC---A-C-----A-  16783
+
+c27733986-272  30575 GGGATTGTCGGTGCCTGGCCCACCTGAACCAGTAAAGGGCTGCAGGTATG  30624
+                        |   ||  |.| |        | |||   ||    ||| |   |.||
+c28099315-277  16784 ---A---TC--TAC-T--------T-AAC---TA----GCT-C---TCTG  16804
+
+c27733986-272  30625 GT-GGGGCTGGGTCCACTTGTCAAGGC-ATGC-GCACAGGGCTACCTAGC  30671
+                      |    ||||.  .|||||   | ||| |  | ||. ||||     | |.
+c28099315-277  16805 -TT---GCTGA--ACACTT---A-GGCCA--CTGCT-AGGG-----T-GT  16835
+
+c27733986-272  30672 CCATGG-GA-GAGCTTCCCACTGGGCTGGGGTGGGTGGGCA-GCTCCCAG  30718
+                     ||  || |. | | ||||..||||  |||| |   |   |. ||||.|| 
+c28099315-277  16836 CC--GGAGTTG-G-TTCCTTCTGG--TGGG-T---T---CTTGCTCTCA-  16871
+
+c27733986-272  30719 CTGTGAGGGC--CA-GCTTTATTTTGTAAAGGGCTAG-AGGAGGCCATTT  30764
+                     |||  |   |  || |    |.|  | |. |  || | || |  || || 
+c28099315-277  16872 CTG--A---CTTCAAG----AAT--G-AT-G--CT-GCAG-A--CC-TT-  16900
+
+c27733986-272  30765 CCTG-T-TTGTGTCCCACA-CCTGGAACTGTGGGGGTGGGGCAGCTCCTT  30811
+                     ||.| | . ||||.  ||| | |    || |...|||||  || |     
+c28099315-277  16901 CCCGGTGA-GTGTT--ACAGC-T----CT-TAAAGGTGG--CA-C-----  16933
+
+c27733986-272  30812 ACCTGGGAGGCCCTAGAGAGATAAAATAAGTTG-GCCATGGCTCCAAGCC  30860
+                     |      |. ||| | | ||       | || | || | | |   | ||.
+c28099315-277  16934 A------AA-CCC-A-A-AG-------A-GT-GAGC-A-G-C---A-GCA  16957
+
+c27733986-272  30861 A-CACTCCACTACCCCAACTGTGCAGGCAGCTAGGAGCA-GGCAAAGGAA  30908
+                     |  | |  . ||      |||||.|..|  |.|. | ||   |   | ||
+c28099315-277  16958 AG-A-T--T-TA------CTGTGAAAAC--CAAA-A-CAT--C---G-AA  16986
+
+c27733986-272  30909 AAGGGCCCCTCCACCA-CCACTCACTGCCTCAGGTTGG---CTGAGGCTG  30954
+                     |   |.  .||||| |   |.| |  |  | |||  ||   |. || | |
+c28099315-277  16987 A---GT--ATCCAC-AG--ATT-A--G--T-AGG--GGAGTCC-AG-C-G  17017
+
+c27733986-272  30955 GGTGTGAGGCTGGCTTTCTCACATCCTTGATTGACTGTATGTAGATTTAC  31004
+                       ||| .||  || |     | . ||   |  |.|| | | ||  ||  |
+c28099315-277  17018 --TGT-TGG--GG-T-----A-G-CC---A--GCCT-T-T-TA--TT--C  17042
+
+c27733986-272  31005 ACCTGGATATAGGAGAGAGCTATGGGCTCCACCTGAGTCAGAGTAAAAGG  31054
+                      |||   |||          | |  | ||| || |. .|| .||      
+c28099315-277  17043 -CCT---TAT----------T-T--G-TCC-CC-GC-CCA-CGT------  17064
+
+c27733986-272  31055 ACAAAT-CT-ATATACAACCATATCT-CAGAGAT-TTTCTGATTAGGTTC  31100
+                      |.  | || || |. ..||||.| | ||||| |    |||||| ||| |
+c28099315-277  17065 -CC--TGCTGAT-TG-GTCCATTT-TACAGAG-TG---CTGATT-GGT-C  17102
+
+c27733986-272  31101 CAGACCACCACAAGAAAGCAGATA--TCTCAATA-A-AGCAACT-CAAAT  31145
+                     ||  |... ||| ||..||.|||.  || ||.|. | || |. | |   |
+c28099315-277  17103 CA--CTGT-ACA-GAGTGCTGATTGGTC-CATTTTATAG-AT-TGC---T  17142
+
+c27733986-272  31146 GAGTTTTTTGTATCACAGTGAAAATAAAAGTTATGACTA-CACTATACTG  31194
+                     || |    ||       |||       .| || | ||.| | ||   || 
+c28099315-277  17143 GA-T----TG-------GTG-------CA-TT-T-ACAATC-CT---CT-  17165
+
+c27733986-272  31195 TAGTCTA-ATAAAGTGTGCAATAGTATTATGTCTACAAAAACAATGTGTA  31243
+                      || ||| |.|.||.||||  | | |||. ||        .|| | | | 
+c28099315-277  17166 -AG-CTAGACACAGAGTGC--T-G-ATTG-GT--------GCA-T-T-T-  17196
+
+c27733986-272  31244 TATCTTAATTAACAAATACTTTATTGCTTAAAAATGGTAACCATCAAAGA  31293
+                      | |  |||   |     |||||  |||     | |  | | |  .|| |
+c28099315-277  17197 -A-C--AAT---C-----CTTTA--GCT-----A-G--A-C-A--GAA-A  17219
+
+c27733986-272  31294 TG--GCTGAGAAGTAGGGGAACCTGGATTTCCCTTGTCCCTCAAACACAG  31341
+                     ||   |||. ||||     . ||       |.|   |||. |   | |||
+c28099315-277  17220 TGTT-CTGC-AAGT-----T-CC-------CAC---TCCA-C---C-CAG  17246
+
+c27733986-272  31342 CTGTATTGAGGTCAGATCA-CTTGGAACA-CCCTGGAAATCAAC-CTGCG  31388
+                       | |   || ||    || || ||  |. |.||     ||. | ||. |
+c28099315-277  17247 --G-A---AG-TC----CAGCT-GG--CTTCACT-----TCT-CACTA-G  17275
+
+c27733986-272  31389 GAGTGGCAGAA-GGATCTCTGCAGGTGGAGGGAGACATTGGAGGGATTGA  31437
+                     | |||  | || |   ||||     ||        |   | .||  || |
+c28099315-277  17276 G-GTG--A-AATG---CTCT-----TG--------C---G-TGG--TT-A  17298
+
+c27733986-272  31438 GGTATGTGTATATGAATTGGGGGACATAAAATGGCATAGGCAAGGTGGGG  31487
+                          | | ||  |. | |  |     |  |   | |   |    |    
+c28099315-277  17299 -----G-G-AT--GC-T-G--G-----A--A---C-T---C----T----  17313
+
+c27733986-272  31488 AGGGAACC-CCTTTTGTGAACAGACAAAAGGGAGAGAAAGAGAGAGGGAT  31536
+                      |||| || ||     |   |   |          ||| || |    |  
+c28099315-277  17314 -GGGA-CCGCC-----T---C---C----------GAA-GA-A----G--  17332
+
+c27733986-272  31537 TCAGTATCTACTTAGC-ATTAG-A-GGAAAACCTCTCCAGACCATGGACT  31583
+                      ||  | |  |||. | ||| | | ||  | | || ||  |  | ||  |
+c28099315-277  17333 -CA--A-C--CTTC-CTATT-GTACGG--A-C-TC-CC--A--A-GG--T  17362
+
+c27733986-272  31584 G-GGGAATGA-GAAATATGGAGAGTGCTGGTTTCCA-TTTTGCAAACAGC  31630
+                     |    ||  | |   | |  ||  | |   |  | | |   |     .||
+c28099315-277  17363 GC---AA--ACG---T-T--AG--T-C---T--C-AGT---G-----TGC  17384
+
+c27733986-272  31631 CTTAGGAGC-TGAAACTTAGAGGTATGAAAGTGCCCAACTTTCTCTGGAC  31679
+                     |||   . | |||     ||||   ||   ||    ..||||||  || |
+c28099315-277  17385 CTT---T-CATGA-----AGAG---TG---GT----TTCTTTCT--GG-C  17412
+
+c27733986-272  31680 TGGAGCCGGCTGTGTGTGCACGCCTGGCGGGAGAAGGAGCCA-GCC-CAG  31727
+                     |   |||  ||. |.|.| |.|.|||||   ||. ||||| | ||. |.|
+c28099315-277  17413 T---GCC--CTA-GAGAG-AAGACTGGC---AGT-GGAGC-ATGCATCTG  17450
+
+c27733986-272  31728 G-GTG-CTGTAGCAATCTCAGGGGCTCACTGGAGAGAATAGTCCCTTTC-  31774
+                     | | | |.| || |    | ||  |  |  ||.| |  ||  |||   | 
+c28099315-277  17451 GAG-GGCAG-AG-A----C-GG--C--A--GGCG-G--TA--CCC---CG  17478
+
+c27733986-272  31775 -TTC-CAGTACTGTG-GGAAGAGGATTTATTGCCTCCC-CAGGACAAAAG  31820
+                        | | | .| | | ||   .|||      || |||. ||| ||    |
+c28099315-277  17479 G--CGC-G-CC-G-GCGG---TGGA------GC-TCCTGCAG-AC----G  17507
+
+c27733986-272  31821 ACCCTTTGGTGGCAGCCAAAGGCCTTTTATCAGCAGGGCT-GAGGGGCC-  31868
+                     .||    | || |  |||..||.||     | ||.|..|| |.||  || 
+c28099315-277  17508 TCC----G-TG-C--CCAGCGGACT-----C-GCTGAACTTGTGG--CCG  17541
+
+c27733986-272  31869 -CTACAGCTGGACAGGGTCC-CCACAGTGCAGGA-CCGTTTAAGACATCA  31915
+                      | | ||| |  ||||  |. ||.| | |  ||| |||     |   |  
+c28099315-277  17542 GC-A-AGC-G--CAGG--CTTCCTC-G-G--GGAGCCG-----G---T--  17570
+
+c27733986-272  31916 GG-GTTTGAATCCCAGTCGAA-TGCCTAGAAGGCGCAGGAGAACTGTGGA  31963
+                     || |.| ||  |||. |||.| | ||| |..  | |||| |    | ||.
+c28099315-277  17571 GGAGCT-GA--CCCC-TCGCACT-CCT-GCC--C-CAGG-G----G-GGC  17605
+
+c27733986-272  31964 -GCAGGGCAAGCTAACTGTGCTATTCTGTGATGGCTGCCTAAATAGCATG  32012
+                      ||.||||| |  |     ||  | || ||  |||| ||    | |||  
+c28099315-277  17606 TGCCGGGCA-G--A-----GC--T-CT-TG--GGCT-CC----T-GCA--  17633
+
+c27733986-272  32013 GTTTGAGACCCCCGGTTGGGAGAGAGTTTGGAGTGTTGGCCATTTTTCTC  32062
+                         | | ||          || ||||||| .   ||  | |||   | |
+c28099315-277  17634 ----G-G-CC----------AG-GAGTTTG-C---TT--C-ATT---C-C  17655
+
+c27733986-272  32063 CCAAACACCAACA-TGGAGG-GA-CTTCAGGGA-AGCAGCACA-GCA-GT  32106
+                     .||  ||  || |  ||||| || .||.|  .| || .|| ||  |. ||
+c28099315-277  17656 TCA--CA--AA-AG-GGAGGTGAGTTTAA--AATAG-TGC-CAT-CTTGT  17694
+
+c27733986-272  32107 CCCCCA-GTGGAGGCGGGCTTACACCAAACCCCGCTCCTCCATGCCTGGC  32155
+                        ..| |||||  |    || |||   ||  .|       ||   ||  
+c28099315-277  17695 ---AAATGTGGA--C----TT-CAC---AC--AG-------AT---TG--  17717
+
+c27733986-272  32156 AACTGGTTTTCTAC-TGGAGCTAGACTGACTGAGCCAACGCAGCCAAC-C  32203
+                         ||||| |  | || ||| | .| |. |   |   | |  ||| |  
+c28099315-277  17718 ----GGTTT-C--CATG-AGC-A-TC-GT-T---C---C-C--CCA-CG-  17744
+
+c27733986-272  32204 TCTCCTCCAGGTCAGCATAGCCACTGGTCCAAGGCACAA---CCAGACAA  32250
+                     | |  |   | | .|  | |     ||   ||   | ||   ||||| ||
+c28099315-277  17745 T-T--T---G-T-TG--T-G-----GG---AA---A-AATTTCCAGA-AA  17770
+
+c27733986-272  32251 CTGTTCTTTGTTTTTGTCT-G--TTTGTCTCTCTGTCTGTTGGTTTGTCT  32297
+                      |    ||||       |. |  ||| | || |.| |. ||.|.      
+c28099315-277  17771 -T----TTTG-------CAAGAATTT-T-TC-CAG-CA-TTAGA------  17797
+
+c27733986-272  32298 GTTCTTCTATTCTCTCTACCT--TCTTT-TTTTTCTTTTGGAATCAGGCT  32344
+                          || |  || | | |||   |||. |||||     | | |  |.||
+c28099315-277  17798 -----TC-A--CT-T-T-CCTGG-CTTAGTTTTT-----G-A-T--GACT  17826
+
+c27733986-272  32345 -CATAGTTTCTGATTTGTTTTTGGTGAA-TTGATATATATA--TATATAT  32390
+                       ||| |||  | |....|.| |.|||| || | || | ||  |..| | 
+c28099315-277  17827 G-ATA-TTT--G-TAAAATAT-GATGAACTT-A-AT-T-TAGCTCCA-A-  17864
+
+c27733986-272  32391 ATA-TATATATATATATATATA-TATATATATAAAA-TTTTTTTCTGCTT  32437
+                     | |  ||| ||| | | | |||  | | | | ||.| |||      |   
+c28099315-277  17865 A-AG-ATA-ATA-A-A-A-ATAG-A-A-A-A-AAGAGTTT------G---  17893
+
+c27733986-272  32438 TTTTTGC-TGTTTAGTCAGGCATTTTTACTCTTTTTACACCTTTCCAATA  32486
+                      |.  || ||   |   ||.| ||   |        |||| ||   ||||
+c28099315-277  17894 -TA--GCATG---A---AGAC-TT---A--------ACAC-TT---AATA  17918
+
+c27733986-272  32487 TCTTCTTTTTC-TTTATTTG-A-TT-TTCT-C--TCTCTCTGGATTAAGA  32529
+                     |.||.|||... |  ||| | | || |||| |  | | | ||||  ||| 
+c28099315-277  17919 TATTATTTAAAGT--ATT-GCAATTATTCTGCAAT-T-T-TGGA--AAG-  17959
+
+c27733986-272  32530 C-TTATACTCTCTGTTTAG--TCTT-CTTTTCTCTCTTTTCATTTTTCTC  32575
+                     | | ||. ||||||   ||   |.| |    || |.||| | |.|. |. 
+c28099315-277  17960 CGT-ATG-TCTCTG---AGGG-CATGC----CT-TATTT-C-TATA-CA-  17994
+
+c27733986-272  32576 TTTGTGTGGGATCA-G-GC-TTCCCCCCCCCCT-T-TCCTT-TTTTTATA  32619
+                     |.|. |      || | |. ||      ..| | . |. || ||||  | 
+c28099315-277  17995 TATA-G------CAAGTGAATT------AAC-TGAGTA-TTGTTTT--T-  18026
+
+c27733986-272  32620 GGGCTACT-TCAGTGAACAAATCA-AA---GCACAACTGG---TT-GAAG  32660
+                        | | | ||||  || ||.||| ||   .||.||..||   || .||.
+c28099315-277  18027 ---C-A-TGTCAG--AA-AAGTCAGAATTTACATAAAAGGAAATTTAAAA  18068
+
+c27733986-272  32661 GTCCAAACACTCCACCACTAC-A----AGAA--AGGAGGAGCTT---TGA  32700
+                     .|  ||. . || |  |||.. |    |||.  ||| |  | ||   ||.
+c28099315-277  18069 AT--AAT-T-TC-A--ACTTTTATTTTAGATTCAGG-G--G-TTAAATGT  18107
+
+c27733986-272  32701 AG-AGGACTG--ACCAGTGGG-ATA--GAGCAGCCAAAATGCCACAATAG  32744
+                      | |||..||  |||  |||| |||  |.| .|     ||||     | |
+c28099315-277  18108 -GCAGGTTTGTTACC--TGGGTATATTGTG-TG-----ATGC-----T-G  18142
+
+c27733986-272  32745 AGTGTATGCAACACACCAAAAAATTCCTGAAGTGCCAGGCCCTGGATAGT  32794
+                     || ||.|| .. ..|| .|      | |||  | | |  ||| ||.||||
+c28099315-277  18143 AG-GTTTG-GG-GTAC-GA------C-TGA--T-C-A--CCC-GGGTAGT  18174
+
+c27733986-272  32795 --GTATG--ACCCCTACTTGATATAGTAGTACTTGCAGGTATGGGACATA  32840
+                       |.|||  ||  |  |   | |||||  |||||     | |    |   
+c28099315-277  18175 CAGCATGGTAC--C--C---A-ATAGT--TACTT-----T-T----C---  18201
+
+c27733986-272  32841 TAACAAGCTATTAAAACATGTAAAAGACAGAAACCTAGCCAAAATAATGA  32890
+                        ||  |        |||        |     |||  ||       |  
+c28099315-277  18202 ---CA--C--------CAT--------C-----CCT--CC-------T--  18214
+
+c27733986-272  32891 AACAGAAGAACTCTCCTCAAAAGAAAAT--TCAGGAAGAAATGA-CAGCC  32937
+                       |.  .|  | | |||     |.  .|  ||.| | |   ||. |  ||
+c28099315-277  18215 --CC--CG--C-C-CCT-----GT--GTGGTCCG-A-G---TGTTC--CC  18242
+
+c27733986-272  32938 AGAGATTTGCT-CAAAACAGATATAAACAATATATCTGACAACAATTTAG  32986
+                            |||| |    |   | |   |  | | |.||.|  || |   |
+c28099315-277  18243 -------TGCTGC----C---T-T---C--T-T-TATGTC--CA-T---G  18264
+
+c27733986-272  32987 AATAACAGTCATAAGACTACTAGCTGGGCTTGAAAAAAGCACACAGGACA  33036
+                       |. ||  |      |  | .|  ||| ||      ||    | |  | 
+c28099315-277  18265 --TG-CA--C------C--C-GG--GGG-TT------AG----C-G--C-  18283
+
+c27733986-272  33037 CCAGAGAAAACCTT-TC-TGCAGACATCAAAGACCTAGGAACTAGTCAGG  33084
+                     ||      | | || || || ||| || |. |   | ||.| |  | .||
+c28099315-277  18284 CC------A-C-TTGTCGTG-AGA-AT-AT-G---T-GGTA-T--T-TGG  18313
+
+c27733986-272  33085 ATAAATTTAAAAATGCTATAACTGAGATGCAAAACAAATGA-T-ACAGTG  33132
+                      |   ||        |     |||  .| |    |   ||. | | | | 
+c28099315-277  18314 -T---TT--------C-----CTG--TT-C----C---TGGGTTA-A-T-  18333
+
+c27733986-272  33133 ACTGCAAAGATGGAGGAAGTGGAGGAGAGAATAGGTTAAGTAGAAGATAA  33182
+                     .| ||    .||  | |  |         ||| ||  .. |. .||.|  
+c28099315-277  18334 TC-GC----TTG--G-A--T---------AAT-GG--CC-TC-CAGCT--  18357
+
+c27733986-272  33183 ACTTACA-GAAAAAAAATTAAGCTGAAAAAAAGAGGGAAAGGAAATTAC-  33230
+                     ||.|.|| |        ||  ||||.|||  |||   .|.|   |||.| 
+c28099315-277  18358 ACATCCATG--------TT--GCTGCAAA--AGA---CATG---ATTTCA  18389
+
+c27733986-272  33231 TAGAACATGAGGGGAGACTAGGAGAATTAAGTGATTCCAAGAAACTAAAA  33280
+                     |  ..|.| |    |||. |  | ||||   ||||.| |    .||..||
+c28099315-277  18390 T--TCCTT-A----AGAA-A--A-AATT---TGATAC-A----TCTTTAA  18420
+
+c27733986-272  33281 AATATCCAAATCATAGGAGTCTCAGGAGAAGAGTGAGAAAAAGGGGCA--  33328
+                     | |||     |  ||     ||      .| .|| | |   ||  .||  
+c28099315-277  18421 A-TAT-----T--TA-----CT------TA-TGT-A-A---AG--ACAAT  18443
+
+c27733986-272  33329 GAA-GGTTTATTTGAGCAAAGTATAGCTGAGAATTT-CCCTAAT-CTGGG  33375
+                     ||| ||||| ||  | ||. |  |  |    ||  | |  |.|| ||   
+c28099315-277  18444 GAATGGTTT-TT--A-CAT-G--T--C----AA--TGC--TTATACT---  18473
+
+c27733986-272  33376 GAAGGAAACAGGCATACA-AATTCAAGAGGCACAGAGAACTCCCTTCAAA  33424
+                     |.   ||||   |   || |||| . |   |  ||         |     
+c28099315-277  18474 GC---AAAC---C---CATAATT-T-G---C--AG---------T-----  18493
+
+c27733986-272  33425 CTAACAAACCAGGTCAACGCCATGACATATCATAGTGAAACTTACAAAAT  33474
+                      |  |  || |  | |  |  |||.|    | |  ||    |   ||  |
+c28099315-277  18494 -T--C--AC-A--T-A--G--ATGTC----C-T--TG----T---AA--T  18514
+
+c27733986-272  33475 ACAAAGATTTGAAGGAGAGTTCTGAAAACAGCTAGACACAAAAGGTTTTT  33524
+                          ||   |||  | ||  |.|    ||  |   | |      |.|  
+c28099315-277  18515 -----GA---GAA--A-AG--CAG----CA--T---C-C------TAT--  18533
+
+c27733986-272  33525 TTGTGTACTTTATGTGTCTACT-ACAAGGGTAGACACATAATGTTAGTAG  33573
+                       |.|||    . |||||| || ||     | |.|   | .|||| |  |
+c28099315-277  18534 --GAGTA----G-GTGTCT-CTGAC-----T-GTC---T-TTGTT-G--G  18562
+
+c27733986-272  33574 CAGACC-TGTCCACTGAA-ACTTGGCAGGTCAGAAGGAAGTGGC-T-GGA  33619
+                       | || |.|   | ||. ||.||||||.||.|| |||  |  | | |  
+c28099315-277  18563 --G-CCATAT---C-GATTACATGGCAGATCTGA-GGA--T--CCTCG--  18598
+
+c27733986-272  33620 AATATTCAATGTGCTGAATAGGAAAAATATTCAGCCAAGAATCCTTTATC  33669
+                       | | |.     |  |              |||||| ||. |     ||
+c28099315-277  18599 --T-T-CC-----C--A--------------CAGCCA-GAG-C-----TC  18616
+
+c27733986-272  33670 CAGAAAGTCTGTCCAGAATAAAAGGA-GAGATAAAGGCTTTTCCAGACAA  33718
+                     | ||.. .||| | ||  ||.. | | | | |     ||.| |||| |  
+c28099315-277  18617 C-GACC-CCTG-C-AG--TACT-G-ATG-G-T-----CTCT-CCAG-C--  18647
+
+c27733986-272  33719 ACAAAAACTAAAGGAGTTCATGACCACTA-AACCAGCCCTGCAGAAAAT-  33766
+                      |...||| |||   |  ||   |||| | ||. .||. ||| |.  .| 
+c28099315-277  18648 -CTTTAAC-AAA---G--CA---CCAC-AGAAT-TGCA-TGC-GG--GTG  18681
+
+c27733986-272  33767 CCTAAGGAGGAC-T-CTGAATGGGAAGT-A-GCA-GCAAAGACTACAAAG  33811
+                       |  ||.|  | | |||. |  |..|| |  |. ||.. | ||.||. |
+c28099315-277  18682 --T--GGTG--CATGCTGC-T--GCTGTCAT-CCTGCCC-G-CTCCAG-G  18718
+
+c27733986-272  33812 GACCGGAGACATCACCACAATATGAAACTTACAGATAATACAATGGCAAT  33861
+                     |   |||| | || || |   | |   |||.| | |..| || || |  |
+c28099315-277  18719 G---GGAG-C-TC-CC-C---A-G---CTTGC-G-TGCT-CA-TG-C--T  18747
+
+c27733986-272  33862 AAATC-CAT-ATCT-TTCAATCATCACTCTGAATGTA-AGTGGACTAAAT  33907
+                       .|| | | |. | ||   || | | | |||.| || |||   |||  |
+c28099315-277  18748 --TTCAC-TGAA-TGTT---TC-T-A-T-TGACT-TACAGT---CTA--T  18780
+
+c27733986-272  33908 GTCCCAATAAAAAGACATAGAGTAT-CAGAATGGATTGAAAAAAAAACAA  33956
+                     |   |  |     |.|.|.   | | || |.||| | ||    ||  |  
+c28099315-277  18781 G---C--T-----GTCCTT---T-TGCA-AGTGG-T-GA----AA--C--  18805
+
+c27733986-272  33957 AATCCATCT-ATATTCTGCCTACAAGAGACTCATTTGAGACCTAAGGACA  34005
+                       |   | | | .|  ||| |        ||| |||| | |      | |
+c28099315-277  18806 --T---T-TGA-GT--TGC-T--------CTC-TTTG-G-C------A-A  18827
+
+c27733986-272  34006 CCTGCAGATTGAAAGTGAGACCCATCTATCATGCTACTGGATGTCAAAAG  34055
+                       || .| ||   . ||||..  .||| |  || |.||| ||| |     
+c28099315-277  18828 --TG-TG-TT---T-TGAGGT--TTCT-T--TG-TGCTG-ATG-C-----  18856
+
+c27733986-272  34056 AAAGCTGGAGTAGC-CATAC-TT-ATATCAGACAAACTAGGTTTTATTTA  34102
+                         ||   ||||| | | | || || || |      | |    |.   |
+c28099315-277  18857 ----CT---GTAGCTC-T-CGTTCAT-TC-G------T-G----TG---A  18881
+
+c27733986-272  34103 TTTATTTATTTATTTATTTATTTATTTATTTATTTATTTCTATTTTTTAA  34152
+                        |   .|. .|| . . |  ||   .   |   ||||| ||    |  
+c28099315-277  18882 ---A---CTC-CTT-G-C-A--TA---G---A---ATTTC-AT----T--  18903
+
+c27733986-272  34153 ATGTAATTTATTGAGAAATTAGCTAATGTACAGTGTA-TACAGTGT-GCT  34200
+                     ||||        || |.||  ||||    .|| | || |||| |||  ||
+c28099315-277  18904 ATGT--------GA-ATAT--GCTA----CCA-T-TAATACA-TGTT-CT  18934
+
+c27733986-272  34201 TTTGTTTTTGG-GG-GTAGATTTCTGTGATTCATTGCTTACACACAACAC  34248
+                     ..||||   || ||  |   ||||.||  ||| | |||    | |. || 
+c28099315-277  18935 CCTGTT---GGCGGC-T---TTTCAGT--TTC-T-GCT----C-CT-CA-  18966
+
+c27733986-272  34249 CTAGCACTCATCCCAAGAA-GT-CCTCTCCTCAATGCCCATCACTCA-TT  34295
+                      |  | |    |||| |.| || | |.|  | ||     |  |. ||   
+c28099315-277  18967 -T--C-C----CCCA-GTATGTGC-TAT--T-AA-----A--AA-CAG--  18993
+
+c27733986-272  34296 TTTCCATCT-CCCCCA-TCAAACCTCAGTTTGTTCTCTGTATTTAAGAAT  34343
+                        ||   |    | |  ||||  |  |||    |||||| |.||     
+c28099315-277  18994 ---CC---TG---C-AG-CAAA--T--GTT----CTCTGT-TATA-----  19018
+
+c27733986-272  34344 CTCT-TATG-GTTTGCATCCCTCCC---TCTCTGTTTG-TAACTATT-T-  34385
+                     |.|| .||| ||.|| .|||| |||   | ||. |.||  || |||| | 
+c28099315-277  19019 CACTGAATGTGTCTG-TTCCC-CCCAGAT-TCA-TATGG-AA-TATTCTG  19062
+
+c27733986-272  34386 --T-TTATCCTTCCCT--TCCCCCATGGTCT-TCTGTTAAATTTTTCAAG  34429
+                       | |||.|.|||.||  ||||  ||| | |  |.|  .| |.|| |   
+c28099315-277  19063 AGTATTAACTTTCTCTGGTCCC--ATG-T-TG-CAG--GA-TCTT-C---  19100
+
+c27733986-272  34430 TTCCACATATGAGTGAAAATATATCATATCTGTTTTTCTTTGACTGA-CT  34478
+                     | || || ..||| ||.. | |..|.|.||. |||| ||||.|. ||  |
+c28099315-277  19101 T-CC-CA-GCGAG-GAGC-T-TGCCTTTTCC-TTTT-CTTTAAA-GAG-T  19140
+
+c27733986-272  34479 -TATTTCACTT---A-G---CATAATATG-CTC--CAG-TTCCATCCACG  34516
+                      | ||| . ||   | |   | ||||||| | |  .|| . |  |    |
+c28099315-277  19141 GT-TTT-G-TTGGGAAGTGTC-TAATATGGC-CGGAAGGA-C--T----G  19178
+
+c27733986-272  34517 T-TG-C-TG--CATATGGAAGGATTTCA-TT----CT-TTCT--CATTG-  34552
+                     | || | ||  |||. ||.|||    || .|    |.   |.   |||| 
+c28099315-277  19179 TGTGGCCTGTGCATG-GGGAGG----CAGATGAGGCAG--CAGG-ATTGT  19220
+
+c27733986-272  34553 CCAAATAGTATTCCATTGTGTGTGTGTGTG-TGTGT-GTGTATATATATA  34600
+                     ||.   ||    |||  | |. ||||.||| || |. | ||| ||.| |.
+c28099315-277  19221 CCC---AG----CCA--G-GA-TGTGAGTGATG-GAAG-GTA-ATGT-TC  19255
+
+c27733986-272  34601 TA--TATATA-T-A-TATATA-TATATATATATACACACACACACTATAT  34644
+                      |  | |..| | |  |.| |  | || |. . . | | | || |     
+c28099315-277  19256 -AGCT-TCCAGTGAG-ACA-AG-A-AT-TG-G-G-A-A-A-AC-C-----  19286
+
+c27733986-272  34645 ATATATATATATATATATATATATATATATATATATATATACACACACCA  34694
+                         | . | | . | . . ||||.| |. . ||||.| | | || |  .
+c28099315-277  19287 ----A-G-A-A-G-A-G-C-ATATGT-TG-C-ATATGT-T-C-CA-A--G  19315
+
+c27733986-272  34695 TATCTTCTTT-ATCCATTCATCAGTTGATGGACATTTAGGCTTTTTC-CA  34742
+                     | |   |||| | || | || |  |   |   | ||  | ||  | |  |
+c28099315-277  19316 T-T---CTTTGA-CC-T-CA-C--T---T---C-TT--G-CT--T-CG-A  19341
+
+c27733986-272  34743 TAATTTAGCTGTTGTTGATAACACTG---CTATAAG-CATTGGGGCA---  34785
+                     |. |  |  ||  || | || | |.|   |   | | | | |||||.   
+c28099315-277  19342 TG-T--A--TG--GT-G-TA-C-CAGGGGC---A-GAC-T-GGGGCCTGT  19374
+
+c27733986-272  34786 CATGTGC-CC-CTATGAATCAG-CA--CTCCTG--TA-TCCTTTGGATAA  34827
+                     ||||.|| || | | |.  |||  |  | ||||  .|  ||  .||. |.
+c28099315-277  19375 CATGAGCTCCAC-A-GG--CAGG-AGGC-CCTGGGCAG-CC--AGGC-AG  19414
+
+c27733986-272  34828 -ATTCCTAGTAGTGCTGTTG-CTGGTTTATAGG-GTG-GTTATATTTTTA  34873
+                      ||||| ||  |||  |. | . ||   | ||| |.| || . .     .
+c28099315-277  19415 GATTCC-AG--GTG--GA-GGA-GG---A-AGGAGAGCGT-G-G-----G  19446
+
+c27733986-272  34874 ATTTTTTTGAGGAAC---C---TGCA--CAC-TG----TTTTCCAGAGCA  34910
+                             ||||..|   |   ||||  ||| ||        | || | |
+c28099315-277  19447 --------GAGGTGCTGACAGGTGCAGGCACATGGGGG----C-AG-G-A  19481
+
+c27733986-272  34911 GCTG-CACCAGT-T--TGCATTCCCTCCAACAGTGCAAG--AGG-T-T--  34950
+                     |||| ||  .|| |  || .|     |||   ||| |||  ||| | .  
+c28099315-277  19482 GCTGGCA--GGTGTGGTG-GT-----CCA---GTG-AAGGGAGGGTGAGG  19519
+
+c27733986-272  34951 -TCCTGTTTCTCC--ACATCCTCACCAGCATCTGTTGTTTC-CTGAGTTA  34996
+                         ||   | ||  ||  || ||| |||  ||   |   | |.| |   
+c28099315-277  19520 G---TG---C-CCTGAC--CC-CAC-AGC--CT---G---CGCAG-G---  19546
+
+c27733986-272  34997 TTAATTTTAGCCACTCTGACCAGTGTGAGGTGGTATCTCAGTGT-GGTTT  35045
+                              || ||   |    | | |||| ||       |||| ||   
+c28099315-277  19547 ---------GC-AC---G----G-G-GAGG-GG-------GTGTCGG---  19566
+
+c27733986-272  35046 TGATTTGTATTTCACTGATGATGAATGATGTTGAGCATCTTTTCATGTGT  35095
+                      ||  || .   |||||  |.  ||  .|    | |  |  |  | | | 
+c28099315-277  19567 -GA--TG-G---CACTG--GC--AA--CT----A-C--C--T--A-G-G-  19589
+
+c27733986-272  35096 CTG--T-TGGTCATCTAGATGTCTTCTTTGGAAAAATGTCTGTCTATTCA  35142
+                     |||  | |||      ||||| |  |.  | ||  . ||  | |    ||
+c28099315-277  19590 CTGAGTGTGG------AGATG-C--CA--G-AA--G-GT--G-C----CA  19617
+
+c27733986-272  35143 TGTCTTCTTCTCAT-TTCTTCACTG-CAT-TATTTGTT-T-TTGGGTGTT  35187
+                        |  |  ||  | | |  |||.| |||  |   |.. | .||.|||. 
+c28099315-277  19618 ---C--C--CT--TGT-C--CACAGGCATG-A---GCCCTCATGAGTGA-  19650
+
+c27733986-272  35188 GACTTCGGTAAATTC-CTTACAGATTTTGGATACTAATCCTTTATTTAAT  35236
+                     | |  |   |    | |   |          | |    ||          
+c28099315-277  19651 G-C--C---A----CAC---C----------T-C----CC----------  19662
+
+c27733986-272  35237 ATGTC--ATTTGCAAATATCTTTTCCCATTCTATCAGTTGCCTTTAG-TT  35283
+                     ||| |  |   ||   | |||   |     |   |||  |     || . 
+c28099315-277  19663 ATG-CGGA---GC---T-TCT---C-----C---CAG--G-----AGGA-  19685
+
+c27733986-272  35284 TTGTTGATTGTTTCCTGTACTGTGAAGAAGCTTTTTTATGTTGATGATGT  35333
+                       |  ||  |   |.   ||.| |  ||| |      .    |.  | | 
+c28099315-277  19686 --G--GA--G---CA---ACAG-G--GAA-C------C----GC--A-G-  19705
+
+c27733986-272  35334 CC-CAATAG--TTCATTTTTGCTTTTAATTC-CTTTGC-CGTGGAGACAT  35378
+                     || ||| .|    ||     ||      | | |.  || |       |||
+c28099315-277  19706 CCTCAA-GGGG--CA-----GC------T-CTCA--GCAC-------CAT  19731
+
+c27733986-272  35379 GTTGAGCAAGAAATTG-CTGTGTCTGAGTTCAA---A---GAGGTTGTTG  35421
+                     |. | | | ||| | |  ||||| || |..|||   |    |  ..|| |
+c28099315-277  19732 GA-G-G-A-GAA-T-GG-TGTGT-TG-GCCCAACCCACCC-A--CAGT-G  19768
+
+c27733986-272  35422 CCTG--TTTTCTC-CTGTAGGATTTTGATGGTTTCCTGTCTCACATTTAG  35468
+                     |  |      ||| | |  ||.    ||.||      | ||||| |   |
+c28099315-277  19769 C--GGG----CTCTC-G--GGG----GAAGG------G-CTCAC-T---G  19794
+
+c27733986-272  35469 GTCT-TTGATCTACT-TTCAAT-TTATTTTTGTGTATTGTATAAGAAAGT  35515
+                     |  | | ||   | | | |  |   |     |||  | |     |  || 
+c28099315-277  19795 G--TGT-GA---A-TGT-C--TG--A-----GTG--T-G-----G--AG-  19816
+
+c27733986-272  35516 GGTC-CAGTTTCATCCTTCTGCATGTTGCTGTCCAGTTCTCAAAGCACCA  35564
+                     || | |||            || ||||||   |||   |  |..|| || 
+c28099315-277  19817 GG-CACAG------------GC-TGTTGC---CCA---C--ATGGC-CC-  19842
+
+c27733986-272  35565 TTTGCTAAAGAGATTGTCTTTTTCCCATTGGATACT-CTTTC-CTGCTTT  35612
+                     |. |     |.||  | |     |||.| |.| ||. |  .| || |   
+c28099315-277  19843 TA-G-----GTGA--G-C-----CCCCT-GAA-ACAGC--ACACT-C---  19870
+
+c27733986-272  35613 ATTGAAGATTAGTTGGCCATATATTTTTGGCCAAATTCTGGGTTCTCTAT  35662
+                     .| |  |    |..||   |.|.    ||||||     |  || |   . 
+c28099315-277  19871 CT-G--G----GCAGG---TGTG----TGGCCA-----T--GT-C---G-  19894
+
+c27733986-272  35663 TCTATTTCATTGATTAATGTATTTGTTTTTGTGTCAATGATGATTACAGC  35712
+                      |     |         ||     |    || | |.   |||  |||| |
+c28099315-277  19895 -C-----C---------TG-----G----TG-G-CC---ATG--TACA-C  19912
+
+c27733986-272  35713 TTTGTAGTAGAGGCTAAAGCC-GACAAACTAGAT-TT-TAAAACAAAGAC  35759
+                     .  ||| |     |     || | ||  || | | .| |    ||  |.|
+c28099315-277  19913 A--GTA-T-----C-----CCAG-CA--CT-G-TCATCT----CA--GGC  19938
+
+c27733986-272  35760 TGTAATAAGAGATGAA-GAAGGGAATTATAT-CATAAGTAAGGAGTCTAC  35807
+                     |  || | | |.| |. ||||.|..|||| | |||   |      | |.|
+c28099315-277  19939 T--AA-A-G-GTT-ACTGAAGAGTTTTAT-TACAT---T------T-TGC  19971
+
+c27733986-272  35808 CCATCACAAAGAGCTAACAGTTGTAAATGTTTGTGCT-CCCAATGTGGAA  35856
+                     ||.||. .  |.  |. || | |.|||  | .| ||. .. ||  | |||
+c28099315-277  19972 CCTTCT-T--GT--TT-CA-T-GAAAA--T-AG-GCAGAA-AA--T-GAA  20005
+
+c27733986-272  35857 CACACAAGTTTATAAATCAATTAATCATAAATATAAACAAATGCATAGAT  35906
+                      |.|.||.   | ||| ||.| |||| |   |||   |  | |   ||| 
+c28099315-277  20006 -AAAAAAA---A-AAA-CAGT-AATC-T---TAT---C--A-G---AGA-  20034
+
+c27733986-272  35907 AATA-ATACTGTAATTGTAGGGGATTTTAATACTCTACTTACACAA-TGG  35954
+                     || | |||| ||||  ||.     ||| .| | |||||   ||.|. |||
+c28099315-277  20035 AA-AGATAC-GTAA--GTC-----TTT-GA-A-TCTAC---CATAGGTGG  20069
+
+c27733986-272  35955 ACATATCGTCTAGGCACAAAATCAATAAGGAAACAATAGCTCTGAATGAC  36004
+                     . | .|| || |||       | | |..||||||.|  |  |  ||  ||
+c28099315-277  20070 G-A-GTC-TC-AGG-------T-A-TGTGGAAACCA--G--C--AA--AC  20098
+
+c27733986-272  36005 ACATTGGAC-CAGAGGGATGTAACAGATATATTCAGACTTTTCATCCTAA  36053
+                     .|.||.|.| ||     ||| ||  |     | ||.||  | |||| ||.
+c28099315-277  20099 CCCTTAGCCTCA-----ATG-AA--G-----T-CAAAC--T-CATC-TAT  20130
+
+c27733986-272  36054 ATCA-GCAGAATACATACTCTTTGTGA-GTGCACATGGAACA-TTCTCCA  36100
+                      | | |  |..| || . | |  |||| |.| | ||| |.||       |
+c28099315-277  20131 -T-ATG--GGTT-CA-G-T-T--GTGAAGAG-A-ATG-AGCAG------A  20161
+
+c27733986-272  36101 AC-ATAGATCGCATACTG-GTT-CA-CAAAACA-ATC-CT-CA-ACAAA-  36141
+                     || |.|||.|.| || || |.| |. ||||. | ||. || || ||... 
+c28099315-277  20162 ACGAAAGAACAC-TA-TGAGATGCTGCAAAT-AGATTGCTTCAGACTGCG  20208
+
+c27733986-272  36142 TATAAAAAG--C-TT-GAG--ATCA-TACCATG-CATAT-TATCAGTCAC  36182
+                     | |.|||||  . || |.|  | |. |||  || |.||| |.|.|| |.|
+c28099315-277  20209 T-TGAAAAGGTAATTTGGGGGA-CTGTAC--TGGCCTATGTTTTAG-CTC  20253
+
+c27733986-272  36183 AATGCTATGAAACTTGAAATCAACCACAAGAAAAAATTTGAAAAGCCCCA  36232
+                       | | | |      |.|||||.|| |        .|| |.|  ||  | 
+c28099315-277  20254 --T-C-A-G------GGAATCATCC-C--------CTT-GTA--GC--C-  20277
+
+c27733986-272  36233 AAATACACAGATGTTAAAGAACATCCTACTAAAGAATGAATGGGTCAACC  36282
+                        |   |    |||        |  | ||   |. ||. |   ||..| 
+c28099315-277  20278 ---T---C----GTT--------T--T-CT---GT-TGT-T---TCTGC-  20297
+
+c27733986-272  36283 AGGAAATTAAAGAAGAAATTTAAAAATACATAGAGACAAAT-TAAAATGA  36331
+                     |||      | || ||     |..|. .|  ||||.|   | ||...|| 
+c28099315-277  20298 AGG------A-GA-GA-----AGCAG-GC--AGAGGC---TGTAGCCTG-  20327
+
+c27733986-272  36332 AAAAACAACA-GTCCAAAC-----CCTTTGGGCTGCAACAAAGGCAGTC-  36374
+                          |  |. ||||  .|     ||||||| || |. |  |||||| | 
+c28099315-277  20328 -----C--CGTGTCC--CCTTTTTCCTTTGG-CT-CC-C--AGGCAG-CT  20362
+
+c27733986-272  36375 CTAAGAGGAAAATACATTGCAACTGAGGCCTATCTCAAGAGG-CAAGA-A  36422
+                     |    |||        | |||| |      | ||| . | || || |. |
+c28099315-277  20363 C----AGG--------T-GCAA-T------T-TCT-T-G-GGTCA-GTTA  20387
+
+c27733986-272  36423 -AGGTC-CC-GAATACACAACCTAATCTTACACCTAAAGGAGCTAGAAAG  36469
+                      |  || || |  |.|||||.||..  ||||.|     ||   || ... 
+c28099315-277  20388 CA--TCACCTG--TGCACAAACTGG--TTACTC-----GG---TA-TTT-  20421
+
+c27733986-272  36470 TCAACAGCAAA-GAA-ACCCCAAAGTCAGTAGAATAAGACACATAATAAA  36517
+                     ||.. |  ||| ||. |    ||| ||.|| |  |  ||.||        
+c28099315-277  20422 TCTT-A--AAATGATTA----AAA-TCTGT-G--T--GAAAC--------  20450
+
+c27733986-272  36518 GATTAGAGCAGAAATAAACAGTATATAATAAAAAAATTAGTACAACAGAT  36567
+                      |  || ||||.| ||.||| |||| || .|||.. | .| | |  .|| 
+c28099315-277  20451 -A--AG-GCAGGA-TATACA-TATA-AA-GAAAGC-T-GG-A-A--GGA-  20485
+
+c27733986-272  36568 CA-A-TGAAT-CTAAGAGTTGTTTTATGGAAAGAATAAACAAAATTGATA  36614
+                      | | ||||| | | | |.| .|.| || ..||. ||| |||| ||  |.
+c28099315-277  20486 -AGAGTGAATTC-A-G-GAT-CTAT-TG-CCAGG-TAA-CAAA-TT--TC  20523
+
+c27733986-272  36615 AACCC---CT-AGCCAGACTTTTTTTAATTAAAAAAAAA-ATTTAATGTT  36659
+                     . |||   || ||| || |    | |||  ||.|..|.| ||||| | ||
+c28099315-277  20524 T-CCCAAACTTAGC-AG-C----T-TAA--AAGAGTACATATTTA-T-TT  20561
+
+c27733986-272  36660 TATTTA-TTT-TTGAGAAACAGAGAGAGACAGCGAGAGCAGAGAGAGAGG  36707
+                     |.|. | ||| .||.|.  |||| | | .|.| | |  || . ||.    
+c28099315-277  20562 TCTC-AGTTTCATGGGT--CAGA-A-A-TCTG-G-G--CA-C-AGC----  20595
+
+c27733986-272  36708 TAGACAC-AGAATC-TGAAGCAGGCTCCAGGATCTGATCTATCA--TCAG  36753
+                     | ||| | ||. || |    |.| ||| |||.|||  || | ||   |.|
+c28099315-277  20596 T-GAC-CTAGG-TCCT----CTG-CTC-AGGGTCT--TC-A-CAGG-CTG  20631
+
+c27733986-272  36754 AGAGCCCAA-T-G-CA-G---GGCT-TAAACCCAT-GAA-C-CATGAGAT  36792
+                      | |.| || | | || |   |||| ||| || || |.| | || |.|.|
+c28099315-277  20632 -G-GAC-AAGTTGTCATGTATGGCTCTAA-CC-ATAGCATCTCA-GTGTT  20675
+
+c27733986-272  36793 CATGACCTG-AGCCAAAGTTGGATGCTTAACTGAGTGAGTCACCCAG-GC  36840
+                     || | | || ||| ||.||   .|||||  ||||  |. |||.| .| | 
+c28099315-277  20676 CA-G-C-TGGAGC-AAGGT---CTGCTT--CTGA--GC-TCATC-TGTG-  20711
+
+c27733986-272  36841 ACACCCCTAGCCAGACTT-TT--CCAAAAGAAAAGTAAAGGA-C--CCAA  36884
+                            | |   |  || ||  ||    |  . ||.. ||. |  ||  
+c28099315-277  20712 -------T-G---G--TTGTTGGCC----G--G-GTGT-GGTTCTTCC--  20738
+
+c27733986-272  36885 ATAGGTAAAGTCATGAATGAAATAGGA-GAGATCACAACCAATACCACAG  36933
+                      | ||    | | ||. ||.| | ||| | |  | |. | |.|.||. .|
+c28099315-277  20739 -T-GG----G-C-TGT-TGGA-T-GGATG-G--C-CT-C-AGTTCCT-TG  20770
+
+c27733986-272  36934 AAATACAAACAAT-TATGAGAGAATACTATGAAAAATTATATGCCAAAAA  36982
+                         .||. |  | | |||       ||  |   .   | . |||     
+c28099315-277  20771 ----CCAG-C--TGT-TGA-------CT--G---G---A-G-GCC-----  20790
+
+c27733986-272  36983 AACTGGACGATATTGAAGAACAGACAAATT-CCTAGATAGTCACACAC-C  37030
+                     |.||   |   |  |     |  .||  || || ||. .| | | ||| |
+c28099315-277  20791 ATCT---C---A--G-----C--TCA--TTGCC-AGG-GG-C-C-CACTC  20818
+
+c27733986-272  37031 ATCAAACCT---CAAACAGAAAGAAATAGAACATTTGAACAGACCCATAA  37077
+                       ||. | |   ||..|| .|||..||||. |.||||.   ||||  |||
+c28099315-277  20819 --CAT-C-TGGGCAGGCA-CAAGGGATAGT-CTTTTGT---GACC--TAA  20857
+
+c27733986-272  37078 CCAGTGAAGAAATTGAATTGGTAATCAAAAATTGTCCC--C--CAAAATA  37123
+                     .|| ||  ||    |  | |  |  ||..|    ||||  |  |    | 
+c28099315-277  20858 TCA-TG--GA----G--T-G--A--CACCA----TCCCTTCTTC----T-  20884
+
+c27733986-272  37124 AG-ATTCCTG--GACCAGATT-GAATTCTACCAGACATTTAAAGC-AGAG  37168
+                      | |||| ||  |    | || |||    .||||.||.|   | | || |
+c28099315-277  20885 -GTATTC-TGTTG----G-TTAGAA----GCCAGTCACT---A-CTAG-G  20918
+
+c27733986-272  37169 TTAATACCTA-TTCTTCTCAAGCTGTTC-CAGAAAGTGGAAATGGAAGGA  37216
+                         | || |   |  | ||  |   || |||..| |||.|.|| ..|||
+c28099315-277  20919 ----T-CC-AG--C--C-CA--C---TCTCAGGGA-TGGGATTG-CTGGA  20950
+
+c27733986-272  37217 ACGCT-TCAAGACT--CA-TTCTATGAAGCGAGAATTACCTTG--A-TTC  37259
+                     . ||| | .||  |  ||   | | |  || . |||| ||| |  |   |
+c28099315-277  20951 G-GCTGT-GAG--TAGCAG--C-A-G--GC-C-AATT-CCT-GGGAG--C  20984
+
+c27733986-272  37260 CAAAAC-CAGACAA-GACC--CCACTAAAAAGGAT-AATAAAAGCCCAAT  37304
+                     |  | | |||.||.  |||  ||.| |.|  | || |||  | |     |
+c28099315-277  20985 C--A-CTCAGGCATC-ACCAACCCC-AGA--G-ATGAAT--A-G-----T  21018
+
+c27733986-272  37305 -ATCTCTGATGGAA-TTG--G-GCAGAAA-TTCTAAACAA-G-ATACTAG  37346
+                      |  |  ||.|||| |||  | | |.||| |  |..| || | | || | 
+c28099315-277  21019 GA--T--GAAGGAAATTGTTGTG-AAAAAGT--TGGA-AATGGA-AC-A-  21057
+
+c27733986-272  37347 CAAA--TCGAATTAAACAGTACATTAAAAG-AA-T-TA---TTCACTATG  37388
+                     ||||  | || ||...  || |.||.|.|| || | .|      |  | |
+c28099315-277  21058 CAAAGAT-GA-TTGGT--GT-CTTTTATAGGAAGTGAAGGG---A--A-G  21096
+
+c27733986-272  37389 ATCAAGTGG-GATTCTTTCCTGG--G-CTGCAGGACTGGTTCAATATT--  37432
+                      ||   ||| | | |.||||.||  . |||||  .||  ||||.|.||  
+c28099315-277  21097 -TC---TGGAG-T-CCTTCCAGGTTATCTGCA--TCT--TTCACTGTTTG  21136
+
+c27733986-272  37433 CA-CAAATCA-ACCAA-CATTATAGATCACATTAATAGAAGAAGGAATAA  37479
+                     || |..|||| |  || |    | || || || |||    |.|  |||  
+c28099315-277  21137 CAACTGATCAGA--AAGC----T-GA-CA-AT-AAT----GCA--AAT--  21168
+
+c27733986-272  37480 GAAC-CATATGATCCTGTCAATAGATGCAGAAAAAGCATTTGAGGGGTGC  37528
+                      ||| | | | .|||   |  ||||   ||.||| |  || | |  .|  
+c28099315-277  21169 -AACTC-T-T-TTCC---C--TAGA---AGTAAA-G--TT-G-G--AT--  21197
+
+c27733986-272  37529 CTGAGTGGCTCAGCTGGT-TGAAC---GTCC-GACTTCAGGTCATGATAT  37573
+                      ||.||  | | | |||. ||  |   |||| |. || .|  ||| .|||
+c28099315-277  21198 -TGTGT--C-C-G-TGGAATG--CATTGTCCAGT-TT-TG--CAT-TTAT  21234
+
+c27733986-272  37574 CATGGCTCGTGAGTTGGAGCCTTGT-ATCAGA-GTCAACTGCCAGTG-TG  37620
+                       |   | ||.||||    |..| | |.| |. |||| |  |||| | ||
+c28099315-277  21235 --T---T-GTAAGTT----CAAT-TCAAC-GTTGTCA-C--CCAG-GCTG  21268
+
+c27733986-272  37621 GAGC-CAGCTTTGGATCCTCTGTCCCCTTCTGTCTCGTGTC-C-CAT-CC  37666
+                     |||. |||   |||    |  | |.. |     |||| | | | | | |.
+c28099315-277  21269 GAGTGCAG---TGG----T--G-CAA-T-----CTCG-G-CTCAC-TGCA  21299
+
+c27733986-272  37667 CCACTCATGCTTTCTGTCTCTCAAGAATAAATAAACACGAAAAAAAGAAA  37716
+                     .| ||| |||   ||  | | || | .|   |   |        | |   
+c28099315-277  21300 AC-CTC-TGC---CT--C-C-CA-G-GT---T---C--------A-G---  21320
+
+c27733986-272  37717 AAGC-ATTTGACAGAATACGGTATC-CAAGAATGAATTCTTAATAAAAAC  37764
+                       || |||   |    |.|  | || ||     |    |          |
+c28099315-277  21321 --GCGATT---C----TCC--T-TCTCA-----G----C----------C  21339
+
+c27733986-272  37765 -CCTCAAGAAAGTTGGTATAGAAGGAATATACCTTAATATCATAAAAGC-  37812
+                      || |  ||  ||.|  .| |  ||   |  |     || |  |  .|| 
+c28099315-277  21340 TCC-C--GA--GTAG--CT-G--GG---A--C-----TA-C--A--GGCA  21364
+
+c27733986-272  37813 CATATATTAAAGGC-CCACCGTTGATATCATCCTCAATGAGGAAAACCTG  37861
+                     |     |      | |||||      | |||||     | |     | |.
+c28099315-277  21365 C-----T------CGCCACC------A-CATCC-----G-G-----C-TA  21384
+
+c27733986-272  37862 A--G--GGCT-T-TCTCTAGATCAGAAACATAACAGGGAGTCCACTCTCA  37905
+                     |  |  |  | | | | ||| | |||.    | | ||| ||    | |||
+c28099315-277  21385 ATTGTTG--TATAT-T-TAG-T-AGAG----A-C-GGG-GT----T-TCA  21416
+
+c27733986-272  37906 CCACTGTTATTTAACATAGTGTTGGAAGTC-CTAGC-CTCAACAATCAGA  37953
+                     ||| |||   | ..|. || |.|||   || |  |. |||  |  |  ||
+c28099315-277  21417 CCA-TGT---T-GGCC-AG-GATGG---TCTC--GATCTC--C--T--GA  21448
+
+c27733986-272  37954 CAACAAAACAAAATAAAAGGCATCCAAATTGGTAAAGAAGAAGTCAAACT  38003
+                     |  |.   |   .|    |  ||||               |   |   ||
+c28099315-277  21449 C--CT---C---GT----G--ATCC---------------A---C---CT  21463
+
+c27733986-272  38004 GTCACTC--T-TCACAGATGACATGATACTCTGCATGGAAAACCCAAAAG  38050
+                     | | |||  | || | ||  | | | |.|  ||   |||.     .|.||
+c28099315-277  21464 G-C-CTCGGTCTC-C-GA--A-A-G-TGC--TG---GGAT-----TATAG  21494
+
+c27733986-272  38051 GC-T---CCACCAAAAAACT-GCTAGAGTTGATACAAGAATTCAGTACAG  38095
+                     || |   |||||     .||  || |    |   |.. |||||||  || 
+c28099315-277  21495 GCATGAGCCACC-----GCTT-CT-G----G---CCC-AATTCAG--CA-  21526
+
+c27733986-272  38096 GTGTAGGATATAAAAT-CAATCTACA-GAAATCAGT-TGCATTTCTATAC  38142
+                      | |    |.|||. | |   |  || |.  | .|| || .||  | |  
+c28099315-277  21527 -T-T----TCTAAT-TGC---C--CATGT--T-TGTGTG-GTT--T-T--  21555
+
+c27733986-272  38143 ACCAATAATGAAGCAACAGAAAGAGATATCAGGGAATTGATCCGTTTACA  38192
+                          |  |   |   | |       |  |      || |||.|||| | 
+c28099315-277  21556 -----T--T---G---C-G-------T--C------TT-ATCAGTTT-C-  21573
+
+c27733986-272  38193 ATTGCATCAAAAAACCATAAAGTACCTAG-GAATAAACCTAACCAAAGAT  38241
+                      || | |      |  ||.  | |  | | |  |     |||.|||| ||
+c28099315-277  21574 -TT-C-T------A--ATT--G-A--T-GAG--T-----TAAACAAA-AT  21598
+
+c27733986-272  38242 GTAAAAGATCTGTACACTGGAGACTATAGAAAGC-TTGTGAAAGAAATTG  38290
+                            || || || |||    | ||   .  | || | .|  . ||||
+c28099315-277  21599 -------AT-TG-AC-CTG----C-AT---T--CATT-T-TA--T-ATTG  21623
+
+c27733986-272  38291 AAGAAGACACAAAGAAAAGGAAAAACAGTC-CATGCTCTTAGATTGGAAG  38339
+                       |  ||  |   |.   |       |||| || | | |    ||     
+c28099315-277  21624 --G--GA--C---GT---G-------AGTCGCA-G-T-T----TT-----  21642
+
+c27733986-272  38340 AACAAATATTGTTAAAATGTTGATACTA-CCCAAAG--CAATCTACA-CA  38385
+                     | | ..|..| ||||.| ||.| |.||| ..||.||   || |  || | 
+c28099315-277  21643 A-C-CCTCCT-TTAATA-GTAG-TCCTATAACAGAGGG-AA-C--CAAC-  21682
+
+c27733986-272  38386 CTCAATGCAATCCCTATGAAAATAATACCAG-CATTC-TTCATAGAGCTA  38433
+                     |.|||.| |  |. ||||.|.| || .| || | ||| ||| |    ||.
+c28099315-277  21683 CACAAAG-A--CA-TATGGAGA-AA-GC-AGAC-TTCATTC-T----CTG  21719
+
+c27733986-272  38434 GAACAATCCTAAAAT-TTGTAT--GGAACCACAAAATAC-CCCAAATAGC  38479
+                     |. ||  |||.||.. ||||.|  ||.||| |    |.| ||    | ||
+c28099315-277  21720 GG-CA--CCTCAACCCTTGTCTTTGGGACC-C----TGCGCC----T-GC  21756
+
+c27733986-272  38480 -CAAAGTAATGTTGAAAAGAAAAACCAAAGCTGGAT-GCAT-C---AC-T  38522
+                      |.  ||| |||  ..| |     ||    |||||. || | |   || |
+c28099315-277  21757 TCT--GTA-TGT--CCA-G-----CC----CTGGAACGC-TGCTGGACAT  21790
+
+c27733986-272  38523 ATCC-CAGG-CT-TTAGCCTTTATTACAAAGATGGAATCATCAAGACAGT  38569
+                      ||| |||| || ||. ||       |    .||   ||  |.|| |.| 
+c28099315-277  21791 -TCCTCAGGGCTGTTT-CC-------C----CTG---TC--CTAG-CTG-  21820
+
+c27733986-272  38570 ATGGTA-TTGGCACAAAAACAGACACATA-GATCA-ATGGAATA-GATCT  38615
+                     | || | ||  | |   | |   | |.|. |.| | | |||||| | |||
+c28099315-277  21821 A-GG-ACTT--C-C---A-C---C-CTTTTGTT-AGA-GGAATACG-TCT  21854
+
+c27733986-272  38616 GTGGATCTATTGGAATAGAATCTATGTATCTGTGTGGAATAGA-ATAGAG  38664
+                      ||  ||      .||   | | |   ||| |  |  ||| || || | |
+c28099315-277  21855 -TG--TC------CAT---A-C-A---ATC-G--T--AAT-GACAT-G-G  21879
+
+c27733986-272  38665 AACCCAGAAATGGACCTACAAATGTATGACCAACTAGTCTTCAATAAAGC  38714
+                     ||  || |     ||  | |||| |  | ||||  | |      ||||| 
+c28099315-277  21880 AA--CA-A-----AC--A-AAAT-T--G-CCAA--A-T------TAAAG-  21904
+
+c27733986-272  38715 A-GGAAAGAGTATTCAAT-GGTAAAAAGATAATCTCTT-TAGCA-AAAGG  38760
+                     | | ||. . |
