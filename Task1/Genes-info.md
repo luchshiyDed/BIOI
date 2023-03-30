@@ -11,10 +11,6 @@ matcher:
 
 Aligned_sequences: 2
 
-1: 28332228-28335061
-
-2: c28099315-27719008
-
 Matrix: EBLOSUM62
 
 Gap_penalty: 14
@@ -35,16 +31,11 @@ stretcher:
 
 Aligned_sequences: 2
 
-1: 28332228-28335061
-
-2: c28099315-27719008
-
 Matrix: EBLOSUM62
 
 Gap_penalty: 1
 
 Extend_penalty: 1
-
 
 Length: 380308
 
