@@ -2,7 +2,7 @@
 
 
 Вывод по сравнениям: В matcher гораздо меньше строк чем в stretcher, также у matcher в разы меньше пропусков и в принципе статистика выглядит лучше, score, Identity, Similarity выглядят лучше чем у Stretcher.
-Score у stretcher вообще может выйти отрицательным.
+Score у stretcher вообще может выйти отрицательным. Но stretcher не всегда хуже.
 
 В итоге можно сказать что matcher справился лучше.
 needle и water не заработали и выкинули ошибку.
@@ -30,4 +30,9 @@ needle и water не заработали и выкинули ошибку.
 ##### Gaps:       224348/549911 (40.8%)
 ##### Score: 1371878
 #### matcher:
+##### Length: 403747
+##### Identity:   177243/403747 (43.9%)
+##### Similarity: 177243/403747 (43.9%)
+##### Gaps:       32532/403747 ( 8.1%)
+##### Score: 615941
 https://omim.org/entry/227220?search=%22blue%20eye%20color%22&highlight=%22blue%20eye%20%28colour%7Ccolor%29%22
