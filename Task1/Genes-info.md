@@ -8,32 +8,54 @@ Score у stretcher вообще вышел сильно отрицательны
 
 
 matcher:
+
 Aligned_sequences: 2
+
 1: 28332228-28335061
+
 2: c28099315-27719008
+
 Matrix: EBLOSUM62
+
 Gap_penalty: 14
+
 Extend_penalty: 4
 
 Length: 3000
+
 Identity:    1403/3000 (46.8%)
+
 Similarity:  1403/3000 (46.8%)
+
 Gaps:         245/3000 ( 8.2%)
+
 Score: 5374
 
 stretcher:
+
 Aligned_sequences: 2
+
 1: 28332228-28335061
+
 2: c28099315-27719008
+
 Matrix: EBLOSUM62
+
 Gap_penalty: 1
+
 Extend_penalty: 1
 
+
 Length: 380308
+
 Identity:    2834/380308 ( 0.7%)
+
 Similarity:  2834/380308 ( 0.7%)
+
 Gaps:       377474/380308 (99.3%)
+
 Score: -360622
+
 https://omim.org/entry/227220?search=%22blue%20eye%20color%22&highlight=%22blue%20eye%20%28colour%7Ccolor%29%22
 
 
