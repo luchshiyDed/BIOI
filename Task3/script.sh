@@ -1,5 +1,6 @@
 minimap2 -a -t 6 ./ref.fna ./my.fasta > res.sam
-PROCENT=$(jq -r 'maped %' samtools flagstat -O json res.sam) 
+samtools flagstat -O json res.sam > tmp.json
+PROCENT=$(jq -r 'maped %' tmp.json) 
 echo PROCENT
 if [ "$PROCENT" -gt "90" ]; then
     echo "ok"
