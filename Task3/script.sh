@@ -11,6 +11,6 @@ fi
 
 samtools view -S -b ./res.sam > ./res.bam
 
-samtools sort res.bam  -o resSort.bam
+samtools sort res.bam  -o res.sorted.bam
 
-freebayes -f ./ref.fna ./resSort.bam > freb.vcf
+freebayes -f ./ref.fna ./res.sorted.bam > freb.vcf
