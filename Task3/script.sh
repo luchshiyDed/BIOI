@@ -1,8 +1,8 @@
 minimap2 -a -t 6 ./ref.fna ./my.fasta > res.sam
 samtools flagstat -O json res.sam > tmp.json
-PROCENT=$(jq -r 'maped %' tmp.json) 
+PROCENT=$(jq -r '."QC-passed reads"."propely paired %"' tmp.json) 
 echo PROCENT
-if [ "$PROCENT" -gt "90" ]; then
+if [[ $PROCENT ? -gt 90 ]]; then
     echo "ok"
 else
     echo "not ok"
