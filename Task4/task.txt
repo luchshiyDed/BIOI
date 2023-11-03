@@ -1,0 +1,10 @@
+https://www.rcsb.org/structure/1HP8
+wireframe- (view-color-all-gray) (view-style scene-stick)
+backbone- (view-style atom-stick(можно и через style scene но тогда в trace остаются шарики))(view-style scene-trace)
+spacefill- (view -style scene-ball)
+ribbons- (view-style scene-ribbon)
+schematics- (view-style scene-cartoon & ligand)
+molecular surface- (view-show surface-all)
+
+CPK 
+(view -style scene-ball)он задан по умолчанию однако цвета атомов могут отличатся например C - циановый а не черный, а S -зеленая а не желтая(если смотреть cpk согласно вики)
