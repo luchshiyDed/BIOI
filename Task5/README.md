@@ -3,7 +3,7 @@ sequence: MSTLTSVSGFPRIGQNRELKKIIEGYWKGANDLAAVKATAAELRAKHWRLQQAAGIDLIASNDFSYYDQM
 alig tool:lovoalign
 
 Я использовал AlphaFold2 и RoseTTA для фолдинга и lovalign для парного выравнивания.
-Окончательный балл для выравнивания составляет 0,954084. Это указывает на высокую степень сходства между двумя белковыми структурами.
+Окончательный балл для выравнивания составляет 0,954084. Это указывает на высокую степень сходства.
 
 Output from LOVOALIGN:
 
